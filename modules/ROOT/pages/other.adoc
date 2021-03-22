@@ -1,0 +1,44 @@
+indexmenu_n_14
+
+== Other
+
+=== Other Useful 3rd Party Plugins
+
+These plugins are available at the Opencpn Download location or at
+various github repositories to be compiled. They generally work for
+Windows and Linux, and some are available for MAC. There are no page
+links for these plugins yet.
+
+We need volunteers to write a brief paragraph about each of these
+plugins.
+
+*link:other/statusbar.html[Statusbar]* +
+This plugin replaces the built-in status with a more configurable one
+that is easier to read. For best results, you should disable the
+built-in toolbar on the User Interface tab in the Toolbox and set the Y
+position of the plugin toolbar to at least the pixel size of the font
+selected in the plugin preferences.
+
+*link:other/calculator.html[calculator]* +
+Light weight yet powerful calculator plugin for OpenCPN which includes
+functions to solve nautical questions.
+
+*link:other/launcher.html[launcher]* +
+Allows user to define several buttons to launch external commands.
+Targets touch screen devices.
+
+*link:other/debugger.html[debugger]* +
+Shows plugin API messages. For developers to help troubleshoot problems
+with NMEA data streams.
+
+*link:other/pypilot.html[pypilot]* +
+Provides an OpencCPN interface to the free software autopilot pypilot.
+
+*link:other/shipdriver.html[shipdriver]* +
+A simple simulator that allows driving a boat across the chart and more.
+
+*link:other/twocan_pi.html[twocan_pi]* +
+Integrating OpenCPN with NMEA2000® network.
+
+*link:other/odometer.html[odometer]* +
+Simple GPS Features.

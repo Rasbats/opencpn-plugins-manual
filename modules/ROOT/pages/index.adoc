@@ -1,0 +1,10 @@
+
+:experimental:
+include::{partialsdir}/entities.adoc[]
+
+= Installation Guide
+
+--
+
+This manual describes the plugins available for OpenCPN.
+--

@@ -1,0 +1,9 @@
+
+:experimental:
+include::{partialsdir}/entities.adoc[]
+
+[[chap-introduction]]
+= Introduction
+
+This guide covers use of OpenCPN plugins.
+

@@ -1,0 +1,3 @@
+* xref:index.adoc[OpenCPN Plugins by Category]
+** xref:other.adoc[Other]
+** xref:sailing.adoc[Sailing]

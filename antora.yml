@@ -1,0 +1,8 @@
+name: OpenCPN
+title: OpenCPN Docs
+version: plugins
+nav:
+- modules/ROOT/nav.adoc
+#- modules/release-notes/nav.adoc
+#- modules/install-guide/nav.adoc
+#- modules/system-administrators-guide/nav.adoc

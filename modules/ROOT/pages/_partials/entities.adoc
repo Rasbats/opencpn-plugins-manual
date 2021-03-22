@@ -1,0 +1,16 @@
+
+:BOOKID: install-guide
+
+:BZURL: link:https://pagure.io/fedora-docs/install-guide/issues[https://pagure.io/]
+
+:HOLDER: Red Hat, Inc. and others
+
+:NEXTVER: 31
+
+:PREVVER: 29
+
+:PRODUCT: Fedora
+
+:PRODVER: 30
+
+:YEAR: 2019

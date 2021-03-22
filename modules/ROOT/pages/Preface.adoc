@@ -1,0 +1,11 @@
+
+:experimental:
+include::{partialsdir}/entities.adoc[]
+
+= Preface
+
+include::{partialsdir}/Feedback.adoc[]
+
+== Acknowledgments
+
+Certain portions of this text first appeared in the [citetitle]_Red Hat Enterprise Linux Installation Guide_, copyright © 2014 Red Hat, Inc. and others, published by Red Hat at link:++https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/++[].

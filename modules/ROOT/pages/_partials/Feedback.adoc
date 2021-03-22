@@ -1,0 +1,27 @@
+
+:experimental:
+include::{partialsdir}/entities.adoc[]
+
+== We want feedback
+indexterm:[feedback,contact information for this manual]
+If you find errors or have suggestions for improvement, we want your advice. Open an issue at {BZURL}.
+
+In the issue:
+
+. Provide a short summary of the error or your suggestion in the `Issue Title` field.
+
+. Copy the following template into the `Comment` field and give us the details of the error or suggestion as specifically as you can. If possible, include some surrounding text so we know where the error occurs or the suggestion fits.
++
+[subs="quotes"]
+----
+Document URL:
+
+Section name:
+
+Error or suggestion:
+
+Additional information:
+
+----
+
+. Click the btn:[Create Issue] button.
