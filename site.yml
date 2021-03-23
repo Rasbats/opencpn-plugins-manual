@@ -1,16 +1,15 @@
 site:
   title: Local Preview
-  start_page: user-plugins-manual:nav.adoc
+  url: https://github.com/Rasbats/ocpn-user-plugins-manual
+  start_page: ocpn-user-plugins::index.adoc
 
 content:
   sources:  
-    - url: .
-      branches: HEAD
-      
-    - url: https://github.com/Rasbats/ocpn-user-plugins.git
-      branches: main
+    - url: https://github.com/Rasbats/ocpn-user-plugins
+      branches: master
+      start_path: manual
       edit_url: false
-      
+
     - url:  https://github.com/Rasbats/shipdriver_pi.git
       branches: master
       edit_url: true
@@ -20,12 +19,4 @@ ui:
   bundle:
     url: https://github.com/Rasbats/ocpn-user-plugins-manual/raw/main/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  default_layout: with_menu
-output:
-  clean: true
-  dir: ./public
-  destinations:
-  - provider: archive
-runtime:
-  pull: true
-  cache_dir: ./cache
+  
