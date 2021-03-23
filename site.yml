@@ -1,7 +1,7 @@
 site:
   title: Local Preview
   url: https://github.com/Rasbats/ocpn-user-plugins-manual
-  start_page: ocpn-user-plugins::index.adoc
+  start_page: ocpn-plugins::index.adoc
 
 content:
   sources:  

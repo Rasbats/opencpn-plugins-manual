@@ -1,7 +1,6 @@
-name: component-a
+name: plugins
 title: Plugins Manual
-version: 0.0.1
-start_page: ROOT:index.adoc
+version: dev
 nav:
 - modules/ROOT/nav.adoc
 
