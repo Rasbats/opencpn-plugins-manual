@@ -15,5 +15,6 @@ content:
 
 ui:
   bundle:
-    url: https://github.com/Rasbats/opencpn_plugins_docs/raw/main/ui-bundle.zip
+    url: https://github.com/Rasbats/opencpn_plugins_docs/raw/main/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  default_layout: with_menu
