@@ -1,13 +1,16 @@
 site:
-  title: OpenCPN Users Plugins Manual
-  url: http://mikerossiter.co.uk/site
-  start_page: ocpn-users-plugins-manual::user_plugins_guide.adoc
+  title: Local Preview
+  start_page: user-plugins-manual:nav.adoc
 
 content:
-  sources:
-    - url: https://github.com/Rasbats/ocpn-users-plugins.git
+  sources:  
+    - url: .
+      branches: HEAD
+      
+    - url: https://github.com/Rasbats/ocpn-user-plugins.git
       branches: main
       edit_url: false
+      
     - url:  https://github.com/Rasbats/shipdriver_pi.git
       branches: master
       edit_url: true
@@ -15,6 +18,14 @@ content:
 
 ui:
   bundle:
-    url: https://github.com/Rasbats/opencpn_plugins_docs/raw/main/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/Rasbats/ocpn-user-plugins-manual/raw/main/ui-bundle.zip?job=bundle-stable
     snapshot: true
   default_layout: with_menu
+output:
+  clean: true
+  dir: ./public
+  destinations:
+  - provider: archive
+runtime:
+  pull: true
+  cache_dir: ./cache

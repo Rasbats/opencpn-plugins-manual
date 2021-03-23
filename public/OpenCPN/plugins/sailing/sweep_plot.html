@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled :: Local Preview</title>
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar" style="">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">
+        <img src="../../../_/img/docs_logo.png" style="height:40px">
+      </a>
+      <!-- We don't have anything in the menu, but the burger still appears
+           on mobile devices. So let's remove it. -->
+      <!--<button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>-->
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="main-wrapper">
+<div class="navigation-container" data-component="OpenCPN" data-version="plugins">
+  <aside class="navigation" role="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">OpenCPN Docs</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-toggle"></button>
+    <a class="nav-link" href="../index.html">OpenCPN Plugins by Category</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../other.html">Other</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../sailing.html">Sailing</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">OpenCPN Docs</span>
+    <span class="version">plugins</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">OpenCPN Docs</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">plugins</a>
+        </li>
+        <li class="version">
+          <a href="../../0.0.1/index.html">0.0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">ShipDriver OpenCPN plugin docs.</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../shipdriver/0.0.1/shipdriver.html">0.0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main" role="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+<nav class="crumbs" role="navigation" aria-label="breadcrumbs">
+  
+  <ul>
+    <li class="crumb HO"><a href="../index.html">OpenCPN Docs</a></li>
+  </ul>
+  
+</nav>
+<div class="page-versions">
+  <button class="versions-menu-toggle" title="Show other versions of page">plugins</button>
+  <div class="versions-menu">
+    <a class="version is-current" href="sweep_plot.html">plugins</a>
+    <a class="version is-missing" href="../../0.0.1/index.html">0.0.1</a>
+  </div>
+</div>
+</div>
+<article class="doc">
+<div class="paragraph">
+<p>indexmenu_n_2</p>
+</div>
+<div class="sect1">
+<h2 id="_plots"><a class="anchor" href="#_plots"></a>Plots</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Plugin for improving sail trim and maintaining course</p>
+</div>
+<div class="sect2">
+<h3 id="_links"><a class="anchor" href="#_links"></a>Links</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Source: <a href="https://github.com/seandepagnier/plots_pi" class="bare">https://github.com/seandepagnier/plots_pi</a><br></p>
+</li>
+<li>
+<p>Download: <a href="https://opencpn.org/OpenCPN/plugins/sweepplot.html" class="bare">https://opencpn.org/OpenCPN/plugins/sweepplot.html</a><br></p>
+</li>
+<li>
+<p>Forum:
+<a href="http://www.cruisersforum.com/forums/f134/plots-plugin-201294.html">CF
+Plots_pi Thread</a><br></p>
+</li>
+<li>
+<p>YouTube Sean: <a href="https://www.youtube.com/watch?v=kHseBfjJNmE">Plots
+Plugin</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Plots Plugin has been improved again, and provides Historical data in a
+format useful for sailing, using a large selection of Data Types (Speed,
+Course, Wind True &amp; Apparent, etc). It is the best tool for showing
+historical data in OpenCPN.</p>
+</div>
+<div class="paragraph">
+<p>The plugin is designed to monitor speed and course to make the changes
+to sail sweep obvious. It may be used to better understand the sailing
+characteristics of a particular sailing vessel, or for fine tuning to
+give optimal results.</p>
+</div>
+<div class="paragraph">
+<p>For example, tightening a vang, adjusting the the traveler or the jib
+may produce such a slight change that it is difficult to gauge the
+result. This plugin can make gps speed feedback visible.</p>
+</div>
+<div class="paragraph">
+<p>The predictor line allows setting the sample time for smoother
+prediction than the builtin predictor. This is especially useful when
+traveling relatively slowly in areas with large waves.</p>
+</div>
+<div class="paragraph">
+<p><a href="manual/plugins/sweepplot/sweepplot_pi.jpg.detail.html"><span class="image"><img src="../_images/manual/plugins/sweepplot/sweepplot_pi.jpeg" alt="image" width="400"></span></a></p>
+</div>
+<div class="paragraph">
+<p>The top histogram is the Speed Screen which offers Speed, PDS10
+(Position Determined Speed = 10 seconds) and PDS 60 (60 seconds.)</p>
+</div>
+<div class="sect3">
+<h4 id="_pds"><a class="anchor" href="#_pds"></a>PDS</h4>
+<div class="paragraph">
+<p><strong>Position Determined Speed</strong> PDS finds the speed of the vessel by
+comparing current position to the position from the past. For example
+PDS10 (10 seconds) takes the position 10 seconds before and determines
+the vessel speed by taking the distance from where it was then.</p>
+</div>
+<div class="paragraph">
+<p>This method filters the data, giving a much steadier reading, but also
+shows a comparison of useful speed traveled rather than the immediate
+GPS speed. Consider autosteering that is over or under dampened, or the
+case of large waves, even with an ideal autopilot. This will cause the
+boat to not travel in a straight line, but in a S curve. The GPS speed
+with read higher than the PDS position determined speed.</p>
+</div>
+<div class="paragraph">
+<p><a href="manual/plugins/sweepplot/sweep-plot-speed-pds.jpg.detail.html"><span class="image"><img src="../_images/manual/plugins/sweepplot/sweep-plot-speed-pds.jpeg" alt="sweepplot" width="400" title="sweepplot"></span></a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_configuration"><a class="anchor" href="#_configuration"></a>Configuration</h4>
+<div class="paragraph">
+<p>While running the plugin right-click on the plugin screen to bring up
+the Configuration Menu.</p>
+</div>
+<div class="paragraph">
+<p><a href="manual/plugins/sweepplot/sweepplot-on-the-fly-menu.jpeg"><span class="image"><img src="../_images/manual/plugins/sweepplot/sweepplot-on-the-fly-menu.jpeg" alt="sweepplot-config" width="600" title="sweepplot-config"></span></a></p>
+</div>
+<div class="paragraph">
+<p>While using the plugin you an right-click to change various settings on
+the fly.</p>
+</div>
+<div class="paragraph">
+<p><strong>Time Frame to Display</strong> Select a time frame for the Display from 5
+minutes to 60 days.</p>
+</div>
+<div class="paragraph">
+<p><strong>Transparency</strong> The value 1 is fully opaque. The value 100% is fully
+transparent. Do not use this value, the plugin will be lost and the
+Transparency setting can only be changed from the Sweepplot setting in
+the opencpn.ini file. Look for</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-code hljs" data-lang="code"> [Settings/Plots]
+   PlotTransparency=7</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>in order to reset the transparency to something that can be seen.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Changes in Transparency value do not show until the PI Toolbar
+button is toggled.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>This is one of Sean&#8217;s plugins.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="contributing">
+    <p class="contribute">Want to know more? <a href="https://opencpn.org/">Learn about OpenCPN.</a></p>
+</div>
+  </main>
+</div>
+<footer class="footer">
+  <p>All Fedora Documentation content available under <a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CC-BY-SA 3.0</a> or, when specifically noted, under another <a href="https://fedoraproject.org/wiki/Licensing:Main">accepted</a> free and open content license.</p>
+  <p>Last build: </p>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script src="../../../_/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+  </body>
+</html>

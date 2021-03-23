@@ -1,5 +1,4 @@
-name: ocpn_user_plugins_manual
+---
+name: OpenCPN
 title: OpenCPN User Plugins Manual
-version: '5.3.1'
-nav: 
-- modules/ROOT/nav.adoc
+version: '0.0.1'
