@@ -1,5 +1,2 @@
 == Start Page
 
-* xref:ocpn-user-plugins-manual:ROOT:Home.adoc[Home]
-
-* xref:shipdriver:ROOT:nav.adoc[Home]
