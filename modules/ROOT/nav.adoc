@@ -1,3 +1,2 @@
-* xref:index.adoc[OpenCPN Plugins by Category]
-** xref:other.adoc[Other]
-** xref:sailing.adoc[Sailing]
+* xref:start.adoc[Start]
+* xref:shipdriver:ROOT:Home.adoc[Home]
