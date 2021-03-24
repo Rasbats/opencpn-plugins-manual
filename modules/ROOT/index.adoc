@@ -1,2 +1,2 @@
 * xref:start.adoc[Start]
-* xref:shipdriver:ROOT:Home.adoc[Home]
+* xref:shipdriver:ROOT:nav.adoc[Home]
