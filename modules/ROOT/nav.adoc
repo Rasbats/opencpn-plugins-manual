@@ -1,1 +1,2 @@
 * xref:index.adoc[Home Page]
+** xref:plugins.adoc[Plugin Categories]
