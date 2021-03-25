@@ -1,11 +1,13 @@
 == PLUGINS
 
-image:../manual/options-plugins-icon.png[image,width=68,height=65]
+image:options-plugins-icon.png[image,width=68,height=65]
 
 === Please select one of the following Pages:
 
 xref:shipdriver:shipdriver.adoc[shipdriver]
 
+
+Remainder waitinng for editing.
 
 xref:plugins:install_and_enable.html[Install and Enable Plugins] General
 Information about plugins +
@@ -97,11 +99,11 @@ xref:plugins:other/calculator.html[calculator] +
 xref:plugins:other/launcher.html[launcher] +
 xref:plugins:other/debugger.html[debugger] +
 xref:plugins:other/pypilot.html[pypilot] +
-xref:shipdriver:shipdriver.adoc[shipdriver]
+xref:shipdriver:shipdriver.adoc[shipdriver] +
 xref:plugins:other/twocan_pi.html[twocan_pi] +
 xref:plugins:other/odometer.html[odometer] +
 
-=== Click on the xref above.
+=== Click on the link above.
 
 === Plugin Authors Credit
 
