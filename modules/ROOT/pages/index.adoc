@@ -24,4 +24,4 @@ This project illustrates this layout choice.
 
 This page is from root-source.
 
-xref:test.adoc[historic passes] in the range.
+xref:modules1:test.adoc[historic passes] in the range.
