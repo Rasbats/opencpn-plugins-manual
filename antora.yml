@@ -1,0 +1,9 @@
+name: ocpn-user-plugins-manual
+title: OpenCPN User Plugins Manual
+version: '0.1'
+start_page: manual:ROOT:index.adoc 
+nav: 
+- modules/ROOT/nav.adoc
+- modules/module1/nav.adoc
+- modules/module2/nav.adoc
+- modules/module3/nav.adoc

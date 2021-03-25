@@ -1,0 +1,16 @@
+= {page-component-title}
+
+== Page Coordinates
+
+page-component-name: {page-component-name}
+
+page-component-version: {page-component-version}
+
+page-module: {page-module}
+
+page-relative-src-path: {page-relative-src-path}
+
+
+== A page
+
+This page is from module2-3-source.
