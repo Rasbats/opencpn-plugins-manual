@@ -8,86 +8,84 @@ xref:shipdriver:shipdriver.adoc[shipdriver]
 
 Remainder waiting for editing.
 
-
-
-For OpenCPN version 4.2 & 4.4 plugins (stable): +
-https://opencpn.org/OpenCPN/info/olderplugins.html[Download Page]
-
 == Plugin Categories
 
 === Included_plugins +
 
 These plugins are installed with the basic OpenCPN program.
 
-xref:dashboard.adoc[dashboard] +
-xref:wmm.adoc[World Magnetic] +
-xref:grib_weather.adoc[grib_weather] +
-xref:chart_downloader_tab.adoc[chart_downloader_tab]
+xref:dashboard:dashboard.adoc[dashboard] +
+xref:wmm:wmm.adoc[World Magnetic] +
+xref:grib_weather:grib_weather.adoc[grib_weather] +
+xref:chart_downloader_tab:chart_downloader_tab.adoc[chart_downloader_tab]
 
 === AIS / Radar +
-xref:plugins:ais_radar/ais_radar_display.adoc[AISradar Display] +
-xref:plugins:ais_radar/garmin_radar.adoc[Garmin Radar Overlay] +
-xref:plugins:ais_radar/br24_radar.adoc[BR24 Radar Overlay]
+xref:ais_radar_display:ais_radar_display.adoc[AISradar Display] +
+xref:garmin_radar:garmin_radar.adoc[Garmin Radar Overlay] +
+xref:br24_radar:br24_radar.adoc[BR24 Radar Overlay]
 
 === Charts +
-xref:nv_charts.adoc[nv_charts] +
-xref:s63_vector_charts.adoc[s63_vector_charts] +
-xref:bsb4_charts.adoc[bsb4_charts] +
-xref:oesenc.adoc[oeSENC] +
-xref:fugawi.adoc[Fugawi (deprecated)] +
-xref:vfkaps.adoc[VfKaps - VentureFather] +
-xref:rotationctrl.adoc[RotationCtrl] +
-xref:chartscale.adoc[Chartscale] +
-xref:objsearch.adoc[objsearch] +
-xref:projections.adoc[projections]
+xref:nv_charts:nv_charts.adoc[nv_charts] +
+xref:s63_vector_charts:s63_vector_charts.adoc[s63_vector_charts] +
+xref:bsb4_charts:bsb4_charts.adoc[bsb4_charts] +
+xref:oesenc:oesenc.adoc[oeSENC] +
+xref:fugawi:fugawi.adoc[Fugawi (deprecated)] +
+xref:vfkaps:vfkaps.adoc[VfKaps - VentureFarther] +
+xref:rotationctrl:rotationctrl.adoc[RotationCtrl] +
+xref:chartscale:chartscale.adoc[Chartscale] +
+xref:objsearch:objsearch.adoc[objsearch] +
+xref:projections:projections.adoc[projections]
 
 === Logs +
-xref:dash-t.adoc[dash-t] +
-xref:logbook.adoc[logbook] +
-xref:find-it.adoc[find-it] +
-xref:vdr.adoc[vdr] +
-xref:nmea_converter.adoc[NMEA Converter] +
+xref:dash-t:dash-t.adoc[dash-t] +
+xref:logbook:logbook.adoc[logbook] +
+xref:find-it:find-it.adoc[find-it] +
+xref:vdr:vdr.adoc[vdr] +
+xref:nmea_converter:nmea_converter.adoc[NMEA Converter] +
 
 === Navigation +
-xref:squiddio.adoc[Squiddio] +
-xref:googleearth.adoc[googleearth] +
-xref:celestial_navigation.adoc[celestial_navigation] +
-xref:route_great_circle.adoc[Route Great Circle] +
-xref:dead_reckoning.adoc[DR Dead Reckoning] +
-xref:otcurrent.adoc[otcurrent] +
-xref:ge2kap.adoc[GE2KAP Companion Software] +
+xref:squiddio:squiddio.adoc[Squiddio] +
+xref:googleearth:googleearth.adoc[googleearth] +
+xref:celestial_navigation:celestial_navigation.adoc[celestial_navigation] +
+xref:route_great_circle:route_great_circle.adoc[Route Great Circle] +
+xref:dead_reckoning:dead_reckoning.adoc[DR Dead Reckoning] +
+xref:otcurrent:otcurrent.adoc[otcurrent] +
+xref:ge2kap:ge2kap.adoc[GE2KAP Companion Software] +
 xref:wmm.adoc[WMM (Included)] +
 
 === Safety +
-xref:odraw1.6_pi.adoc[odraw1.6_pi] +
-xref:odraw1.4_pi.adoc[odraw1.4_pi] +
-xref:watchdog.adoc[watchdog] +
-xref:sar.adoc[sar]
+xref:odraw1.6_pi:odraw1.6_pi.adoc[odraw1.6_pi] +
+xref:odraw1.4_pi:odraw1.4_pi.adoc[odraw1.4_pi] +
+xref:watchdog:watchdog.adoc[watchdog] +
+xref:sar:sar.adoc[sar]
 
 === Sailing +
-xref:tactics.adoc[tactics] +
-xref:sweep_plot.adoc[Sweep Plot] +
-xref:polar.adoc[polar] +
-xref:windvane.adoc[windvane]
+xref:tactics:tactics.adoc[tactics] +
+xref:sweep_plot:sweep_plot.adoc[Sweep Plot] +
+xref:polar:polar.adoc[polar] +
+xref:windvane:windvane.adoc[windvane]
 
 === Weather +
 
-xref:weatherfax.adoc[weatherfax] +
-xref:iacfleet.adoc[iacfleet] +
-xref:climatology.adoc[climatology] +
-xref:weather_routing.adoc[Weather Routing]
+xref:weatherfax:weatherfax.adoc[weatherfax] +
+xref:iacfleet:iacfleet.adoc[iacfleet] +
+xref:climatology:climatology.adoc[climatology] +
+xref:weather_routing:weather_routing.adoc[Weather Routing]
 
 === Utility
-xref:statusbar.adoc[Statusbar] +
-xref:calculator.adoc[calculator] +
-xref:launcher.adoc[launcher] +
-xref:debugger.adoc[debugger] +
-xref:pypilot.adoc[pypilot] +
+xref:statusbar:statusbar.adoc[Statusbar] +
+xref:calculator:calculator.adoc[calculator] +
+xref:launcher:launcher.adoc[launcher] +
+xref:debugger:debugger.adoc[debugger] +
+xref:pypilot:pypilot.adoc[pypilot] +
 xref:shipdriver:shipdriver.adoc[shipdriver] +
-xref:twocan_pi.adoc[twocan_pi] +
-xref:odometer.adoc[odometer] +
+xref:twocan_pi:twocan_pi.adoc[twocan_pi] +
+xref:odometer:odometer.adoc[odometer] +
 
-=== Click on the link above for the plugin manual
+=== Click on a link above to see the plugin manual
+
+For OpenCPN version 4.2 & 4.4 plugins (stable): +
+https://opencpn.org/OpenCPN/info/olderplugins.html[Download Page]
 
 === Plugin Authors Credit
 
@@ -102,7 +100,6 @@ Smits, Jon Gough, Mike Rossiter, Salty Paws, Transmitter Dan, Peter
 Tulp, Konni, Hakan, Wally Schulpen, Kees Verruijt, Douwe Fokkema, Dave
 Deller and there are more.
 
-=== Testers
+=== Testers/Translators
 
-Many thanks to those who spent many hours helping the authors of these
-plugins test and debug.
+Many thanks to those who spent many hours helping the authors of these plugins test and debug. A special thanks to the people who have assisted by making translations for the plugin dialogs.
