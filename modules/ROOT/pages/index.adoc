@@ -5,4 +5,4 @@ Start page for the user plugins manual.
 
 
 
-xref:shipdriver:shipdriver.adoc[ShipDriver]
+xref:plugins.adoc[Plugin Categories]
