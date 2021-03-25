@@ -7,115 +7,103 @@ image:options-plugins-icon.png[image,width=68,height=65]
 xref:shipdriver:shipdriver.adoc[shipdriver]
 
 
-Remainder waitinng for editing.
+Remainder waiting for editing.
 
-xref:plugins:install_and_enable.html[Install and Enable Plugins] General
+xref:plugins:install_and_enable.adoc[Install and Enable Plugins] General
 Information about plugins +
-xref:plugins:included_plugins.html[Included Plugins] in OpenCPN +
-xref:plugins:plugin_messaging.html[plugin_messaging] between ODraw ,
+xref:included_plugins.adoc[Included Plugins] in OpenCPN +
+xref:plugins:plugin_messaging.adoc[plugin_messaging] between ODraw ,
 Watchdog and Weather_routing. +
-http://www.opencpn.org/OpenCPN/info/downloadplugins.html[Download Page]
+http://www.opencpn.org/OpenCPN/info/downloadplugins.adoc[Download Page]
 for all version 4.2 & 4.4 plugins that are regarded as stable.
 
-* xref:../developer_manual/plugins:beta_plugins.html[Developer Beta
+
+* xref:../developer_manual/plugins:beta_plugins.adoc[Developer Beta
 Plugins]* Developers need your help testing!
+xref:../developer_manual/plugins:beta_plugins:obabel.adoc[oBabel(Beta)]
+xref:../developer_manual/plugins:beta_plugins:otides.adoc[TideFinder(Beta)]
 
-To create an ~~PDFNS>opencpn:opencpn_user_manual:plugins|Offline
-External Plugins Manual~~ (does not work yet.)
+== Plugin Categories
 
-=== Plugin Categories
+=== Included_plugins +
 
-* xref:plugins:included_plugins.html[included_plugins]* +
-xref:plugins:included_plugins:dashboard.html[dashboard] +
-xref:plugins:included_plugins:wmm.html[World Magnetic] +
-xref:plugins:included_plugins:grib_weather.html[grib_weather] +
-xref:charts/chart_downloader_tab.html[chart_downloader_tab]
+These plugins are installed with the basic OpenCPN program.
 
-* xref:plugins:ais_radar.html[ais_radar]* +
-xref:plugins:ais_radar/ais_radar_display.html[AISradar Display] +
-xref:plugins:ais_radar/garmin_radar.html[Garmin Radar Overlay] +
-xref:plugins:ais_radar/br24_radar.html[BR24 Radar Overlay]
+xref:dashboard.adoc[dashboard] +
+xref:wmm.adoc[World Magnetic] +
+xref:grib_weather.adoc[grib_weather] +
+xref:chart_downloader_tab.adoc[chart_downloader_tab]
 
-* xref:plugins:ais_radar/br24_radar/faq_radar.html[faq_radar]
-* xref:plugins:ais_radar/br24_radar/traditional_radar.html[Traditional
-Plotting Methods]
-* xref:plugins:ais_radar/br24_radar/debugging.html[Debugging Radar]
+=== AIS / Radar +
+xref:plugins:ais_radar/ais_radar_display.adoc[AISradar Display] +
+xref:plugins:ais_radar/garmin_radar.adoc[Garmin Radar Overlay] +
+xref:plugins:ais_radar/br24_radar.adoc[BR24 Radar Overlay]
 
-xref:plugins:ais_radar/rtlsdr_usb.html[AIS Rtlsdr Usb]
+=== Charts +
+xref:nv_charts.adoc[nv_charts] +
+xref:s63_vector_charts.adoc[s63_vector_charts] +
+xref:bsb4_charts.adoc[bsb4_charts] +
+xref:oesenc.adoc[oeSENC] +
+xref:fugawi.adoc[Fugawi (deprecated)] +
+xref:vfkaps.adoc[VfKaps - VentureFather] +
+xref:rotationctrl.adoc[RotationCtrl] +
+xref:chartscale.adoc[Chartscale] +
+xref:objsearch.adoc[objsearch] +
+xref:projections.adoc[projections]
 
-* xref:plugins:charts.html[charts]* +
-xref:plugins:charts/nv_charts.html[nv_charts] +
-xref:plugins:charts/s63_vector_charts.html[s63_vector_charts] +
-xref:plugins:charts/bsb4_charts.html[bsb4_charts] +
-xref:plugins:charts/oesenc.html[oeSENC] +
-xref:plugins:charts/fugawi.html[Fugawi (deprecated)] +
-xref:plugins:charts/vfkaps.html[VfKaps - VentureFather] +
-xref:plugins:charts/rotationctrl.html[RotationCtrl] +
-xref:plugins:charts/chartscale.html[Chartscale] +
-xref:plugins:charts/objsearch.html[objsearch] +
-xref:plugins:charts/projections.html[projections]
+=== Logs +
+xref:dash-t.adoc[dash-t] +
+xref:logbook.adoc[logbook] +
+xref:find-it.adoc[find-it] +
+xref:vdr.adoc[vdr] +
+xref:nmea_converter.adoc[NMEA Converter] +
 
-* xref:plugins:logs.html[logs]* +
-xref:plugins:logs/dash-t.html[dash-t] +
-xref:plugins:logs/logbook.html[logbook] +
-xref:plugins:logs/find-it.html[find-it] +
-xref:plugins:logs/vdr.html[vdr] +
-xref:plugins:logs/nmea_converter.html[NMEA Converter] +
-xref:../developer_manual/plugins:beta_plugins:obabel.html[oBabel (Beta)]
+=== Navigation +
+xref:squiddio.adoc[Squiddio] +
+xref:googleearth.adoc[googleearth] +
+xref:celestial_navigation.adoc[celestial_navigation] +
+xref:route_great_circle.adoc[Route Great Circle] +
+xref:dead_reckoning.adoc[DR Dead Reckoning] +
+xref:otcurrent.adoc[otcurrent] +
+xref:ge2kap.adoc[GE2KAP Companion Software] +
+xref:wmm.adoc[WMM (Included)] +
 
-* xref:plugins:navigation.html[navigation]* +
-xref:plugins:navigation/squiddio.html[Squiddio] +
-xref:plugins:navigation/googleearth.html[googleearth] +
-xref:plugins:navigation/celestial_navigation.html[celestial_navigation] +
-xref:plugins:navigation/route_great_circle.html[Route Great Circle] +
-xref:plugins:navigation/dead_reckoning.html[DR Dead Reckoning] +
-xref:plugins:navigation/otcurrent.html[otcurrent] +
-xref:plugins:navigation/ge2kap.html[GE2KAP Companion Software] +
-xref:plugins:included_plugins:wmm.html[WMM (Included)] +
-xref:../developer_manual/plugins:beta_plugins:otides.html[TideFinder
-(Beta)]
+=== Safety +
+xref:odraw1.6_pi.adoc[odraw1.6_pi] +
+xref:odraw1.4_pi.adoc[odraw1.4_pi] +
+xref:watchdog.adoc[watchdog] +
+xref:sar.adoc[sar]
 
-* xref:plugins:safety.html[safety]* +
-xref:plugins:safety/odraw1.6_pi.html[odraw1.6_pi] +
-xref:plugins:safety/odraw1.4_pi.html[odraw1.4_pi] +
-xref:plugins:safety/watchdog.html[watchdog] +
-xref:plugins:safety/sar.html[sar]
+=== Sailing +
+xref:tactics.adoc[tactics] +
+xref:sweep_plot.adoc[Sweep Plot] +
+xref:polar.adoc[polar] +
+xref:windvane.adoc[windvane]
 
-* xref:plugins:sailing.html[sailing]* +
-xref:plugins:sailing/tactics.html[tactics] +
-xref:plugins:sailing/sweep_plot.html[Sweep Plot] +
-xref:plugins:sailing/polar.html[polar] +
-xref:plugins:sailing/windvane.html[windvane]
+=== Weather +
 
-* xref:plugins:weather.html[weather]* +
-xref:plugins:weather/weatherfax.html[weatherfax] +
-xref:plugins:weather/iacfleet.html[iacfleet] +
-xref:plugins:weather/climatology.html[climatology] +
-xref:plugins:weather/weather_routing.html[Weather Routing]
+xref:weatherfax.adoc[weatherfax] +
+xref:iacfleet.adoc[iacfleet] +
+xref:climatology.adoc[climatology] +
+xref:weather_routing.adoc[Weather Routing]
 
-* xref:plugins:other.html[Utility]* +
-xref:plugins:other/statusbar.html[Statusbar] +
-xref:plugins:other/calculator.html[calculator] +
-xref:plugins:other/launcher.html[launcher] +
-xref:plugins:other/debugger.html[debugger] +
-xref:plugins:other/pypilot.html[pypilot] +
+=== Utility
+xref:statusbar.adoc[Statusbar] +
+xref:calculator.adoc[calculator] +
+xref:launcher.adoc[launcher] +
+xref:debugger.adoc[debugger] +
+xref:pypilot.adoc[pypilot] +
 xref:shipdriver:shipdriver.adoc[shipdriver] +
-xref:plugins:other/twocan_pi.html[twocan_pi] +
-xref:plugins:other/odometer.html[odometer] +
+xref:twocan_pi.adoc[twocan_pi] +
+xref:odometer.adoc[odometer] +
 
-=== Click on the link above.
+=== Click on the link above for the plugin manual
 
 === Plugin Authors Credit
 
 The diversity and range of the OpenCPN Plugins is quite remarkable.
 Users should appreciate the time these authors spent to create this
-resource. Plugins have been developed for some time now. There is a very
-healthy collaboration, so that at times it is truly impossible to
-determine “whose” plugin it is, and since this is one of the major
-strengths of Open Source we will not attribute. However it should be
-noted that there are a number of authors who are quite prolific. As the
-authors come to mind they will be noted below. If you are one of the
-authors and your name does not appear, please advise.
+resource. There is a very healthy collaboration, so that at times it is impossible to determine “whose” plugin it is. Since this is one of the major strengths of Open Source we will not attribute. However, it should be noted that there are a number of authors who are quite prolific. As the authors come to mind they will be noted below. If you are one of the authors and your name does not appear, please advise.
 
 === Programmers
 
