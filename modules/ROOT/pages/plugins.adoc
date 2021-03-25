@@ -94,7 +94,7 @@ xref:plugins:other/calculator.html[calculator] +
 xref:plugins:other/launcher.html[launcher] +
 xref:plugins:other/debugger.html[debugger] +
 xref:plugins:other/pypilot.html[pypilot] +
-xref:plugins:other/shipdriver.html[shipdriver] +
+xref:plugins:other/shipdriver/shipdriver.adoc[shipdriver] +
 xref:plugins:other/twocan_pi.html[twocan_pi] +
 xref:plugins:other/odometer.html[odometer] +
 
