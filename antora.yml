@@ -4,6 +4,6 @@ version: '0.1'
 start_page: ROOT:index.adoc 
 nav: 
 - modules/ROOT/nav.adoc
-- modules/modules1/nav.adoc
+- modules/shipdriver/nav.adoc
 #- modules/module2/nav.adoc
 #- modules/module3/nav.adoc

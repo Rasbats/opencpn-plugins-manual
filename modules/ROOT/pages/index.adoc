@@ -3,4 +3,6 @@ This page is from root-source.
 
 Start page for the user plugins manual.
 
+xref:plugins.adoc[Plugin Categories]
+
 xref:shipdriver:shipdriver.adoc[ShipDriver]
