@@ -23,3 +23,5 @@ This project illustrates this layout choice.
 * root-source contains ROOT.
 
 This page is from root-source.
+
+* xref:component1:index.adoc[Home Page (ROOT module)]
