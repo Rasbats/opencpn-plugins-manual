@@ -1,1 +1,2 @@
 * xref:index.adoc[Home Page (ROOT module)]
+* xref:component1:index.adoc[component1]

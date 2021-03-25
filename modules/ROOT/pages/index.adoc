@@ -24,4 +24,4 @@ This project illustrates this layout choice.
 
 This page is from root-source.
 
-* xref:component1:index.adoc[Home Page (ROOT module)]
+
