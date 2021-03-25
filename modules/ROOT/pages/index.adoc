@@ -3,4 +3,4 @@ This page is from root-source.
 
 Start page for the user plugins manual.
 
-xref:module1:shipdriver.adoc[ShipDriver]
+xref:shipdriver:shipdriver.adoc[ShipDriver]
