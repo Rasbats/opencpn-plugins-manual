@@ -2,26 +2,16 @@
 
 image:options-plugins-icon.png[image,width=68,height=65]
 
-=== Please select one of the following Pages:
 
 xref:shipdriver:shipdriver.adoc[shipdriver]
 
 
 Remainder waiting for editing.
 
-xref:plugins:install_and_enable.adoc[Install and Enable Plugins] General
-Information about plugins +
-xref:included_plugins.adoc[Included Plugins] in OpenCPN +
-xref:plugins:plugin_messaging.adoc[plugin_messaging] between ODraw ,
-Watchdog and Weather_routing. +
-http://www.opencpn.org/OpenCPN/info/downloadplugins.adoc[Download Page]
-for all version 4.2 & 4.4 plugins that are regarded as stable.
 
 
-* xref:../developer_manual/plugins:beta_plugins.adoc[Developer Beta
-Plugins]* Developers need your help testing!
-xref:../developer_manual/plugins:beta_plugins:obabel.adoc[oBabel(Beta)]
-xref:../developer_manual/plugins:beta_plugins:otides.adoc[TideFinder(Beta)]
+For OpenCPN version 4.2 & 4.4 plugins (stable): +
+https://opencpn.org/OpenCPN/info/olderplugins.html[Download Page]
 
 == Plugin Categories
 
