@@ -24,7 +24,7 @@ sources. Satellite weather data from the last 30 years is averaged, then represe
 Climatology provides monthly data for Wind, Currents, Sea Level
 Pressure, Sea Temperature, Air Temperature, Cloud Cover, Precipitation, Relative Humidity, Lightning, Sea Depth, and Cyclones.
 
-image:images/climatology1thumb.jpeg[] 
+image:climatology1thumb.jpeg[] 
 
 July Wind with Current overlay. (Click for enlarged view)
 
@@ -38,7 +38,7 @@ of the time a number is shown. The barbs indicate wind speed, each barb
 being 5 knots. The numbers inside the circle, if blue give the
 percentage of average speed as calm (3 knots or less) or in red at least gale force (above 34 knots and above).
 
-image:images/tapatalk_15.jpeg[]
+image:tapatalk_15.jpeg[]
 
 === Weather_routing plugin uses Climatology Data
 
