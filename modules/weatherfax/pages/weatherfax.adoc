@@ -127,7 +127,7 @@ listed frequency and SSB mode) The SSB BFO must be adjusted correctly.
 
 === Retrieve > Audio Capture shown while recieving
 
-image::wx-a1-ret-audiocapture-recieving.png[image]
+image::wx-a1-ret-audiocapture-recieving.png[]
 
 The images decoded can then be calibrated and overlayed on charts. The
 resulting image can be exported to a chart, so the plugin also works as
@@ -139,10 +139,9 @@ a general purpose conversion tool to make charts from images.
 
 The plugin can read and open numerous common image files, and audio
 files, and can save Kap files. The next step in development is to have
-it read Kap for ease of use with respect to coordinates being recorded
-and reused.
+it read Kap for ease of use with respect to coordinates being recorded and reused.
 
-image::wx-1-file-menu.png[image]
+image::wx-1-file-menu.png[]
 
 ==== Weather Sources - David Burch Navigation Blog
 
