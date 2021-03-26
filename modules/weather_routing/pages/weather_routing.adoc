@@ -1,6 +1,6 @@
 == Weather Routing Pi
 
-image:images/wr-icon.jpeg[]
+image:wr-icon.jpeg[]
 
 === Links
 
@@ -86,7 +86,7 @@ conditions, see why.
 starting point to an ending point given the current national weather forecasts, available wind data, current oceanic currents , the performance of your vessel, and comfort criteria (storms, wind, waves, etc.) http://www.altendorff.co.uk/archives/1151[More about Optimum
 Weather Route]
 
-image:images/weather_route_data_types_1.png[]
+image:weather_route_data_types_1.png[]
 
 When the weather route is displayed, *Grib* and *Climatology*
 calculations use different _color schemes_. as in the route above.
@@ -104,7 +104,7 @@ data because the boat is outside the *Grib* area.
 available so again *Climatology* data is used.
 . If the transition from grib to climatology is not uniform, then the climatology data is not as reliable in that situation.
 
-image:images/irma-cuba-2-puerto-rico.jpeg[]
+image:irma-cuba-2-puerto-rico.jpeg[]
 
 Cuba to Puerto Rico,title="Irma Cuba to Puerto Rico"]]
 
@@ -220,7 +220,7 @@ link:../included_plugins/grib_weather.html[Grib_pi] is installed with OpenCPN. L
 
 * Set the grib at the *starting time* and then move it _one or two time intervals forward_, later with more experience you may set the Grib data and time at what you want.
 
-image:images/ccc-castine-grib.png[]
+image:ccc-castine-grib.png[]
 
 ==== 2. Setup Climatology_pi Data
 
@@ -235,12 +235,12 @@ Dropdown Menu* (_Disable, Cumulative Map, Cumulative Calms, Most Likely,Average_
 automatically once these settings are selected.
 
 
-image:images/climatology-wind-current-cape-lookout.jpeg[]
+image:climatology-wind-current-cape-lookout.jpeg[]
 
 
 Climatology NOAA 30 year average Wind and Current data in September near Cape Lookout
 
-image:images/climatology-wind.jpeg[]
+image:climatology-wind.jpeg[]
 
 Climatology Configuration of Wind Roses (Size=100 and Spacing=50 is good
 too.) +
@@ -302,7 +302,7 @@ There are 4 Weather Routings in “*Weather-Routing-Setup*” that should *Compl
 
 ==== 6. WeatherRoutingConfiguration.XML Menu
 
-image:images/weatherroutingconfiguration-positions.jpeg[]
+image:weatherroutingconfiguration-positions.jpeg[]
 
 
 If the plugin is downloaded and installed, with default settings
@@ -316,17 +316,17 @@ Climatology_pi Data] as described above.
 
 * WR WeatherRoutingConfiguration.xml Menu
 
-image:images/weatherroutingconfiguration-positions.jpeg[]
+image:weatherroutingconfiguration-positions.jpeg[]
 
 * Define two *Weather Route Positions* on the chart within the “grib
 area”. Hover the mouse at a selected location, _Right Click_, and then pick “*Weather Route Position*” from the popup menu. Make a “*Boston*” and a “*Halifax*” Weather Route Position.
 
-image:images/wr-new-position.jpeg[]
+image:wr-new-position.jpeg[]
 
 * In the _WR WeatherRoutingConfiguration.xml_ menu select
 **Configuration**__New__. _The Weather Routing Configuration_ Menu will appear with “Start”=Boston and “End”=Halifax.
 
-image:images/wr-new-configuration.jpeg[]
+image:wr-new-configuration.jpeg[]
 
 ==== 7. Weather Routing Configuration Menu
 
@@ -334,7 +334,7 @@ image:images/wr-new-configuration.jpeg[]
 
 * Check *Start* and *End* selections. If not correct, select these WP Positions from the respective dropdowns.
 
-image:images/wr-wr-configuration.jpeg[]
+image:wr-wr-configuration.jpeg[]
 
 * *Set Start Date & Time*. If you have set start date & time in Grib_pi
 as described above.
@@ -346,7 +346,7 @@ Weather_routing_pi uses _[Boat].xml_ files to store multiple
 _[Polar].pol, *.csv or *.txt_ filenames which are used with the Current ”_Configuration_”. Also the _[Boat].xml_ file can be _“Save as Boat”_ to another boat filename such as _Boat-Test.xml_ or
 _[Your-Boat-Medium-Wind-Heavy-Sea-Clean-Bottom].xml_.
 
-image:images/wr-config-boat-xml.jpeg[]
+image:wr-config-boat-xml.jpeg[]
 
 Many new users have have trouble “Completing” Weather Route
 Configurations due to _Polar:Fail_ messages, which is often because the single polar they have used only has TWS from 6-20 knots and does not span the entire true wind speed range of the particular grib file being used.
@@ -354,7 +354,7 @@ Configurations due to _Polar:Fail_ messages, which is often because the single p
 To help new users when starting out, we will create a *Boat-test.xml*
 file that references three “polar-xx-xxx-x-xx.pol” files which cover a full TWS (True Wind Speed) range of 0-60 knots. The Weather_routing Configuration will utilize the best polar information from the multiple polar files in *Boat-test.xml* after computing the “Sail/Polar Crossover” calculations between the different polar files being used.
 
-link:images/boat-test-xml.zip[Three Boat.xml zipped files] 
+link:boat-test-xml.zip[Three Boat.xml zipped files] 
 
 unzip to
 _C:\ProgramData\opencpn\plugins\weather_routing\boat_ which are
@@ -408,17 +408,17 @@ Three Stepped Range TWS Files used together (use either Sail or Power for TWS-0-
 . TWS-0-20.pol
 . TWS-20-60.pol
 
-image:images/tws-0-6-power.jpeg[]
+image:tws-0-6-power.jpeg[]
 
-image:images/tws-6-20.jpeg[]
+image:tws-6-20.jpeg[]
 
-image:images/tws-20-60.jpeg[]
+image:tws-20-60.jpeg[]
 
 Single File with Full Range TWS 0-60 knots
 
 . Test-TWS-0-20+60.pol
 
-image:images/test-tws-0-20_60.jpeg[]
+image:test-tws-0-20_60.jpeg[]
 
 [Boat].xml files are normally located here for Windows:
 _C:\ProgramData\opencpn\plugins\weather_routing_
@@ -444,20 +444,20 @@ properly, then create a “Boat.xml” file for your boat with reference to your
 Shows the highlighted polar file graphically as a familiar polar
 diagram. Note that the dropdown menus at the bottom provide different useful ways of viewing the boat performance data.
 
-image:images/wr-config-boat-polar-test.xml-polar-tab.jpeg[]
+image:wr-config-boat-polar-test.xml-polar-tab.jpeg[]
 
 ===== Cross over Chart Tab
 
 Shows the Sail/Polar Cross over calculations.
 
-image:images/wr-config-boat-polar-text-xml-cross-over-chart-tab.jpeg[] 
+image:wr-config-boat-polar-text-xml-cross-over-chart-tab.jpeg[] 
  
 
 ===== Stats Tab
 
 Shows target speeds.
 
-image:images/wr-config-boat-polar-test-xml-stats-tab.jpeg[]
+image:wr-config-boat-polar-test-xml-stats-tab.jpeg[]
 
 *Complete Setting up “Boat” Performance & Polars*
 
@@ -537,7 +537,7 @@ latitude, max diverted course etc…
 . Set options like detect land, currents, inverted regiions, anchoring.
 . Routes can be Edited (created, selected, renamed, reset and exported.)
 
-image:images/wd-boat-edit.jpeg[]
+image:wd-boat-edit.jpeg[]
 
 Configuration and Edit
 Boat.xml,title="WR Configuration and Edit Boat.xml",width=600]]
@@ -561,7 +561,7 @@ can set the alternate route thickness to zero.
 
 Boat position (round circle) is when stepping through the grib file (assuming you use a grib file and not climatology of course).
 
-image:images/wxrte-grib-time-control.png[]
+image:wxrte-grib-time-control.png[]
 
 Moreover, if multiple routes are computed and shown (selected), when stepping through the grib the boat position is shown simultaneously on each route.
 
@@ -588,7 +588,7 @@ https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual:plugin
 two Grib Files Concurrently (Wind + Current)] in Grib_pi. Then in WR
 Configuration check the Currents box.
 
-image:images/wx-route-2grib-grib_current.jpeg[]
+image:wx-route-2grib-grib_current.jpeg[]
 
 In this Baltic Sea example there is an underlying current file with black arrows and the area of the grib is shown in light read. The wind +
 pressure grib is shown with brown arrows with feathers.
@@ -597,12 +597,12 @@ pressure grib is shown with brown arrows with feathers.
 
 Create Boundaries recognized by Weather_Routing_pi. Useful for guiding routing.
 
-image::images/wr-ockam-polar-grib-4day-with-boundary.jpeg[image]
+image::wr-ockam-polar-grib-4day-with-boundary.jpeg[image]
 
 Red hatched Boundary along the Nova Scotia coast was created in
 Ocpn_Draw and used in weather_routing, to prevent routing in that area.
 
-image:images/wx-rte-boundary-guard-zone-grib-clim.jpeg[]
+image:wx-rte-boundary-guard-zone-grib-clim.jpeg[]
 
 Red hatched Boundary created with Ocpn_Draw and used in Weather Routing
 Configuration > Options > Basic Tab > Check “Detect Boundary”
@@ -667,7 +667,7 @@ Try uninstalling the weather_routing plugin and removing all files and configura
 
 . These are the optimum upwind and downwind lines for best velocity made good. The colors show up best with the left dropdown set on “Speed” rather than “Plot”
 
-image:images/editboat-plottab.png[]
+image:editboat-plottab.png[]
 
 ==== View > Route Position > Boat Speed
 

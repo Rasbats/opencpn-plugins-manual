@@ -48,7 +48,7 @@ link:weather_routing.html[Weather_routing_pi].
 === Climatology Data types
 
 
-image:images/climatologyctr_0.jpeg[]
+image:climatologyctr_0.jpeg[]
 
 
 *Climatology Data Types with Display Options* +
@@ -62,19 +62,19 @@ The table below shows four data types that are normally shown in vector format a
 *Normal Vector Data Types* +
 (Opengl not required) - Malaysia
 
-image:images/climatology-wind-dec.png[]
+image:climatology-wind-dec.png[]
 
 Wind - December
 
-image:images/climatology-current-dec.png[] 
+image:climatology-current-dec.png[] 
 
 Current - December
 
-image:images/climatology-pressure-dec.png[] 
+image:climatology-pressure-dec.png[] 
 
 Pressure - December
 
-image:images/climatology-cyclones-dec.png[] 
+image:climatology-cyclones-dec.png[] 
 
 Cyclones - December
 
@@ -87,27 +87,27 @@ view.
 *Normal Overlay Data Types* +
 (requires Opengl) - Atlantic
 
-image:images/climatology-sealevelpressure-in-july.png[] 
+image:climatology-sealevelpressure-in-july.png[] 
 
 Pressure
 
-image:images/climatology-sealeveltemperature-in-july.png[] 
+image:climatology-sealeveltemperature-in-july.png[] 
 
 Sea Temperature - July
 
-image:images/climatology-clouds-in-july.png[] 
+image:climatology-clouds-in-july.png[] 
 
 Cloud Cover
 
-image:images/climatology-precipitation-in-july.png[] 
+image:climatology-precipitation-in-july.png[] 
 
 Precipitation
 
-image:images/climatology-relativehumidity-in-july.png[] 
+image:climatology-relativehumidity-in-july.png[] 
 
 Relative Humidity
 
-image:images/climatology-seadepth.png[] 
+image:climatology-seadepth.png[] 
 
 Sea Depth
 
@@ -117,27 +117,27 @@ Note: The Data-Types in the table above can be configured by the user to show da
 
 Config > Standard Tab > Wind dropdown 
 
-image:images/ccc-castine-climatology-config-standard-wind.png[]
+image:ccc-castine-climatology-config-standard-wind.png[]
 
 Config > Standard Tab > Current dropdown 
 
-image:images/ccc-castine-climatology-config-standard-current.png[]
+image:ccc-castine-climatology-config-standard-current.png[]
 
 Config > Standard Tab > SeaSurfaceTemperature dropdown +
 
-image:images/ccc-castine-climatology-config-standard-seasurfacetemperatur.png[]
+image:ccc-castine-climatology-config-standard-seasurfacetemperatur.png[]
 
 Config > Standard Tab > SeaLevelPressure dropdown +
 
-image:images/ccc-castine-climatology-config-standard-sealevelpressure.png[]
+image:ccc-castine-climatology-config-standard-sealevelpressure.png[]
 
 Config > Wind Tab
 
-image:images/ccc-castine-climatology-config-wind.png[]
+image:ccc-castine-climatology-config-wind.png[]
 
 Config > Cyclones Tab +
 
-image:images/climatologycycloneconfig.jpeg[]
+image:climatologycycloneconfig.jpeg[]
 
 *Installation of the Plugin* +
 The plugin works with OpenCPN 3.2 and newer and is available for
@@ -153,15 +153,15 @@ You must also get the data files, the plugin will inform you where to install th
 How do I set the Wind Rose settings so that they work right? Set the two settings somewhere around Size:100 and Spacing:100 or Size:125 and
 Spacing:60.
 
-image:images/climatology-wind-setting-100-100.jpg[]
+image:climatology-wind-setting-100-100.jpg[]
 
-image:images/climatology-wind-setting-100-100.jpeg[]
+image:climatology-wind-setting-100-100.jpeg[]
 
 Wind set at Size:100 and Spacing:100
 
-image:images/climatology-wind-rose-settings-125-60.jpg[]
+image:climatology-wind-rose-settings-125-60.jpg[]
 
-image:images/climatology-wind-rose-settings-125-60.jpeg[]
+image:climatology-wind-rose-settings-125-60.jpeg[]
 
 Wind set at Size:125 and Spacing:60 (Size:140 and Spacing:100 also might work)
 
