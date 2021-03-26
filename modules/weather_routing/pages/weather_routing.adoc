@@ -132,7 +132,8 @@ available so again *Climatology* data is used.
 . If the transition from grib to climatology is not uniform, then the
 climatology data is not as reliable in that situation.
 
-link:weather_routing/irma-cuba-2-puerto-rico.jpg.detail.html[image:weather_routing/irma-cuba-2-puerto-rico.jpeg[Irma
+image:images/irma-cuba-2-puerto-rico.jpg[]
+
 Cuba to Puerto Rico,title="Irma Cuba to Puerto Rico"]]
 
 Example: Routing from Cuba to Puerto Rico through Hurricane Irma.(Don't

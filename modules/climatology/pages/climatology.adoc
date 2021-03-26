@@ -32,7 +32,7 @@ Climatology provides monthly data for Wind, Currents, Sea Level
 Pressure, Sea Temperature, Air Temperature, Cloud Cover, Precipitation,
 Relative Humidity, Lightning, Sea Depth, and Cyclones.
 
-image::climatology1thumb.jpeg[] 
+image::images/climatology1thumb.jpeg[] 
 
 July Wind with Current overlay. (Click for enlarged view)
 
@@ -139,7 +139,7 @@ image::ccc-castine-climatology-config-standard-wind.png[image]
 
 Config > Standard Tab > Current dropdown +
 
-image::ccc-castine-climatology-config-standard-current.png[]
+image::images/ccc-castine-climatology-config-standard-current.png[]
 
 Config > Standard Tab > SeaSurfaceTemperature dropdown +
 
