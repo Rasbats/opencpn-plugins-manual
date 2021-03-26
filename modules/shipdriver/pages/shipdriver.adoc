@@ -41,8 +41,7 @@ Press the Enable button.
 image::sd1.png[]
 
 The AIS Preferences are used later
-link:/opencpn/opencpn_user_manual/plugins/other/shipdriver#ais[(See this
-section)]. They can be left unchecked.
+link:/opencpn/opencpn_user_manual/plugins/other/shipdriver#ais[(See this section)]. They can be left unchecked.
 
 image::sd2.png[sd2.png]
 

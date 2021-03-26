@@ -1,3 +1,5 @@
+= Plugins
+
 == PLUGINS
 
 image:options-plugins-icon.png[image,width=68,height=65]
