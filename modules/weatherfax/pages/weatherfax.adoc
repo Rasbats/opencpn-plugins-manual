@@ -32,17 +32,17 @@ Then Retrieve > Internet > Select NOAA > Select Boston (for example) >
 Select 24hr 500mb Forecast +
 The Weatherfax image file will download and be overlaid directly onto a chart.
 
-image::wx-c0-ret-inet-menu-1_0.png[image] +
+image::wx-c0-ret-inet-menu-1_0.png[]
+
 Lat 42 Long -70 –> Servers: Noaa —> Regions: Atlantic —→ Select Contents
 —→ Retrieve
 
-image::wx-c0-ret-inet-menu-1_0.png[image] +
+image::wx-c0-ret-inet-menu-1_0.png[image] 
+
 Lat 42 Long -70 –> Servers: Passage —> Regions: N. Atlantic —→ Select
 Contents —→ Retrieve
 
-It is a wonderful planning tool for cruises or passagemaking. There are
-several options, but
-
+It is a wonderful planning tool for cruises or passagemaking. There are several options, but
 * Select “Internet” to retrieve HF Radio Schedules via the internet.
 * Then Select “NOAA” Under “Servers” you will see “Stations” fill up.
 * Then select “Boston” and the Internet Retrieval choices are
