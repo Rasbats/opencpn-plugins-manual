@@ -2,7 +2,7 @@
 
 *Weatherfax*
 
-image::weatherfax_icon.png[]
+image::weatherfax_icon.png[image]
 
 Retrieves internet image files, reads image files or decodes audio and
 then Overlays the image on top of charts.
