@@ -1,18 +1,16 @@
 == Weatherfax
 
 
-image::images/:images/weatherfax_icon.png[]
+image:images/weatherfax.png[]
 
-Retrieves internet image files, reads image files or decodes audio and
-then Overlays the image on top of charts.
+Retrieves internet image files, reads image files or decodes audio and then Overlays the image on top of charts.
 
-image::images/:images/wx-0-retrieve-internet-overlaid-on-chart.png[]
+image:images/wx-0-retrieve-internet-overlaid-on-chart.png[]
 
 === Links
 
 * Source: https://github.com/seandepagnier/weatherfax_pi
-* Release: https://github.com/rgleason/weatherfax_pi/releases[Windows
-Releases]
+* Release: https://github.com/rgleason/weatherfax_pi/releases[Windows Releases]
 * Download: https://opencpn.org/OpenCPN/plugins/weatherfax.html
 * Forum: http://www.cruisersforum.com/forums/f134/weatherfax-97533.html
 
@@ -22,7 +20,7 @@ Install Weatherfax Plugin. Enable it in the Settings > Plugin Tab. Then open it 
 
 With an internet connection it is quite easy to select the “HF Radio Schedules” to select and set alarms for use with a reciever, or to select the Internet Schedules and then retrieve Weatherfaxes via the Internet and overlay on the chart. Audio Capture requires a connection.
 
-image::images/wx-2-retrieve-menu.png[image]
+image:images/wx-2-retrieve-menu.png[]
 
 === Retrieve Weatherfax Image files with an internet connection
 
@@ -31,17 +29,16 @@ Then Retrieve > Internet > Select NOAA > Select Boston (for example) >
 Select 24hr 500mb Forecast +
 The Weatherfax image file will download and be overlaid directly onto a chart.
 
-image::images/wx-c0-ret-inet-menu-1_0.png[image] +
+image:images/wx-c0-ret-inet-menu-1_0.png[] 
+
 Lat 42 Long -70 –> Servers: Noaa —> Regions: Atlantic —→ Select Contents
 —→ Retrieve
 
-image::images/wx-c0-ret-inet-menu-1_0.png[image] +
-Lat 42 Long -70 –> Servers: Passage —> Regions: N. Atlantic —→ Select
-Contents —→ Retrieve
+image:images/wx-c0-ret-inet-menu-1_0.png[] 
 
-It is a wonderful planning tool for cruises or passagemaking. There are
-several options, but
+Lat 42 Long -70 –> Servers: Passage —> Regions: N. Atlantic —→ Select Contents —→ Retrieve
 
+It is a wonderful planning tool for cruises or passagemaking. There are several options, but
 * Select “Internet” to retrieve HF Radio Schedules via the internet.
 * Then Select “NOAA” Under “Servers” you will see “Stations” fill up.
 * Then select “Boston” and the Internet Retrieval choices are
@@ -56,66 +53,70 @@ Selected”.
 * Select forecast you need.(X)
 * Highlight and use the 'Selected' button.
 
-link:weatherfax.-inetpng.png.detail.html[image::images/:weatherfax.-inetpng.png[weatherfax-internet,title="weatherfax-internet",width=400]]
+image:images/weatherfax.-inetpng.png.detail.html[]
 
-The plugin data directory contains an WeatherFaxInternetRetrieval.xml
-file that has database for meterological sites. The “Internet Retrieval”
-Option uses this schedule.
+The plugin data directory contains an WeatherFaxInternetRetrieval.xml file that has database for meterological sites. The “Internet Retrieval” Option uses this schedule.
 
-image::images/wx-c1-ret-inet-aviation-americas.png[image] +
+image:images/wx-c1-ret-inet-aviation-americas.png[]
+
 Aviation Americas Forecast retrieved via the internet.
 
-image::images/wx-c2-ret-inet-passsage-atlantic-012wind.png[image] 
+image:images/wx-c2-ret-inet-passsage-atlantic-012wind.png[] 
 
 Passage Weather Atlantic 012 Wind via internet.
 
-image::images/wx-c3-ret-inet-bermuda-3day.png[image] +
+image:images/wx-c3-ret-inet-bermuda-3day.png[] 
+
 Bermuda 3 day via internet.
 
-image::images/wx-c4-ret-inet-noaa-atlantic-24hr-500mb.png[image] +
+image:images/wx-c4-ret-inet-noaa-atlantic-24hr-500mb.png[] 
+
 NOAA Atlantic 24hr 500mb via internet.
 
-image::images/wx-c5-ret-inet-noaa-atlantic-24hrsurf.png[image] +
+image:images/wx-c5-ret-inet-noaa-atlantic-24hrsurf.png[] 
+
 NOAA Atlantic 24hr Surface via internet.
 
-image::images/wx-c6-ret-inet-passage-ne.png[image] +
+image:images/wx-c6-ret-inet-passage-ne.png[] 
+
 Passage Weather New England Wind 012
 
-image::images/wx-c7-ret-inet-passage-novasoctia.png[image] +
+image:images/wx-c7-ret-inet-passage-novasoctia.png[] 
+
 Passage Weather Nova Scotia Wind 021
 
 '''''
 
-image::images/wx-c8-ret-inet-downloaded-list.png[image] +
+image:images/wx-c8-ret-inet-downloaded-list.png[] 
+
 List of Weatherfaxes downloaded. Highlighted one shows overlaid on
 charts.
 
 The weatherfax will be overlayed generally in the proper location
-provided the weather service has not changed their fax formats. (The
-user can modify the associated WeatherFaxInternetRetrieval.xml file
-appropriately to add or modify the actions.) Users should please post
-changes to this file to the Weatherfax Thread for the next release.
+provided the weather service has not changed their fax formats. (The user can modify the associated WeatherFaxInternetRetrieval.xml file appropriately to add or modify the actions.) Users should please post changes to this file to the Weatherfax Thread for the next release.
 
 === HF Radio Weather Faxes
 
-The plugin has a builtin database (WeatherFaxSchedules.xml) for HF Radio
-Weather Service Fax transmissions, which when used properly can
-automatically alert the user and begin decoding these faxes.
+The plugin has a builtin database (WeatherFaxSchedules.xml) for HF Radio Weather Service Fax transmissions, which when used properly can automatically alert the user and begin decoding these faxes.
 
-*Retrieve > RF Radio Schedule Menu* on the Filter Tab. +
-image::images/:wx-b1-ret-hfradiosch-filtertab-menu.png[image]
+*Retrieve > RF Radio Schedule Menu* on the Filter Tab. 
 
-*Retrieve > RF Radio Schedule Menu* on the 1 minute Alarm Tab. +
+image::images/wx-b1-ret-hfradiosch-filtertab-menu.png[]
 
-image::images/:../../../http_3a_2f_2fopencpn.org_2focpn_2fsites_2fdefault_2ffiles_2fusers_2frgleason_2fwx-b2-ret-hfradiosch-alarmtab-menu.png[image]
+*Retrieve > RF Radio Schedule Menu* on the 1 minute Alarm Tab. 
 
-*Retrieve > RF Radio Schedule Menu* on the Capture Options Tab. +
 
-image::images/:../../../http_3a_2f_2fopencpn.org_2focpn_2fsites_2fdefault_2ffiles_2fusers_2frgleason_2fwx-b3-ret-hfradiosch-captureoptionstab-menu.png[image]
+image:images/wx-b2-ret-hfradiosch-alarmtab-menu.png[]
 
-*Retrieve > RF Radio Schedule Menu* on the Information Tab. +
 
-image::images/:../../../http_3a_2f_2fopencpn.org_2focpn_2fsites_2fdefault_2ffiles_2fusers_2frgleason_2fwx-b4-ret-hfradiosch-infotab-menu.png[image]
+*Retrieve > RF Radio Schedule Menu* on the Capture Options Tab. 
+
+image:images/wx-b3-ret-hfradiosch-captureoptionstab-menu.png[]
+
+
+*Retrieve > RF Radio Schedule Menu* on the Information Tab. 
+
+image:images/wx-b4-ret-hfradiosch-infotab-menu.png[]
 
 === Decoding Sound via SSB
 
@@ -245,68 +246,43 @@ of projections the wizard can handle.
 
 If the fax is a Mercator projection (orthogonal, not polar), click
 through the next screen that comes up and at the second screen set the
-coordinates and lat/long properly. (Screenshots will be added later) and
-click on through to see the fax overlaid on the charts.
+coordinates and lat/long properly. (Screenshots will be added later) and click on through to see the fax overlaid on the charts.
 
-Note: It is very difficult to test for poor coordinate and lat/long
-input, so it is best to have your lat long correct, otherwise strange
-things may happen with the overlay in Opencpn.
+Note: It is very difficult to test for poor coordinate and lat/long input, so it is best to have your lat long correct, otherwise strange things may happen with the overlay in Opencpn.
 
-I first use a separate image viewer with the selected fax image, to zoom
-in and to write down the Lat/long and coordinates that I will be using.
-If you plan to export to a chart file then you should select “Get Aspect
-Ratio”
+I first use a separate image viewer with the selected fax image, to zoom in and to write down the Lat/long and coordinates that I will be using. If you plan to export to a chart file then you should select “Get Aspect Ratio”
 
-image::images/mercator.jpeg[]
+image:images/weatherfax.-inetpng.png[]
 
 ===== Polar Projections
 
 There are other techniques used to modify a Polar fax onto a Mercator
 projection chart which are reviewed on the forum and will be more fully
 described later. Review the posts following this
-http://www.cruisersforum.com/forums/showthread.php?p=1185034[Cruiser's
-Forum Post in the Weatherfax Thread] in the Forums.
+http://www.cruisersforum.com/forums/showthread.php?p=1185034[Cruiser's Forum Post in the Weatherfax Thread] in the Forums.
 
-image::images/:wx-polarsu1.jpeg[wx-polarsu1.jpg,title="wx-polarsu1.jpg",width=600,height=366]
+image:images/wx-polarsu1.jpeg[]
 
 *_Coordinate_ 1* (Red) -Select a high latitude which must also lie on
 the vertical meridian running through the pole (N or S) +
-*_Coordinate 2_* (Blue) - Select an opposing corner (either side) with
-lower latitude. Then hit Get Map, the Blue circles should follow the
-latitudes of respective coords. Adjust the left/right location with the
-PoleX value and adjust the circle radius with the PoleY value. Set the
-True Width Ratio value to 1.0.
+*_Coordinate 2_* (Blue) - Select an opposing corner (either side) with lower latitude. Then hit Get Map, the Blue circles should follow the latitudes of respective coords. Adjust the left/right location with the PoleX value and adjust the circle radius with the PoleY value. Set the True Width Ratio value to 1.0.
 
 From here, it should be possible to click “get mapping”
 
-*_True width Ratio_* - Adjusts the width of the blue circles (a fraction
-like .8 makes the circles wider, and 1.2 makes them narrower). Adjust
-the true width ratio such that the blue circles align with the
-associated latitude lines, otherwise the “Apply” transformation will not
-render straight lat/long lines or will fail.
+*_True width Ratio_* - Adjusts the width of the blue circles (a fraction like .8 makes the circles wider, and 1.2 makes them narrower). Adjust the true width ratio such that the blue circles align with the associated latitude lines, otherwise the “Apply” transformation will not render straight lat/long lines or will fail.
 
-*_Pole X_* - Moves the center of the blue circles left and right. The
-blue circles should be centered on the vertical meridian which goes
-through the pole.
+*_Pole X_* - Moves the center of the blue circles left and right. The blue circles should be centered on the vertical meridian which goes through the pole.
 
-*_Pole Y_ -* Moves the center of the blue circles up and down. The blue
-circles should be centered on the pole. Hit get mapping to see how this
-is working, because the blue rings change in width, and sometime the
-ring closest to the pole flips if the value is too far out of whack.
+*_Pole Y_ -* Moves the center of the blue circles up and down. The blue circles should be centered on the pole. Hit get mapping to see how this is working, because the blue rings change in width, and sometime the ring closest to the pole flips if the value is too far out of whack.
 
-*_Equator Y_ -* This does not appear to do much when you change the
-value, more about this value later.
+*_Equator Y_ -* This does not appear to do much when you change the value, more about this value later.
 
-If you are starting fresh with a Polar, and the blue rings are too wide
-after hitting Get Mapping, first check the lat/long entered and reset
-coords to be sure they are hit, then Hit 'get mapping again' then adjust
-the “True width ratio” so the blue rings align with the latitude lines.
-Once that is done don't hit “Get Mapping” again, hit “Apply” the lines
-should be straight and orthogonal.
+If you are starting fresh with a Polar, and the blue rings are too wide after hitting Get Mapping, first check the lat/long entered and reset coords to be sure they are hit, then Hit 'get mapping again' then adjust the “True width ratio” so the blue rings align with the latitude lines.
+Once that is done don't hit “Get Mapping” again, hit “Apply” the lines should be straight and orthogonal.
 
 Here is an example of a WxFax overlay in Opencpn
 
-image::images/:wx-overlay.jpeg[wx-overlay.jpg,title="wx-overlay.jpg",width=600,height=353]
+image:images/wx-overlay.jpeg[]
 
 === File Export as KAP, File Open KAP
 
@@ -316,12 +292,10 @@ Image files that are downloaded and overlaid onto charts with specific
 coordinates, can now be saved as Kap files that save long/lat and
 coordinates with the file.
 
-image::images/:wx-export-open-kap-files.jpeg[wx-export-open-kap-files.jpg,title="wx-export-open-kap-files.jpg",width=601,height=350]
+image:images/wx-export-open-kap-files.jpeg[]
 
 ==== File Open KAP (Next Improvement)
 
-Hopefully the plugin will also be made to read Kap files so that they
-can be automatically overlaid on charts without having to use the
-WeatherFax Image Wizard.
+Hopefully the plugin will also be made to read Kap files so that they can be automatically overlaid on charts without having to use the WeatherFax Image Wizard.
 
 Thanks to Sean for a great Plugin!

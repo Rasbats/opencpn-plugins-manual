@@ -1,6 +1,6 @@
 == IACfleet
 
-image:iacfleet_pi_icon.png[iacfleet icon,title="iacfleet icon",width=50]]
+image:images/iacfleet_pi_icon.png[]]
 
 === Links
 
@@ -13,6 +13,6 @@ Fleetcode Thread] +
 
 === Documentation
 
-image:iac_noaa_thumb.png[image,width=200]
+image:images/iac_noaa_thumb.png[]
 
 We need a volunteer Editor to complete this Wiki manual!
