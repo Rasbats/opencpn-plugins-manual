@@ -1,11 +1,11 @@
 === Weatherfax
 
-image:weatherfax_icon.png[]
+image::weatherfax_icon.png[image]
 
 Retrieves internet image files, reads image files or decodes audio and
 then Overlays the image on top of charts.
 
-image:wx-0-retrieve-internet-overlaid-on-chart.png[]
+image::wx-0-retrieve-internet-overlaid-on-chart.png[test]
 
 === Links
 
