@@ -2,12 +2,12 @@
 
 *Weatherfax*
 
-image:weatherfax/weatherfax_icon.png[image]
+image:weatherfax_icon.png[]
 
 Retrieves internet image files, reads image files or decodes audio and
 then Overlays the image on top of charts.
 
-image:weatherfax/wx-0-retrieve-internet-overlaid-on-chart.png[image]
+image:wx-0-retrieve-internet-overlaid-on-chart.png[image]
 
 === Links
 
@@ -23,7 +23,7 @@ Install Weatherfax Plugin. Enable it in the Settings > Plugin Tab. Then open it 
 
 With an internet connection it is quite easy to select the “HF Radio Schedules” to select and set alarms for use with a reciever, or to select the Internet Schedules and then retrieve Weatherfaxes via the Internet and overlay on the chart. Audio Capture requires a connection.
 
-image:weatherfax/wx-2-retrieve-menu.png[image]
+image:wx-2-retrieve-menu.png[image]
 
 === Retrieve Weatherfax Image files with an internet connection
 
@@ -32,11 +32,11 @@ Then Retrieve > Internet > Select NOAA > Select Boston (for example) >
 Select 24hr 500mb Forecast +
 The Weatherfax image file will download and be overlaid directly onto a chart.
 
-image:weatherfax/wx-c0-ret-inet-menu-1_0.png[image] +
+image:wx-c0-ret-inet-menu-1_0.png[image] +
 Lat 42 Long -70 –> Servers: Noaa —> Regions: Atlantic —→ Select Contents
 —→ Retrieve
 
-image:weatherfax/wx-c0-ret-inet-menu-1_0.png[image] +
+image:wx-c0-ret-inet-menu-1_0.png[image] +
 Lat 42 Long -70 –> Servers: Passage —> Regions: N. Atlantic —→ Select
 Contents —→ Retrieve
 
@@ -57,36 +57,36 @@ Selected”.
 * Select forecast you need.(X)
 * Highlight and use the 'Selected' button.
 
-link:weatherfax/weatherfax.-inetpng.png.detail.html[image:weatherfax/weatherfax.-inetpng.png[weatherfax-internet,title="weatherfax-internet",width=400]]
+link:weatherfax.-inetpng.png.detail.html[image:weatherfax.-inetpng.png[weatherfax-internet,title="weatherfax-internet",width=400]]
 
 The plugin data directory contains an WeatherFaxInternetRetrieval.xml
 file that has database for meterological sites. The “Internet Retrieval”
 Option uses this schedule.
 
-image:weatherfax/wx-c1-ret-inet-aviation-americas.png[image] +
+image:wx-c1-ret-inet-aviation-americas.png[image] +
 Aviation Americas Forecast retrieved via the internet.
 
-image:weatherfax/wx-c2-ret-inet-passsage-atlantic-012wind.png[image] +
+image:wx-c2-ret-inet-passsage-atlantic-012wind.png[image] +
 Passage Weather Atlantic 012 Wind via internet.
 
-image:weatherfax/wx-c3-ret-inet-bermuda-3day.png[image] +
+image:wx-c3-ret-inet-bermuda-3day.png[image] +
 Bermuda 3 day via internet.
 
-image:weatherfax/wx-c4-ret-inet-noaa-atlantic-24hr-500mb.png[image] +
+image:wx-c4-ret-inet-noaa-atlantic-24hr-500mb.png[image] +
 NOAA Atlantic 24hr 500mb via internet.
 
-image:weatherfax/wx-c5-ret-inet-noaa-atlantic-24hrsurf.png[image] +
+image:wx-c5-ret-inet-noaa-atlantic-24hrsurf.png[image] +
 NOAA Atlantic 24hr Surface via internet.
 
-image:weatherfax/wx-c6-ret-inet-passage-ne.png[image] +
+image:wx-c6-ret-inet-passage-ne.png[image] +
 Passage Weather New England Wind 012
 
-image:weatherfax/wx-c7-ret-inet-passage-novasoctia.png[image] +
+image:wx-c7-ret-inet-passage-novasoctia.png[image] +
 Passage Weather Nova Scotia Wind 021
 
 '''''
 
-image:weatherfax/wx-c8-ret-inet-downloaded-list.png[image] +
+image:wx-c8-ret-inet-downloaded-list.png[image] +
 List of Weatherfaxes downloaded. Highlighted one shows overlaid on
 charts.
 
@@ -103,7 +103,7 @@ Weather Service Fax transmissions, which when used properly can
 automatically alert the user and begin decoding these faxes.
 
 *Retrieve > RF Radio Schedule Menu* on the Filter Tab. +
-image:weatherfax/wx-b1-ret-hfradiosch-filtertab-menu.png[image]
+image:wx-b1-ret-hfradiosch-filtertab-menu.png[image]
 
 *Retrieve > RF Radio Schedule Menu* on the 1 minute Alarm Tab. +
 
@@ -127,7 +127,7 @@ listed frequency and SSB mode) The SSB BFO must be adjusted correctly.
 
 === Retrieve > Audio Capture shown while recieving
 
-image:weatherfax/wx-a1-ret-audiocapture-recieving.png[image]
+image:wx-a1-ret-audiocapture-recieving.png[image]
 
 The images decoded can then be calibrated and overlayed on charts. The
 resulting image can be exported to a chart, so the plugin also works as
@@ -142,7 +142,7 @@ files, and can save Kap files. The next step in development is to have
 it read Kap for ease of use with respect to coordinates being recorded
 and reused.
 
-image:weatherfax/wx-1-file-menu.png[image]
+image:wx-1-file-menu.png[image]
 
 ==== Weather Sources - David Burch Navigation Blog
 
@@ -267,7 +267,7 @@ described later. Review the posts following this
 http://www.cruisersforum.com/forums/showthread.php?p=1185034[Cruiser's
 Forum Post in the Weatherfax Thread] in the Forums.
 
-image:weatherfax/wx-polarsu1.jpeg[wx-polarsu1.jpg,title="wx-polarsu1.jpg",width=600,height=366]
+image:wx-polarsu1.jpeg[wx-polarsu1.jpg,title="wx-polarsu1.jpg",width=600,height=366]
 
 *_Coordinate_ 1* (Red) -Select a high latitude which must also lie on
 the vertical meridian running through the pole (N or S) +
@@ -306,7 +306,7 @@ should be straight and orthogonal.
 
 Here is an example of a WxFax overlay in Opencpn
 
-image:weatherfax/wx-overlay.jpeg[wx-overlay.jpg,title="wx-overlay.jpg",width=600,height=353]
+image:wx-overlay.jpeg[wx-overlay.jpg,title="wx-overlay.jpg",width=600,height=353]
 
 === File Export as KAP, File Open KAP
 
@@ -316,7 +316,7 @@ Image files that are downloaded and overlaid onto charts with specific
 coordinates, can now be saved as Kap files that save long/lat and
 coordinates with the file.
 
-image:weatherfax/wx-export-open-kap-files.jpeg[wx-export-open-kap-files.jpg,title="wx-export-open-kap-files.jpg",width=601,height=350]
+image:wx-export-open-kap-files.jpeg[wx-export-open-kap-files.jpg,title="wx-export-open-kap-files.jpg",width=601,height=350]
 
 ==== File Open KAP (Next Improvement)
 
