@@ -15,7 +15,7 @@ Forum ShipDriver Thread]
 
 === 1. What and Why
 
-image::sd10.png[]
+image:../images/sd10.png[]
 
 ShipDriver is intended as a very basic ship simulator. It allows a
 simulated vessel to be driven across the chart and mimics the appearance
