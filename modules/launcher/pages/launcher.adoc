@@ -105,7 +105,7 @@ That's it. But before you can actually *use* Launcher, you first have to
 
 Open (or restart) OpenCPN.
 
-Click *Tools*-*Options*-. +
+Click *Tools*-*Options*-. 
 
 image::launcher_04.jpg[]
 
@@ -115,7 +115,7 @@ image::launcher_05.jpg[]
 
 Scroll down untill you see the Launcher-pi. +
  +
-Click “*Enable*”. +
+Click “*Enable*”. 
 
 image::launcher_06.jpg[]
 
@@ -154,7 +154,7 @@ You want a button in Launcher-pi to launch a program for you, so you
 will have to tell Launcher-pi: +
 1. What *label* you want on that *button* and +
 2. Where Launcher-pi can find the *command* to launch that specific
-*program*. +
+*program*. 
 
 image::launcher_10.jpg[]
 
@@ -214,16 +214,16 @@ The text in the field “command” should read *C:\Program Files\Microsoft
 Office 15\root\office15\WINWORD.EXE
 C:\MyShip\Manuals\Manual_of_my_ship.docx* +
 
-Click “*OK*” to save the Launcher item. +
+Click “*OK*” to save the Launcher item. 
 
 image::launcher_13.jpg[]
 
-Click “*OK*” to save the Launcher settings. +
+Click “*OK*” to save the Launcher settings. 
 
 image::launcher_14.jpg[]
 
 Click “*OK*” to exit the “options”-menu and return to the main screen of
-OpenCPN. +
+OpenCPN. 
 
 image::launcher_15.jpg[]
 
@@ -237,7 +237,7 @@ Click on the *Launcher icon* in the toolbar.
 
 image::launcher_07.jpg[]
 
-Click the button with the label “*Manual of my ship*” +
+Click the button with the label “*Manual of my ship*” 
 
 image::launcher_16.jpg[]
 
@@ -252,7 +252,7 @@ you actually do have a document called “Manual_of_my_ship.docx” in the
 given directory (C:\MyShip\Manuals\). +
 
 You can repeat this process of adding Launcher items. With every new
-assignment you will see the number of buttons growing. +
+assignment you will see the number of buttons growing. 
 
 link:launcher.html#launcher[Back to top of page ↑]
 
