@@ -81,7 +81,7 @@ xref:launcher:launcher.adoc[launcher] +
 xref:debugger:debugger.adoc[debugger] +
 xref:pypilot:pypilot.adoc[pypilot] +
 xref:shipdriver:shipdriver.adoc[shipdriver] +
-xref:twocanpi:twocan_pi.adoc[twocan_pi] +
+xref:twocan:twocan.adoc[twocan] +
 xref:odometer:odometer.adoc[odometer] +
 
 === Click on a link above to see the plugin manual

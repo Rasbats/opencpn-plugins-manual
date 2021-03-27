@@ -15,7 +15,8 @@ Forum ShipDriver Thread]
 
 === 1. What and Why
 
-image:::sd10.png[]
+image::sd10.png[]
+
 
 ShipDriver is intended as a very basic ship simulator. It allows a
 simulated vessel to be driven across the chart and mimics the appearance
@@ -40,24 +41,29 @@ Press the Enable button.
 
 image::sd1.png[]
 
+
 The AIS Preferences are used later
 link:/opencpn/opencpn_user_manual/plugins/other/shipdriver#ais[(See this section)]. They can be left unchecked.
 
 image::sd2.png[]
+
 
 After 'Apply'/'Ok' the ShipDriver icon will appear in the toolbar of the
 main screen.
 
 image::sd3.png[]
 
+
 Press the icon to display the simulator control.
 
 image::sd5.png[]
+
 
 Use right-click to bring up the menu for selecting the vessel start
 position. I have chosen a position close to a waypoint.
 
 image:::sd4.png[]
+
 
 Initially nothing happens but when you press the 'Start' button on the
 control the ownship icon appears, coloured red.
@@ -68,6 +74,7 @@ If you have not chosen a start position a warning notice will appear.
 
 image::sd7.png[]
 
+
 At the same time the Grib plugin form appears. Grib data is used for the
 sail option
 link:/opencpn/opencpn_user_manual/plugins/other/shipdriver#sail[(See
@@ -77,12 +84,14 @@ The basic controls for using the simulator are shown here:
 
 image::sd8.1.png[]
 
+
 The best way of learning is to use the tiller and speed controls and
 watch the effect. When using the tiller an indicator at the top shows
 the rudder position. There is also a digital readout, either side of the
 'Midships' button.
 
 image::sd11.png[]
+
 
 === 4. Options
 
@@ -93,7 +102,10 @@ function. Using the tiller while the Auto function is active will
 override and stop 'Auto'.
 
 'Auto' active:
+
+
 image::sd14.png[]
+
 
 ==== Sail
 
@@ -105,6 +117,7 @@ If the Grib plugin is not using a file that covers the present
 time/location a warning appears.
 
 image:::sd17.png[]
+
 
 The speed control is not active when the 'Sail' option is in use.
 
@@ -118,6 +131,7 @@ select the AIS options.
 
 image::sd18.png[]
 
+
 When recording AIS a text file is created that can be played back with
 the VDR plugin. This records AIS data from 'Own Ship'. This data is
 nearly the same as seen when meeting a vessel transmitting a Class B AIS
@@ -127,21 +141,25 @@ AIS being recorded:
 
 image::sd19.png[]
 
+
 ShipDriver has been stopped and the AIS file is being played back using
 the VDR plugin:
 
-image:::sd20.png[]
+image::sd20.png[]
+
 
 By moving the vessel start position, re-starting and running ShipDriver,
 at the same time as playing the AIS with 'VDR_pi' a collision regs
 scenario can be created.
 
-image:::sd21.png[]
+image::sd21.png[]
+
 
 Obtain the AIS data for the 'other vessel' by using 'right-click' on the
 target.
 
 image::sd22.png[]
+
 
 ==== AIS Transmission
 
@@ -150,10 +168,12 @@ Using Tools→Plugins and 'Preferences' for the plugin select the
 
 image::sd23.png[]
 
+
 When ShipDriver is in use an AIS signal will be transmitted from 'Own
 Ship'.
 
 image::sd24.png[]
+
 
 This has limited use when OpenCPN is used on a single computer. However,
 on a network it is possible to transmit the data to another computer
