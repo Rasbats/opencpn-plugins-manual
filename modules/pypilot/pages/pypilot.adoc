@@ -1,5 +1,3 @@
-indexmenu_n_5
-
 == Pypilot Autopilot
 
 

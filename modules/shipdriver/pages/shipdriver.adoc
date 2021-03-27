@@ -17,7 +17,6 @@ Forum ShipDriver Thread]
 
 image::sd10.png[]
 
-
 ShipDriver is intended as a very basic ship simulator. It allows a
 simulated vessel to be driven across the chart and mimics the appearance
 of the OpenCPN screen when in actual use. AIS can be recorded and played
