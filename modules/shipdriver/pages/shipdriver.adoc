@@ -115,7 +115,7 @@ By adjusting the heading the speed of the boat will change accordingly.
 If the Grib plugin is not using a file that covers the present
 time/location a warning appears.
 
-image:::sd17.png[]
+image::sd17.png[]
 
 
 The speed control is not active when the 'Sail' option is in use.

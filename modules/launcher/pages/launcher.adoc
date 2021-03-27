@@ -71,7 +71,7 @@ Launcher can be downloaded from http://www.opencpn.org/index.html +
  +
 Click “*Downloads*”
 
-image::watchdog_19056_001_ocpn_downloads.jpg.detail.html[]
+image::watchdog_19056_001_ocpn_downloads.jpg[]
 
 Click “*Plugins for OpenCPN 4.2 & 4.4*”
 
@@ -107,7 +107,7 @@ Open (or restart) OpenCPN.
 
 Click *Tools*-*Options*-. +
 
-image::launcher_04.jpg.detail.html[image::../../../manual/plugins/utility_plugins/launcher_04.jpeg[image]] +
+image::launcher_04.jpg[]
 
 and then *Plugins* +
 
@@ -117,7 +117,7 @@ Scroll down untill you see the Launcher-pi. +
  +
 Click “*Enable*”. +
 
-image::launcher_06.jpg.detail.html[image::../../../manual/plugins/utility_plugins/launcher_06.jpeg[image]] +
+image::launcher_06.jpg[]
 
 Note: If you do not see launcher in the list of plugins, check it was
 installed in the correct plugings directory of OpenCPN (eg: C:\Program
@@ -202,7 +202,8 @@ Insert the *command* C:\Program Files\Microsoft Office
 15\root\office15\WINWORD.EXE 
 
 image::launcher_11.jpg[]
- +
+
+ 
 *+++IMPORTANT+++*: *Leave one space after “exe”* and add the *path and
 name of the file* you want to open. +
 In this case: *C:\MyShip\Manuals\Manual_of_my_ship.docx* 

@@ -1,6 +1,6 @@
 == Calculator
 
-image:calculator.png[]]
+image::calculator.png[]]
 
 === Links
 
@@ -58,17 +58,17 @@ scientific calculator is capable of working with, and retaining
 variables*. +
 * When starting the plugin for the first time, go to
 
-image:settings.png[]
+image::settings.png[]
 
 to find the plugin tab. Click on the calculator plugin, then the “Enable” button.
 
 * Back in the OpenCPN menu the calculator icon
 
-image:calculator.png[]
+image::calculator.png[]
 
 brings up the calculator.
 
-image:calculator_screenshot.png[]
+image::calculator_screenshot.png[]
 
 * Tick the “Help” tickbox to bring up a comprehensive help screen.
 Unticking the help button brings you back to the calculator only
