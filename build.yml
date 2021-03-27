@@ -1,0 +1,25 @@
+site:
+  title: OpenCPN Plugins Manual
+  ### the 404 page and sitemap files only get generated when the url property is seto
+  url: https://rasbats.github.io/ocpn-user-plugins-manual/
+  start_page: ocpn-user-plugins-manual:ROOT:index.adoc
+
+content:
+  sources:
+    - url: .
+      branches: HEAD 
+    #- url: https://github.com/Rasbats/ocpn-user-plugins-manual
+      #branches: main      
+      #edit_url: true
+      
+ui:   
+  bundle:
+    #url: https://github.com/Rasbats/ocpn-manuals-test/raw/main/ui-bundle.zip
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  
+output:
+  clean: true
+  dir: ./docs
+
+
