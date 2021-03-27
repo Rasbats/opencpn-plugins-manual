@@ -14,6 +14,7 @@ This document is about Launcher plugin (Launcher)
 
 image::launcher_01.jpg[]
 
+
 . link:launcher.html#what_and_why[What and Why]
 . link:launcher.html#installation[Installation]
 . link:launcher.html#standard_actions[Standard Actions]
@@ -72,6 +73,7 @@ Launcher can be downloaded from http://www.opencpn.org/index.html +
 Click “*Downloads*”
 
 image::watchdog_19056_001_ocpn_downloads.jpg[]
+
 
 Click “*Plugins for OpenCPN 4.2 & 4.4*”
 
@@ -438,6 +440,7 @@ You should see the button that corresponds with the US Coast Pilot nr.
 Click that button and the file will open. 
 
 image::launcher_18.jpg[]
+
 
 link:launcher.html#launcher[Back to top of page ↑] +
 
