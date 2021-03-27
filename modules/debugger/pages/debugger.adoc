@@ -2,7 +2,7 @@
 
 Debugger for the OpenCPN plugin API
 
-image:ocpndebugger_pi.png[]
+image::ocpndebugger_pi.png[]
 
 === Links
 

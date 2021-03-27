@@ -2,7 +2,7 @@ indexmenu_n_7
 
 == TwoCan
 
-link:../../../manual/plugins/twocan/twocan_64.png.detail.html[image:../../../manual/plugins/twocan/twocan_64.png[image]]
+image::twocan_64.png[]
 
 by Steven Adler [Stevead]
 
@@ -60,7 +60,7 @@ https://copperhilltech.com/pican-m-nmea-0183-nmea-2000-hat-for-raspberry-pi/
 A good reference to using & configuring the CAN interfaces on Linux can
 be found at: https://elinux.org/Bringing_CAN_interface_up
 
-link:../../../manual/plugins/twocan/raspberrypi-01.png.detail.html[image:../../../manual/plugins/twocan/raspberrypi-01.png[image]]
+image::raspberrypi-01.png.detail.html[]
 
 Above, a Raspberry Pi with Waveshare CAN Hat installed.
 
@@ -100,21 +100,22 @@ such as position, speed, depth, wind and time can be incorporated into
 OpenCPN without the need for feeding legacy NMEA 0183 data via serial
 communications or TCP/IP.
 
-link:../../../manual/plugins/twocan/twocan_screen_2.png.detail.html[image:../../../manual/plugins/twocan/twocan_screen_2.png[image]]
+image::twocan_screen_2.png.[]
 
 The plug-in supports Position, Speed, Depth. Wind, Time, AIS, DSC,
 Engine, Fluid Levels, Battery Status and Environmental (temperature,
 pressure, humidity etc.) data which is used directly by OpenCPN or by
 other plug-ins such as the Dashboard plug-in.
 
-link:../../../manual/plugins/twocan/twocan_screen_0.png.detail.html[image:../../../manual/plugins/twocan/twocan_screen_0.png[image]]
+image::twocan_screen_0.png[]
 
 === Installation
 
 With version 1.9 of the plugin, it is now directly supported by OpenCPN
 5.2 and the Plugin Manager. Once you have updated your Master Catalogue,
 the plugin can be directly installed from the Plugin Manager.
-link:../../../manual/plugins/twocan/twocan_install01.png.detail.html[image:../../../manual/plugins/twocan/twocan_install01.png[image]]
+
+image::twocan_install01.png[]
 
 For versions prior to 1.9
 
@@ -136,18 +137,18 @@ files\opencpn\plugins\twocan_pi\drivers”
 
 {empty}1. Enable the TwoCan Plugin from the OpenCPN Options dialog.
 
-link:../../../manual/plugins/twocan/twocan_screen_4.png.detail.html[image:../../../manual/plugins/twocan/twocan_screen_4.png[image]]
+image::twocan_screen_4.png[]
 
 2, From the TwoCan Preferences dialog, use the Settings tab to select
 the appropriate driver from the drop down list, and select the required
 NMEA2000® PGN's,
 
-link:../../../manual/plugins/twocan/twocan_screen_6.png.detail.html[image:../../../manual/plugins/twocan/twocan_screen_6.png[image]]
+image::twocan_screen_6.png[]
 
 For Linux users, if any SocketCAN driver is installed, it will be
 displayed in the drop down list, together with the Log File Reader.
 
-link:../../../manual/plugins/twocan/twocan-linux-01.png.detail.html[image:../../../manual/plugins/twocan/twocan-linux-01.png[image]]
+image::twocan-linux-01.png[]
 
 If using the hardware drivers you may log the raw data. At present the
 raw data is hard coded to write log files to the user's home directory;
@@ -158,13 +159,13 @@ for Windows usually the “My Documents” folder, for Linux and Mac OSX,
 to observe the converted NMEA 0183 sentences in real time. Sentences may
 also be copied to the clipboard.
 
-link:../../../manual/plugins/twocan/twocan_screen_7.png.detail.html[image:../../../manual/plugins/twocan/twocan_screen_7.png[image]]
+image::twocan_screen_7.png[]
 
 Note: The same sentences may also be viewed from OpenCPN if the “Show
 NMEA Debug Window” is selected from the OpenCPN Connection Settings
 dialog.
 
-link:../../../manual/plugins/twocan/twocan_screen_3.png.detail.html[image:../../../manual/plugins/twocan/twocan_screen_3.png[image]]
+image::twocan_screen_3.png[]
 
 A new feature introduced with version 1.4 is the ability to enable
 TwoCan to participate on the NMEA 2000® network. The TwoCan plugn will
@@ -177,18 +178,18 @@ Information.
 
 This feature is confgured on an additional settings page.
 
-link:../../../manual/plugins/twocan/twocan-activedevice.png.detail.html[image:../../../manual/plugins/twocan/twocan-activedevice.png[image]]
+image::twocan-activedevice.png[]
 
 In addition, the plugin attempts to build a “map” of the network by
 listing all of the active devices on the network and attempting to
 display their NMEA 2000® network address, manufacturer and model id.
 
-link:../../../manual/plugins/twocan/twocan-network.png.detail.html[image:../../../manual/plugins/twocan/twocan-network.png[image]]
+image::twocan-network.png[]
 
 As the device responds to standard NMEA 2000® network requests, its
 presence is also displayed on third party NMEA 2000® display devices.
 
-link:../../../manual/plugins/twocan/simrad-02.png.detail.html[image:../../../manual/plugins/twocan/simrad-02.png[image]]
+image::simrad-02.png[]]
 
 === Configuration Settings
 
