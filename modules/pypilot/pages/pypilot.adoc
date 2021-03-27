@@ -3,7 +3,7 @@ indexmenu_n_5
 == Pypilot Autopilot
 
 
-image:pypilot_icon.png[]
+image::pypilot_icon.png[]
 
 
 The pypilot plugin provides an interface to the free software autopilot
@@ -25,7 +25,7 @@ autopilot in ways not possible through basic nmea0183 messaging. The
 plugin also allows for graphical overlays of the autopilot settings
 directly onto the chart.
 
-image:pypilot_plugin_screenshot.png[]
+image::pypilot_plugin_screenshot.png[]
 
 
 OpenCPN Plugin for Pypilot Autopilots An OpenSource Marine Autopilot.
@@ -74,7 +74,7 @@ RTMUlib2. More details are available in the
 https://github.com/pypilot/pypilot/wiki[Wiki] and
 https://github.com/pypilot/pypilot/blob/master/README[README]
 
-image:pypilot-menus.png[]
+image::pypilot-menus.png[]
 
 
 === PyPilot Integrated Hardware Shop

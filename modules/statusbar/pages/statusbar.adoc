@@ -61,7 +61,7 @@ Statusbar_pi thread]
 
 === 3. Standard Actions
 
-image:statusbar-prefs-info.jpeg[]
+image::statusbar-prefs-info.jpeg[]
 
 ==== Preferences Menu
 
@@ -102,15 +102,15 @@ wxString MultilineString = _T("%02A %2.2B%D  %02E %2.2F%H  %.1I %03J
 \n%02O %2.2P%R %02S %2.2T%V %03W %.2X %03.a");
 ----
 
-image:statsbar-prefs-default.jpg[]
+image::statsbar-prefs-default.jpg[]
 
 Select Dropdown - Default
 
-image:statusbar-prefs-multiline.jpg[]
+image::statusbar-prefs-multiline.jpg[]
 
 Select Dropdown - Multiline
 
-image:statusbar-prefs-ownship.jpg[]
+image::statusbar-prefs-ownship.jpg[]
 
 Select Dropdown - Ownship
 
