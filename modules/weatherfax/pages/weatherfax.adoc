@@ -252,7 +252,7 @@ Note: It is very difficult to test for poor coordinate and lat/long input, so it
 
 I first use a separate image viewer with the selected fax image, to zoom in and to write down the Lat/long and coordinates that I will be using. If you plan to export to a chart file then you should select “Get Aspect Ratio”
 
-image:weatherfax.-inetpng.png[]
+image:weatherfax-inetpng.png[]
 
 ===== Polar Projections
 

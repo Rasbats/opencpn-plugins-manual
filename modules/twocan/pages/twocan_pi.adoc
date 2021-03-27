@@ -1,5 +1,3 @@
-indexmenu_n_7
-
 == TwoCan
 
 image::twocan_64.png[]
