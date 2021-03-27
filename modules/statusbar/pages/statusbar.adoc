@@ -1,5 +1,3 @@
-indexmenu_n_1
-
 == StatusBar
 
 Alternative to the Standard Status bar at the bottom.
@@ -63,8 +61,7 @@ Statusbar_pi thread]
 
 === 3. Standard Actions
 
-link:../../../manual/plugins/statusbar/statusbar-prefs-info.jpg.detail.html[image:../../../manual/plugins/statusbar/statusbar-prefs-info.jpeg[Peferences
-and Info,title="Peferences and Info"]]
+image:statusbar-prefs-info.jpeg[]
 
 ==== Preferences Menu
 
@@ -105,18 +102,15 @@ wxString MultilineString = _T("%02A %2.2B%D  %02E %2.2F%H  %.1I %03J
 \n%02O %2.2P%R %02S %2.2T%V %03W %.2X %03.a");
 ----
 
-link:../../../manual/plugins/statusbar/statsbar-prefs-default.jpg.detail.html[image:../../../manual/plugins/statusbar/statsbar-prefs-default.jpeg[Select
-Dropdown - Default,title="Select Dropdown - Default",width=600]]
+image:statsbar-prefs-default.jpg[]
 
 Select Dropdown - Default
 
-link:../../../manual/plugins/statusbar/statusbar-prefs-multiline.jpg.detail.html[image:../../../manual/plugins/statusbar/statusbar-prefs-multiline.jpeg[Select
-Dropdown - Multiline,title="Select Dropdown - Multiline",width=400]]
+image:statusbar-prefs-multiline.jpg[]
 
 Select Dropdown - Multiline
 
-link:../../../manual/plugins/statusbar/statusbar-prefs-ownship.jpg.detail.html[image:../../../manual/plugins/statusbar/statusbar-prefs-ownship.jpeg[Select
-Dropdown - Ownship,title="Select Dropdown - Ownship",width=400]]
+image:statusbar-prefs-ownship.jpg[]
 
 Select Dropdown - Ownship
 
@@ -134,8 +128,6 @@ The format specifier 03.0 gives how many places to round to, and to use leading 
 ----
 
 The following are the specifier formats:
-
-[.np_break]# #
 
 [cols=",",]
 |===
@@ -171,10 +163,6 @@ The following are the specifier formats:
 |%% |print a percent
 |===
 
-[.np_break]# #
-
 Sean D'Epagnier is the author of this plugin. His website is
 http://seandepagnier.users.sourceforge.net/ where you will find a
 “Donate” button.
-
- +
