@@ -58,7 +58,7 @@ https://copperhilltech.com/pican-m-nmea-0183-nmea-2000-hat-for-raspberry-pi/
 A good reference to using & configuring the CAN interfaces on Linux can
 be found at: https://elinux.org/Bringing_CAN_interface_up
 
-image::raspberrypi-01.png.detail.html[]
+image::raspberrypi-01.png[]
 
 Above, a Raspberry Pi with Waveshare CAN Hat installed.
 
