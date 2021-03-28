@@ -1,0 +1,11 @@
+== Traditional Radar
+
+=== Traditional Radar Plotting Methods
+
+How to use PIL
+https://www.youtube.com/watch?v=wz_rPKfhyGI&feature=player_embedded[Good
+Parallel Index Line Video link]
+
+How to plot for Collision Avoidance
+https://www.youtube.com/watch?v=plunSlYEbUc&t=246s[Collision Avoidance
+Plotting Part1 of 3 Video Link]

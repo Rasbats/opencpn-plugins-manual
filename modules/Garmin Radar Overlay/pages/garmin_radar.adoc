@@ -1,0 +1,221 @@
+== Garmin Radar
+
+The GRadar plugin works with modern Garmin (Ethernet capable) radar
+scanners only.
+
+NOTE: The new Radar_pi v5.0 works with OpenCPN v5.0 and supports Garmin
+Radars. Many users will prefer to upgrade to OpenCPN v5.0 and use
+Radar_pi v5.0. We will leave this documentation in place for about 4
+months for users of v4.8.8 and the dedicated Garmin plugin.
+
+The chart plotter is a combination of a Gps and electronic charts. If
+Gps works as expected and, a bigger if, the chart is correct, then
+everything is fine. Add a radar to the mix, with an independent picture
+of targets, including land, buoys and other vessels, and compare the
+two. That is what this plugin does. It overlays the radar-picture on the
+chart plotter. If both agree, the navigator can be more confident that
+his navigation is correct. On the other hand, if the pictures disagree,
+there is one more thing to sort out.
+
+*To use this plugin the user must be familiar with both OpenCPN and
+radars*. Without a sound knowledge in radar picture interpretation, the
+plugin will seem a bit confusing.
+
+image::rad13.jpeg[]
+
+=== Links
+
+Gradar_pi
+
+* Source: https://github.com/bdbcat/gradar_pi[Github Repository
+Gradar_pi]
+* Download: https://opencpn.org/OpenCPN/plugins/gradar.html +
+* Forum:
+http://www.cruisersforum.com/forums/f134/opencpn-radar-overlay-plugin-79081.html[Garmin
+OpenCPN Radar Overlay Plugin]
+
+GXradar_pi +
+
+* Source: https://github.com/trudK45/gxradar_pi[Github Repository
+GXradar_pi]
+* Download: https://opencpn.org/OpenCPN/plugins/gXradar.html
+* Forum:
+http://www.cruisersforum.com/forums/f134/garmin-xhd-radar-overlay-136990-3.html[Garmin
+XHD Radar Overlay Plugin]
+
+Newest Development +
+
+* Source: https://github.com/opencpn-radar-pi/radar_pi[Github
+Repository- Beta Navionics/Halo/Garmin/GarminHx Radars]
+
+=== Hardware
+
+The Garmin Radar PlugIn for OpenCPN requires a specific hardware
+interface in order to allow the OpenCPN application to access the
+Ethernet data captured and broadcast by the radar scanner.
+
+There are three interconnect scenarios possible, depending upon whether
+the installation includes an existing Garmin chartplotter, and the
+operational mode desired. +
+Interface Type 0: OpenCPN Slave Mode, using existing Garmin
+chartplotter. +
+Interface Type 1: OpenCPN Master Mode, using existing Garmin
+chartplotter. +
+Interface Type 2: OpenCPN Master Mode, no chartplotter.
+
+=== Complete Installation Instructions
+
+Download and read the complete *Installation Instructions*:
+https://opencpn.org/OpenCPN/doc/GRadarDoc.pdf[GRadarDoc.pdf]
+
+=== Installing the plugin
+
+Follow the instructions on the link:../install_and_enable.html[Install
+and Enable] page.
+
+=== Enable GRadar plugin
+
+Once installed enable the plugin in Options→Plugins. The Preference
+button does not work. For GRadar Settings, read on.
+
+image::gradar_optionenable.png[]
+
+When enabled the GRadar icon appears in the toolbar. The icon is an
+on/off switch and has two states indicting if the the plugin is working
+or not:
+
+[cols=",",]
+|===
+|*Off* |*On*
+
+|image::gradar_icon_red.png[image]
+|image::gradar_icon_green.png[image]
+|===
+
+As soon as the plugin is enabled there will also be a separate log
+window. This is how it looks when no radar is connected.
+
+image::gradar_log.png[]
+
+==== Using GRadar
+
+Rightclick to get to the GRadar Settings.
+
+image::gradar_rightclick.png[]
+
+Operational Control
+
+image::gradar_opcont.png[]
+
+_Describe all the options._
+
+==== Range Control
+
+image::gradar_rangecont.png[]
+
+_Describe all the options._
+
+==== Noise Control
+
+image::gradar_noisecont.png[]
+
+_Describe all the options._
+
+=== Dome Control
+
+image::gradar_domecont.png[]
+
+_Describe all the options._
+
+=== More ......
+
+=== NMEA ARPA Radar Targets
+
+Certain radars transmits targets in NMEA sentences. OpenCPN can display
+these targets in a similar fashion as normal AIS targets. Read more:
+link:../../toolbar_buttons/ais/radar_targets.html[Radar Targets] +
+Is this a good thing combined with GRadar or does it just clutter the
+display……??
+
+=== Gradar_pi Troubleshooting Documentation -v13
+
+HelmsMatt got everyone thinking on this!!
+
+Thanks to all for your dedication and input.
+
+We have made a tiny bit of progress and have documented all the test
+steps and results of your setting suggestions. In summary, we found that
+we had the v12 version of gradar plug-in installed and when we installed
+the v13, the message “Successfully added to multicast group 239.254.2.0”
+started appearing. We disabled the “tunnels” and simplified the
+ipconfig. Disabled Windows Firewall, Wireless adapter, and virus
+protection. Verified that Radar was powered on before starting OpenCPN
+and IP settings were exactly like Chuck's. Still the Radar button in
+OpenCPN will not go green.
+
+Here are the details of the steps taken and results: 1. Disabled Windows
+Firewall 2. Disabled Wireless adaptor 3. Checked OpenCPN plug-ins and
+realized that we still had the v12 installed. 4. Copied the v13 dll into
+plug-ins and deleted the v12 dll 5. Verified Radar and GPS are powered
+up 5. Started OpenCPN and saw that log now contains “Successfully added
+to multicast group 239.254.2.0” 6. Tried clicking on Radar button but
+indicator stays red. 7. Here is log: 0: Found network interface:
+172.16.1.1/16 1: Found network interface: 127.0.0.1/8 2: Scanner at
+172.16.2.0 is accessible. 3: Successfully added to multicast group
+239.254.2.0 4: UpdateState: PluginState [M] Searching (1) Scanner state:
+Unknown (0) 5: Heading: 265 6: Heading: 0 7: Heading: 264 8: Heading: 0
+
+{empty}8. Disabled tunnel adaptors using CMD as administrator: netsh int
+teredo set state disabled netsh int isatap set state disabled
+
+{empty}9. Rebooted 10.Below is results of ipconfig /all showing that
+only the Ethernet adaptor is running 11. Verified that Local Area
+Connections only has “IP version 4” checked 12. Verified that IP version
+4 properties are statically set to: IP address: 172.16.1.1 Subnet mask:
+255.255.240.0 Default gateway: 172.16.1.100 13. Verified that Windows
+Firewall is OFF 14. Verified that Micro Trend Internet Security & Virus
+Protection is OFF 15. Radar powered on. Started OpenCPN. 16. Log results
+are the same as above. Radar button does not turn green.
+
+C:\Users\Cindy>ipconfig /all
+
+Windows IP Configuration
+
+Host Name . . . . . . . . . . . . : Cindy-ASUS Primary Dns Suffix . . .
+. . . . : Node Type . . . . . . . . . . . . : Broadcast IP Routing
+Enabled. . . . . . . . : No WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Local Area Connection:
+
+Connection-specific DNS Suffix . : Description . . . . . . . . . . . :
+Atheros AR8151 PCI-E Gigabit Ethernet Con troller (NDIS 6.20) Physical
+Address. . . . . . . . . : C8-60-00-52-01-F4 DHCP Enabled. . . . . . . .
+. . . : Yes Autoconfiguration Enabled . . . . : Yes IPv4 Address. . . .
+. . . . . . . : 172.16.1.1(Preferred) Subnet Mask . . . . . . . . . . .
+: 255.255.240.0 Default Gateway . . . . . . . . . : NetBIOS over Tcpip.
+. . . . . . . : Enabled
+
+See this forum thread for more troubleshooting.
+http://www.cruisersforum.com/forums/f134/opencpn-radar-overlay-plugin-79081-23.html#post1415816
+
+Try cycling the power to reboot the scanner. Make sure its in Master
+mode before you Hit the Radar Button
+
+'''''
+
+OK, now this has become a puzzle requiring a solution. You seem to not
+be receiving any data from the scanner at all.
+
+Cindy: Get wireshark
+
+Wireshark · Download
+
+Install and run wireshark with the scanner switched on, and OCPN
+inactive (not running). The scanner sends multicast status reporting
+continuously while powered up, with or without the OCPN PlugIn. gradar
+monitors these multicasts to determine the scanner status as reported in
+the log.
+
+You should see something like the attached screen.
+
+bdcat

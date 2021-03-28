@@ -12,7 +12,8 @@ Launcher_pI Thread]
 
 This document is about Launcher plugin (Launcher)
 
-image::launcher_01.jpg[]
+
+image::launcher_01.jpeg[]
 
 
 . link:launcher.html#what_and_why[What and Why]
@@ -72,7 +73,7 @@ Launcher can be downloaded from http://www.opencpn.org/index.html +
  +
 Click “*Downloads*”
 
-image::watchdog_19056_001_ocpn_downloads.jpg[]
+image::watchdog_19056_001_ocpn_downloads.jpeg[]
 
 
 Click “*Plugins for OpenCPN 4.2 & 4.4*”
@@ -86,7 +87,7 @@ computersystem. In this manual we presume it's Windows, so we choose the
 *Windows setup-package*. +
 *Download* the file (double-click). 
 
-image::launcher_02.jpg[] 
+image::launcher_02.jpeg[] 
 
 *B. How to install Launcher* +
 
@@ -98,7 +99,7 @@ doing anything else with it)
 Double-click the downloaded file (with “launcher_pi” in the name and
 ”.exe” as extension) and follow the set-up instructions.
 
-image::launcher_03.jpg[]
+image::launcher_03.jpeg[]
 
 That's it. But before you can actually *use* Launcher, you first have to
 *enable* that plug-in in OpenCPN.
@@ -109,17 +110,17 @@ Open (or restart) OpenCPN.
 
 Click *Tools*-*Options*-. 
 
-image::launcher_04.jpg[]
+image::launcher_04.jpeg[]
 
 and then *Plugins* +
 
-image::launcher_05.jpg[]
+image::launcher_05.jpeg[]
 
 Scroll down untill you see the Launcher-pi. +
  +
 Click “*Enable*”. 
 
-image::launcher_06.jpg[]
+image::launcher_06.jpeg[]
 
 Note: If you do not see launcher in the list of plugins, check it was
 installed in the correct plugings directory of OpenCPN (eg: C:\Program
@@ -128,7 +129,7 @@ Files (x86)\OpenCPN\plugins)
 Now the Launcher icon (it looks like an old fashioned ship's wheel)
 should appear somewhere in your OpenCPN Toolbar. 
 
-image::launcher_07.jpg[]
+image::launcher_07.jpeg[]
  
 link:launcher.html#launcher[Back to top of page ↑]
 
@@ -140,13 +141,13 @@ Click “*Tools*” - “*Options*” - “*Plugins*” as described before. +
 
 Scroll down to “Launcher” and click “*Preferences*”. +
 
-image::launcher_08.jpg[]
+image::launcher_08.jpeg[]
 
 Clicking “Preferences” will open the menu “*Launcher Settings*”. +
 
 In the menu “Launcher Settings”, Click “*Add*”. +
 
-image::launcher_09.jpg[]
+image::launcher_09.jpeg[]
 
 Clicking “Add” will open the menu “*Launcher Item*”. +
 
@@ -158,7 +159,7 @@ will have to tell Launcher-pi: +
 2. Where Launcher-pi can find the *command* to launch that specific
 *program*. 
 
-image::launcher_10.jpg[]
+image::launcher_10.jpeg[]
 
 *+++EXAMPLE+++*: +
 you want a button to launch a specific *document* (let us assume it is a
@@ -203,14 +204,14 @@ Insert the *label* Manual of my ship +
 Insert the *command* C:\Program Files\Microsoft Office
 15\root\office15\WINWORD.EXE 
 
-image::launcher_11.jpg[]
+image::launcher_11.jpeg[]
 
  
 *+++IMPORTANT+++*: *Leave one space after “exe”* and add the *path and
 name of the file* you want to open. +
 In this case: *C:\MyShip\Manuals\Manual_of_my_ship.docx* 
 
-image::launcher_12.jpg[]
+image::launcher_12.jpeg[]
 
 The text in the field “command” should read *C:\Program Files\Microsoft
 Office 15\root\office15\WINWORD.EXE
@@ -218,16 +219,16 @@ C:\MyShip\Manuals\Manual_of_my_ship.docx* +
 
 Click “*OK*” to save the Launcher item. 
 
-image::launcher_13.jpg[]
+image::launcher_13.jpeg[]
 
 Click “*OK*” to save the Launcher settings. 
 
-image::launcher_14.jpg[]
+image::launcher_14.jpeg[]
 
 Click “*OK*” to exit the “options”-menu and return to the main screen of
 OpenCPN. 
 
-image::launcher_15.jpg[]
+image::launcher_15.jpeg[]
 
 Now you can execute the command via Launcher-pi. +
 
@@ -237,15 +238,15 @@ To execute the command via Launcher in OpenCPN, do this:
 
 Click on the *Launcher icon* in the toolbar.
 
-image::launcher_07.jpg[]
+image::launcher_07.jpeg[]
 
 Click the button with the label “*Manual of my ship*” 
 
-image::launcher_16.jpg[]
+image::launcher_16.jpeg[]
 
 The WORD-document should open. 
 
-image::launcher_17.jpg[]
+image::launcher_17.jpeg[]
 
 *Note*: of course this WORD-document can only be opened if you actually
 have the program WORD on your computer in the given directory
@@ -439,7 +440,7 @@ You should see the button that corresponds with the US Coast Pilot nr.
 
 Click that button and the file will open. 
 
-image::launcher_18.jpg[]
+image::launcher_18.jpeg[]
 
 
 link:launcher.html#launcher[Back to top of page ↑] +

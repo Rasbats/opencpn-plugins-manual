@@ -1,0 +1,4 @@
+== BR24 Radar
+
+=== This plugin is obsolete. Please use Radar_pi v5.0 Radar_pi
+

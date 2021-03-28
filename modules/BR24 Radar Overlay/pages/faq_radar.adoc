@@ -1,0 +1,138 @@
+== FAQ Radar
+
+=== Which Radars work with Opencpn? What is best?
+
+The following radar scanners are supported by *Radar_pi* for OCPN
+version 5.0:
+
+* Garmin HD and xHD radar support.
+* Navico 4G
+* Navico HALO-3, HALO-4, HALO-6 and HALO24 support
+* Navico “new” 3G support. (Older 3G radars are still supported via the
+BR24 type.)
+
+The following radar scanners are supported by plugins for OCPN version
+4.8.4 to 4.8.8:
+
+* Garmin HD
+* Garmin xHD
+* Navico BR24 (All Navico are also sold as: Lowrance, Simrad, B&G)
+* Navico 3G
+* Navico 4G
+
+For direct download to OCPN 4.8.4 see:
+https://opencpn.org/OpenCPN/info/downloadplugins.html And for wikis:
+https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual:plugins:ais_radar
+
+There's ongoing development for a new radar plugin combining more types
+into one plugin; called radar_pi. This plugin can so far be used for all
+listed above except Garmin HD. Navico Halo is also supported but not
+thoroughly tested. (As far as is known)
+
+Found here: https://github.com/opencpn-radar-pi/radar_pi[Radar_pi]
+
+and can be built for both O 4.8.4 and O 4.99.0(Alfa for O 5.0 beta)
+
+What type and maker is the best is of course up to each and everyone.
+I'm using radar_pi and Navico 3G and find it very good. Not less with
+the (M)ARPA function. The difference between 3G and 4G was not enough
+for the prize difference for me and the 20 NM range is good enough. Many
+opinions and configurations.
+
+Another user has Navico 3G plugs straight into network port and working
+flawlessly with OCPN. If you choose this option depending on the
+“Branding” Lowrance, B&G, Simrad some are shipped with interface boxes
+and or interface cables. You do not need any of these if your intention
+is to connect directly to a PC running OCPN. Knowing this may save you
+some money.
+
+=== The 3G radar plugin doesn't seem to work.
+
+* Setup: Radar ⇐= ethernet =⇒ Netgear FS105 Switch ⇐= ethernet =⇒
+windows 10 laptop
+* Message: “Cannot switch radar on as it is either not connected or is
+not off.”
+* Suggestion: ENABLE OpenGL is required.
+* [] Accelerated Graphics (OpenGL) [must be checked!]
+
+=== How can I connect the Radar's Ethernet to my USB port?
+
+* See the plugin documentation and
+* See
+http://www.cruisersforum.com/forums/f134/radar-plugin-using-usb-ethernet-adapter-201643.html#post2682536[thread]
+
+=== How are AIS and Marpa Calculated?
+
+The plugin calculates AIS and Marpa completely autonomously.
+
+. AIS uses SOG, COG & GPS.
+. Marpa uses GPS location + time for own boat position. Heading for own
+boat heading in order to rotate the radar image relative to the boat.
+From this it computes relative distance and heading to a target and from
+that the true direction and position of all targets. The results are
+true speed and course of the target.
+. All calculations are in a message including position, course, speed, a
+ID number and target status(Acquiring/Active/Lost) transferred to OCPN
+as a $RATTM message. In OCPN this is evaluated by the AIS_Decoder
+function to a ARPA symbol.
+
+=== I would like to have a better understanding how Marpa works with
+with collision avoidance, when the BR24_pi plugin only uuses/displays
+SOG and COG, when course through water or relative vector, is needed to
+calculate CPA and TCPA based on movements relative together, not on
+ground based movements. —
+
+. ARPA target movements are calculated based on the differences in GPS
+target locations over the various sweeps (spokes) of the radar.
+
+This results in true target positions and speed.
+
+. OpenCPN handles these as AIS targets and calculates CPA and TCPA.
+. From CPA and TCPA the skipper knows if there is a danger or not.
+. When action is needed to avoid the danger he has to rely on relative
+observations of the danger to decide on what to do. For this he can use
+the relative radar picture with relative trails. He does not need to
+know speed through water as he already knows that there is a dangerous
+situation.
+. Using the relative picture he has to decide on the action to take.
+Once he has taken an action, he can use the new CPA and TCPA to judge if
+the action was sufficiently effective.
+. But on top of this, a radar image with trails relative to the water
+movement would help of course in the decision making. We don't have
+these (yet).
+
+=== I thought that the option "Show relative target trails" will show the movements relative to me? So i´ll get the Information about the relative movement on the chartoverlay too (as target trail).
+
+. Yes. Relative trails will show you the movement of targets relative to
+you.
+. Relative trails are better shown and interpreted in the PPI (radar
+only) window.
+. It seems not logical to show relative trails on the chart overlay,
+which maps relative trails of a target on a true position and shows
+where the target has never been. We are now considering changing “Show
+relative trails to “Show True Trails” for the Chart Overlay, so that the
+target has indeed been in every location of the trail.
+
+=== Should the Heading source connected via the Interface box or just connect it directly with the Ethernet RJ45 connection on the Opencpn computer? Which is better?
+
+* Doesn't matter much. Both way are used. And the course update
+frequency is not that crucial for normal sailing speed. I use my compass
+unit to feed OCPN at 1 Hz. Others are using a faster transfer via Navico
+I-box.
+* Send heading to the radar via the interface box so that heading is
+available in each spoke
+
+correctly synchronised with when the radar generated the image. In
+practice the difference isn't that big.
+
+* Tupia reports, My radar is plugged directly into the RJ45 port on the
+computer and it has not had any problems. Uses the heading from fluxgate
+compass over NMEA. When setting up you need to accurately determine the
+offset angle while the boat is completely stationary and you have
+multiple identifiable targets.
+
+=== Can we test the marpa function here in the garden at home? (no marine traffic). Have just tested the normal radar functions.
+
+* You can set a MARPA on a stationary target for test. Set a guard zone
+where just one or two blobs are present and check “ARPA On” or right
+click near a blob and “Acquire ARPA target”.
