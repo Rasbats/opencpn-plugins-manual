@@ -1,6 +1,7 @@
 === HOME
 
-* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver manual DEMO]
+* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
+* xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning]
 
 Start page for the user plugins manual.
 
