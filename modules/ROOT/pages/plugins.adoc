@@ -1,14 +1,6 @@
-= Plugins
-
 == PLUGINS
 
-image:options-plugins-icon.png[image,width=68,height=65]
-
-
-xref:shipdriver:shipdriver.adoc[shipdriver]
-
-
-Remainder waiting for editing.
+image:options-plugins-icon.png[]
 
 == Plugin Categories
 
