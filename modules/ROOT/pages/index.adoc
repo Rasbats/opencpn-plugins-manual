@@ -1,5 +1,7 @@
 === HOME
 
+* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver manual DEMO]
+
 Start page for the user plugins manual.
 
 xref:plugins.adoc[Plugin Categories]
