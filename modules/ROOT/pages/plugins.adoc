@@ -2,6 +2,8 @@
 
 image:options-plugins-icon.png[]
 
+* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
+
 == Plugin Categories
 
 === Included_plugins +
