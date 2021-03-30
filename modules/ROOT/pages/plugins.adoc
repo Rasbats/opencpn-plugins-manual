@@ -3,7 +3,6 @@
 image:options-plugins-icon.png[]
 
 xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
-
 xref:watchdog:ROOT:watchdog.adoc[Watchdog]
 
 
