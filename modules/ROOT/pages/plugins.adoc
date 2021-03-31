@@ -2,6 +2,11 @@
 
 image::options-plugins-icon.png[]
 
+While the site is being build the plugin manuals where the manual is built from the developer repository
+are indicated by '#'
+
+The other manuals are built by modules in the github rep 'https://github.com/Rasbats/ocpn-user-plugins-manual'
+
 == Plugin Categories
 
 === Included_plugins  
@@ -42,14 +47,14 @@ These plugins are installed with the basic OpenCPN program.
 * xref:googleearth:googleearth.adoc[googleearth]  
 * xref:celestial_navigation:celestial_navigation.adoc[celestial_navigation]  
 * xref:route_great_circle:route_great_circle.adoc[Route Great Circle]  
-* xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning]
-* xref:otcurrent:ROOT:otcurrent.adoc[oTidalCurrent]  
+* xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning #]
+* xref:otcurrent:ROOT:otcurrent.adoc[otidalcurrent #]  
 * xref:ge2kap:ge2kap.adoc[GE2KAP Companion Software]  
 * xref:wmm:wmm.adoc[WMM (Included)]  
 
 === Safety  
-* xref:odraw1.6_pi:ROOT:odraw1.6_pi.adoc[odraw1.6_pi] 
-* xref:watchdog:ROOT:watchdog.adoc[Watchdog]
+* xref:odraw1.6_pi:ROOT:odraw1.6_pi.adoc[odraw #] 
+* xref:watchdog:ROOT:watchdog.adoc[Watchdog #]
 * xref:sar:sar.adoc[sar]
 
 === Sailing  
@@ -71,7 +76,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:launcher:launcher.adoc[launcher]  
 * xref:debugger:debugger.adoc[debugger]  
 * xref:pypilot:pypilot.adoc[pypilot]
-* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
+* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver #]
 * xref:twocan:twocan.adoc[twocan]  
 * xref:odometer:odometer.adoc[odometer]  
 
