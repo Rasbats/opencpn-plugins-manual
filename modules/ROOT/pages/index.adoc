@@ -1,8 +1,5 @@
 === HOME
 
-* xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
-* xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning]
-* xref:otcurrent:ROOT:otcurrent.adoc[oTidalCurrent]
 
 Start page for the user plugins manual.
 
