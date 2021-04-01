@@ -2,8 +2,8 @@
 
 image::options-plugins-icon.png[]
 
-While the site is being build the plugin manuals where the manual is built from the developer repository
-are indicated by '#'
+While the site is being built the plugin manual where the manual comes from the developer repository
+is indicated by '#'
 
 The other manuals are built by modules in the github rep 'https://github.com/Rasbats/ocpn-user-plugins-manual'
 
@@ -20,6 +20,7 @@ These plugins are installed with the basic OpenCPN program.
 
 === AIS / Radar  
 * xref:ais_radar_display:ais_radar_display.adoc[AISradar Display]  
+* xref:radar:Home.adoc[Radar Display]
 * xref:garmin_radar:garmin_radar.adoc[Garmin Radar Overlay]  
 * xref:br24_radar:br24_radar.adoc[BR24 Radar Overlay]
 
