@@ -1,25 +1,49 @@
 site:
   title: OpenCPN Plugins Manual
-  ### the 404 page and sitemap files only get generated when the url property is seto
-  url: https://rasbats.github.io/ocpn-user-plugins-manual/
-  start_page: ocpn-user-plugins-manual:ROOT:index.adoc
+  # the 404 page and sitemap files only get generated when the url property is seto
+  url: https://github.com/Rasbats/opencpn-plugins-manual
+  start_page: opencpn-plugins-manual:ROOT:index.adoc
 
 content:
-  sources:
-    - url: .
-      branches: HEAD 
-    #- url: https://github.com/Rasbats/ocpn-user-plugins-manual
-      #branches: main      
-      #edit_url: true
+  sources:   
+    - url: https://github.com/Rasbats/opencpn-plugins-manual
+      branches: main
+      edit_url: false
+    
+          
+    - url: https://github.com/Rasbats/shipdriver_pi.git    
+      branches: master
+      start_path: manual/shipdriver
+      edit_url: true 
       
+    - url: https://github.com/Rasbats/otcurrent_pi.git    
+      branches: master
+      start_path: manual/otcurrent
+      edit_url: true
+      
+    - url: https://github.com/Rasbats/DR_pi.git    
+      branches: master
+      start_path: manual/dead_reckoning
+      edit_url: true
+      
+    - url: https://github.com/rgleason/watchdog_pi
+      branches: master
+      start_path: manual/watchdog
+      edit_url: true
+      
+    - url: https://github.com/jongough/ocpn_draw_pi.git 
+      branches: master
+      start_path: manual/odraw1.6_pi
+      edit_url: true
+      
+
 ui:   
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
-    #url: http://mikerossiter.co.uk/OpenCPN/ui-bundle-mulesoft.zip
-    snapshot: true
-  
+      url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+      #url: https://github.com/Rasbats/ocpn-manuals/blob/main/ui-bundle.zip?job=bundle-stable
+      #url: https://github.com/decidim/docs.decidim.org-ui/-/TODO/master/raw/build/ui-bundle.zip?job=bundle-stable      
+      #url: http://mikerossiter.co.uk/OpenCPN/ui-bundle-lisk.zip
+      snapshot: true  
+
 output:
-  clean: true
   dir: ./docs
-
-
