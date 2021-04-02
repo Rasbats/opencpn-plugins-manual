@@ -2,14 +2,15 @@ site:
   title: OpenCPN Plugins Manual
   # the 404 page and sitemap files only get generated when the url property is seto
   url: https://github.com/Rasbats/opencpn-plugins-manual
-  start_page: opencpn-plugins-manual:ROOT:index.adoc
+  start_page: opencpn-plugins-manual:modules:ROOT:index.adoc
+  
 
 content:
   sources:   
     - url: https://github.com/Rasbats/opencpn-plugins-manual
-      branches: main
+      branches: master
+      start_path: manual
       edit_url: false
-    
           
     - url: https://github.com/Rasbats/shipdriver_pi.git    
       branches: master
