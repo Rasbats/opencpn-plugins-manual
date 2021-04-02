@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: OpenCPN Plugins Manual</title>
+    <link rel="canonical" href="https://github.com/Rasbats/opencpn-plugins-manual/opencpn-plugins-manual/0.1/radar/Hardware-installation-(Navico).html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <div class="navbar">
+    <div class="ocpn-logo"> </div>
+    <div class="navbar-brand">
+      <a class="navbar-item" 
+         href="https://github.com/Rasbats/opencpn-plugins-manual"
+      >
+        OpenCPN Plugins Manual
+        </a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+       <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://www.opencpn.org">OpenCPN.org</a>
+            <a class="navbar-item"
+               href="https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual"
+            >
+               User Manual
+               </a>
+            <a class="navbar-item" href="https://github.com/opencpn/OpenCPN">
+               Github Site
+               </a>
+            <a class="navbar-item" href="https://opencpn.org/flyspray/">
+               Bugtracker
+               </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="opencpn-plugins-manual" data-version="0.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-explore is-active" data-panel="explore">
+  <div class="context">
+    <span class="title">OpenCPN Plugins Manual</span>
+    <span class="version">0.1</span>
+  </div>
+  <ul class="components">
+    <li class="component">
+      <a class="title" href="../../../dead_reckoning/0.1/dead_reckoning.html">DR Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../dead_reckoning/0.1/dead_reckoning.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../odraw1.6_pi/0.1/odraw1.6_pi.html">odraw 1.6 Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../odraw1.6_pi/0.1/odraw1.6_pi.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component is-current">
+      <a class="title" href="../index.html">OpenCPN Plugins Manual</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../otcurrent/0.1/otcurrent.html">otcurrent Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../otcurrent/0.1/otcurrent.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../shipdriver/0.1/shipdriver.html">Ship Driver Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../shipdriver/0.1/shipdriver.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../watchdog/0.1/watchdog.html">Watchdog Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../watchdog/0.1/watchdog.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>The Navico radars are very easy to use with OpenCPN. All you need is a
+wired Ethernet connection.</p>
+</div>
+<div class="paragraph">
+<p>You can add as many computers as desired, the system will allow
+operation from all connected MFDs (plotters) and computers.</p>
+</div>
+<div class="sect1">
+<h2 id="_ri1011"><a class="anchor" href="#_ri1011"></a>RI10/11</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In all Broadband installation packages (except Lowrance 3G USA) the
+scanner also ships with a small black box – either a RI10 with NMEA 2000
+input or a RI11 with NMEA 0183. It uses the data from the heading sensor
+on the NMEA network to add this to the radar data.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The Navico plotters require heading input to the RI-10/11 for MARPA
+operation.</p>
+</li>
+<li>
+<p>The plugin uses this heading as the ``best'' source of heading for
+radar overlay.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This box also helps isolating the system electrically, and will improve
+protection of the computer from damage in case of electrical storms
+(lightning.)</p>
+</div>
+<div class="paragraph">
+<p>Note that this box is no longer needed with HALO radomes. HALO 4/6/8
+apparently come with an interface box, but they don’t inject heading we
+think.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_shared_setup_with_a_navico_mfd"><a class="anchor" href="#_shared_setup_with_a_navico_mfd"></a>Shared setup with a Navico MFD</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you already have a Navico MFD installed the installation consists of:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Installing an Ethernet switch, or a WiFi router with a built in
+Ethernet switch. You need a wired port for each device – the radar, the
+MFD(s) and the computer running OpenCPN.</p>
+</li>
+<li>
+<p>Connect all devices to the switch.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>For HALO radars which come with a RJ45 at the end of the radar cable and
+a RJ45 to Yellow Navico converter cable, you can plug the radar cable
+into a standard switch directly, and use a standard RJ45 patch cable to
+connect the converter cable to the switch as well.</p>
+</div>
+<div class="paragraph">
+<p>If your radar did not come with a RJ45 to Navico radar connector cable,
+like the 3G or 4G, you can either buy one or make yourself. The cheapest
+solution is to cut Navico Ethernet cables with two yellow connectors at
+both ends, and crimp a RJ45 connector onto both halves.</p>
+</div>
+<div class="paragraph">
+<p>Follow the instructions here to fabricate these:
+<a href="http://yachtelectronics.blogspot.nl/2010/05/lowrance-yellow-ethernet-cabling.html" class="bare">http://yachtelectronics.blogspot.nl/2010/05/lowrance-yellow-ethernet-cabling.html</a>.</p>
+</div>
+<div class="paragraph">
+<p>So for the case where you have a single MFD connected to a 3G/4G radar
+scanner: * Cut the ethernet cable between MFD and scanner. * Crimp on
+two RJ45 connectors. * Insert these into a switch. * Connect the
+computer to the switch as well.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_installation_with_only_a_scanner"><a class="anchor" href="#_installation_with_only_a_scanner"></a>Installation with only a scanner</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If your scanner came with a RI10: * Cut the supplied Navico ethernet
+cable in half. * Crimp on a RJ45 connector. * Insert the RJ45 connector
+into the computer’s Ethernet port or a standard Ethernet switch and the
+other side into the RI10. Install the scanner as detailed in the Navico
+installation instructions.</p>
+</div>
+<div class="paragraph">
+<p>If you bought a HALO or USA Lowrance 3G scanner:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Insert the RJ45 connector from the radar scanner into a standard 100
+Mbit switch.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>We recommend always using an ethernet switch in this setup to provide
+further electrical isolation between the scanner and the computer – this
+makes your computer safer in case of lightning. If you connect the
+computer directly to the radar scanner you have a higher chance of
+lightning ruining your computer.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_network_setup"><a class="anchor" href="#_network_setup"></a>Network setup</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The scanner and the displays communicate using a system called
+<em>multicast</em>. This has the advantage that the data only needs to be sent
+once, and is received by all displays. Uniquely, it also means that
+there is no issue with IP addresses, so there is no reliance on DHCP
+working. <em>Any IP address is acceptable for all Navico radars.</em></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_choosing_an_ethernet_switch"><a class="anchor" href="#_choosing_an_ethernet_switch"></a>Choosing an Ethernet switch</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you are going to use a switch you may as well use a Gigabit switch.
+The scanner has a 100 Mbit interface, but a Gigabit switch will use
+slightly less power than a 100 MBit switch. You should probably also use
+one that has a 12V input which can be powered directly from the 12V
+house battery (or a DC/DC converter if you have a 24 V house battery
+bank.)</p>
+</div>
+<div class="paragraph">
+<p>The author uses a 5 port Netgear GS105 which according to Netgear: <em>Both
+GS105 and GS108 support the latest Energy E cient Ethernet (IEEE
+802.3az) standard, which reduces energy consumption when there is light
+traffic on an active port or when there is no link or no activity
+detected. It can further save energy when a short cable (&lt;100m) is used.
+Energy savings lead directly to cost savings in operation.</em></p>
+</div>
+<div class="paragraph">
+<p>Note: make sure you get the <em>metal cased</em> GS105/GS108 that uses 12 V
+input. There are now also other models with a plastic case that have a 5
+V input, which requires an extra DC/DC converter.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wifi"><a class="anchor" href="#_wifi"></a>WiFi</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The <em>multicast</em> transmission system used by the scanner means that
+transmission over WiFi must happen at the lowest rate that any device
+connected to the WiFi network is capable of. For 802.11b and g this rate
+is 1 Mbit/s. Since the radar data is ~ 1 Mbit/s as well this means it
+<em>does not work well at all</em>.</p>
+</div>
+<div class="paragraph">
+<p>The solution is to either: * Modify the base rate to be higher. This
+reduces the maximum range of your WiFi network for all devices. * Get a
+faster WiFi network, for example 802.11a or 802.1ac (5 GHz). This has a
+much faster base rate (6 Mbit/s).</p>
+</div>
+<div class="paragraph">
+<p>Unfortunately, most WiFi routers do not allow you to change the base
+rate.</p>
+</div>
+<div class="paragraph">
+<p>If yours is Linux based and uses <code>hostapd</code> you can try the following
+procedure. Edit the following section in <code>hostapd.conf</code>. The example
+<em>should</em> disable basic rates 10 and 20 (= 1 and 2 Mbit/s):</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre># Basic rate set configuration
+# List of rates (in 100 kbps) that are included in the basic rate set.
+# If this item is not included, usually reasonable default set is used.
+#basic_rates=10 20
+#basic_rates=10 20 55 110
+basic_rates=55 110
+#basic_rates=60 120 240</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The author has had no success with trying the above as the <code>hostapd</code> he
+is using seems to ignore these instructions, and has resorted to using a
+5 GHz network instead. Even that gets seriously loaded by broadcast
+traffic generated by the Navico MFDs.</p>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.
+     Sources, based on the Antora default UI, are available at https://gitlab.com/leamas/antora-ui-default
+  </p>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
