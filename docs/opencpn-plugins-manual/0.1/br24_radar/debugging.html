@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: OpenCPN Plugins Manual</title>
+    <link rel="canonical" href="https://github.com/Rasbats/opencpn-plugins-manual/opencpn-plugins-manual/0.1/br24_radar/debugging.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <div class="navbar">
+    <div class="ocpn-logo"> </div>
+    <div class="navbar-brand">
+      <a class="navbar-item" 
+         href="https://github.com/Rasbats/opencpn-plugins-manual"
+      >
+        OpenCPN Plugins Manual
+        </a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+       <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://www.opencpn.org">OpenCPN.org</a>
+            <a class="navbar-item"
+               href="https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual"
+            >
+               User Manual
+               </a>
+            <a class="navbar-item" href="https://github.com/opencpn/OpenCPN">
+               Github Site
+               </a>
+            <a class="navbar-item" href="https://opencpn.org/flyspray/">
+               Bugtracker
+               </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="opencpn-plugins-manual" data-version="0.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-explore is-active" data-panel="explore">
+  <div class="context">
+    <span class="title">OpenCPN Plugins Manual</span>
+    <span class="version">0.1</span>
+  </div>
+  <ul class="components">
+    <li class="component">
+      <a class="title" href="../../../dead_reckoning/0.1/dead_reckoning.html">DR Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../dead_reckoning/0.1/dead_reckoning.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../odraw1.6_pi/0.1/odraw1.6_pi.html">odraw 1.6 Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../odraw1.6_pi/0.1/odraw1.6_pi.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component is-current">
+      <a class="title" href="../index.html">OpenCPN Plugins Manual</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../otcurrent/0.1/otcurrent.html">otcurrent Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../otcurrent/0.1/otcurrent.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../shipdriver/0.1/shipdriver.html">Ship Driver Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../shipdriver/0.1/shipdriver.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../watchdog/0.1/watchdog.html">Watchdog Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../watchdog/0.1/watchdog.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>indexmenu_n_4</p>
+</div>
+<div class="sect1">
+<h2 id="_debugging"><a class="anchor" href="#_debugging"></a>Debugging</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_navico_broadband_radar_debugging"><a class="anchor" href="#_navico_broadband_radar_debugging"></a>Navico Broadband Radar Debugging</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_what_to_do_if_it_does_not_work"><a class="anchor" href="#_what_to_do_if_it_does_not_work"></a>What to do if it does not work</h3>
+<div class="paragraph">
+<p>Of course you updated to the newest version first?<br>
+Recent versions show this message dialog if not all conditions to show a
+radar image are met:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../../../manual/plugins/br24_radar/br24_overlay_messages.png" alt="image" width="362" height="204"></span></p>
+</div>
+<div class="sect3">
+<h4 id="_no_boat_position"><a class="anchor" href="#_no_boat_position"></a>No boat position</h4>
+<div class="paragraph">
+<p>Check your GPS interface and/or NMEA inputs.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_no_heading"><a class="anchor" href="#_no_heading"></a>No heading</h4>
+<div class="paragraph">
+<p>No compass data found. Check the NMEA inputs for HDT, HDM or HDG
+sentences. HDT is preferred. If none are available COG is used if the
+boat is travelling, but this is very bad for the overlay. Get a compass!</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_no_radar_present"><a class="anchor" href="#_no_radar_present"></a>No radar present</h4>
+<div class="paragraph">
+<p>Is the system connected to the radar, either directly or via switch?
+Does the IP address of the network device show up in the “ZeroConf”
+line?</p>
+</div>
+<div class="paragraph">
+<p>If the radar does not transmit radar data but it is detected then the
+“Radar present” line will get a checkmark and the text will change to
+“Radar IP &lt;ip-addr&gt;”. Check that this is the correct IP address. If the
+system does not show the IP address of the ethernet device that is on
+the same network as your radar, check your ethernet configuration.</p>
+</div>
+<div class="paragraph">
+<p>If the radar transmits data the dialog will change to the controls
+dialog, but the log file will still show the information such as IP
+address.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_everything_looks_ok_but_still_no_picture"><a class="anchor" href="#_everything_looks_ok_but_still_no_picture"></a>Everything looks OK but still no picture</h4>
+<div class="paragraph">
+<p>If you get the normal radar control dialog and the little 'light' in the
+radar button shows green, but you still do not get a picture, you can
+use the radar <em>emulator</em>.</p>
+</div>
+<div class="paragraph">
+<p>The emulator was created for debugging during development, but it can be
+used to check that your OpenGL driver is compatible and whether your
+system performs well enough. It uses (almost) the same code path as the
+normal UDP reception of radar data, but 'invents' an artificial radar
+image in 'standalone' mode.</p>
+</div>
+<div class="paragraph">
+<p>In the preferences dialog (<em>Options &gt; Plugins &gt; BR24Radar &gt;
+Preferences</em>) choose <em>Display Option</em> for <em>Radar display</em> as <em>Emulator</em>
+and close the preferences and options dialogs. You should now see a
+picture like this, even if you have fulfilled none of the overlay
+requirements:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../../../manual/plugins/br24_radar/br24_emulator.png" alt="image" width="382" height="308"></span></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_firewall"><a class="anchor" href="#_firewall"></a>Firewall</h3>
+<div class="paragraph">
+<p>Most issues so far that we have been asked to look in to were related to
+a <em>firewall</em> preventing the plugin to access the network at will,
+especially for Microsoft Windows users. Please try again with your
+firewall switched off completely. If it works without the firewall, just
+add a rule in the firewall that allows <em>opencpn.exe</em> full access. Most
+consumer grade firewalls do not allow sufficient control over multicast
+settings.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_multiple_ethernet_devices"><a class="anchor" href="#_multiple_ethernet_devices"></a>Multiple ethernet devices</h3>
+<div class="paragraph">
+<p>The Navico radar continuously sends out its status, and it tries to
+locate such a message. Since the plugin doesn&#8217;t know which ethernet
+device it should use it loops over the list of active devices until it
+receives such a status message, and then uses that device until it
+looses the connection, at which point it starts searching again.</p>
+</div>
+<div class="paragraph">
+<p>This algorithm has been developed for the situation where a radar may be
+on one ethernet device (a USB Ethernet dongle) one moment and a
+different ethernet device (a Thunderbolt Ethernet converter attached to
+a docking station) the next moment. This is useful as it allows you to
+keep OpenCPN running for days at a time without restarting, and it will
+still be able to use the radar when the tablet is docked or wired to the
+network, without stopping OpenCPN when using the tablet in a wireless
+fashion.</p>
+</div>
+<div class="paragraph">
+<p>Although the software tries to detect automatically which ethernet
+device the radar is using there are still situations where this breaks.
+In particular this will matter most when the OS requires the plugin to
+set the proper IP address on the multicast output data and the plugin
+chooses the wrong IP address. This will surface as a situation where the
+radar is detected but it cannot be turned on.</p>
+</div>
+<div class="paragraph">
+<p>The following situations are examples of such setups:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>When you have a bridged network over two devices and it accidentally
+binds to one of the underlying devices (which, because of Murphy, will
+be the wrong one). This should only occur when the underlying device has
+an IPv4 address which (because it is bridged) it should not have. The
+plugin should use the bridge device only.</p>
+</li>
+<li>
+<p>When you have a virtual ethernet device that passes the multicast data
+from the radar on to the plugin but does not pass multicast send data
+from the plugin to the radar.</p>
+</li>
+<li>
+<p>When you have both a wired and a wireless network connected to the
+radar network.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>To see if this is the case please check the list of ethernet devices
+using ipconfig / ifconfig (command line) or GUI control panel (MS Win),
+network manager (Linux) / System preferences (OS X). Disable all devices
+except for the one that the radar is connected to. If it works now,
+enable the other devices one by one and restart OpenCPN after each
+attempt. Once you locate the network that is interfering, determine
+whether it has a correct IPv4 address. It should be on a different
+network as that of the ethernet device where the radar is connected to.</p>
+</div>
+<div class="paragraph">
+<p>Note that devices that have <em>no</em> IPv4 address (not even a self-assigned
+one) or have a <em>loopback</em> address (starts with 127) will never interfere
+and do not need to be disabled.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_verbose_logging_to_file"><a class="anchor" href="#_verbose_logging_to_file"></a>Verbose logging to file</h3>
+<div class="paragraph">
+<p>Use the following to increase the amount of logging to the opencpn.log
+file:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click on the question mark in the button bar and note where the ini
+file (and log file) are kept.</p>
+</li>
+<li>
+<p>Stop OpenCPN.</p>
+</li>
+<li>
+<p>Edit the ini file and change the <em>VerboseLog</em> in the
+[Plugins/BR24radar] section to a number higher than 0. Values from 1 to
+4 are different. At level 4 your file will grow very quickly!</p>
+</li>
+<li>
+<p>Start OpenCPN.</p>
+</li>
+<li>
+<p>Start the radar (or attempt to do so.)</p>
+</li>
+<li>
+<p>Stop OpenCPN.</p>
+</li>
+<li>
+<p>Check the content of the logfile. You may also be asked to upload this
+file to a location that it can be examined.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><a href="../br24_radar.html#hardware_installation">⇒Back to BR24 Hardware
+installation</a></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.
+     Sources, based on the Antora default UI, are available at https://gitlab.com/leamas/antora-ui-default
+  </p>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
