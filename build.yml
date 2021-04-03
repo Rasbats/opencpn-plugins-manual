@@ -42,7 +42,7 @@ ui:
       #url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
       #url: https://github.com/Rasbats/ocpn-manuals/blob/main/ui-bundle.zip?job=bundle-stable
       #url: https://github.com/decidim/docs.decidim.org-ui/-/TODO/master/raw/build/ui-bundle.zip?job=bundle-stable      
-      url: ./ui-bundle-leamas-2.zip
+      url: ./ui-bundle.zip
       snapshot: true  
 
 output:
