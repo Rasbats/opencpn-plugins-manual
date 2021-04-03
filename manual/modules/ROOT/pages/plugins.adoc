@@ -54,7 +54,8 @@ These plugins are installed with the basic OpenCPN program.
 * xref:wmm:wmm.adoc[WMM (Included)]  
 
 === Safety  
-* xref:odraw1.6_pi:ROOT:odraw1.6_pi.adoc[odraw #] 
+
+* xref:odraw:ROOT:odraw.adoc[odraw #] 
 * xref:watchdog:ROOT:watchdog.adoc[Watchdog #]
 * xref:sar:sar.adoc[sar]
 
