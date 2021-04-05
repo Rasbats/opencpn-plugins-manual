@@ -39,7 +39,8 @@ xref:googleearth:googleearth.adoc[googleearth] +
 xref:celestial_navigation:celestial_navigation.adoc[celestial_navigation] +
 xref:route_great_circle:route_great_circle.adoc[Route Great Circle] +
 xref:dead_reckoning:dead_reckoning.adoc[DR Dead Reckoning] +
-xref:otcurrent:otcurrent.adoc[otcurrent] +
+xref:otcurrent:otcurrent.adoc[otcurrent] 
+xref:PhotoLayer:ROOT:photolayer.adoc[PhotoLayer #]  
 xref:ge2kap:ge2kap.adoc[GE2KAP Companion Software] +
 xref:wmm.adoc[WMM (Included)] +
 

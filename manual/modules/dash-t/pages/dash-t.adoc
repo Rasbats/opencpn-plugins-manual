@@ -1,3 +1,5 @@
+:imagesdir: ../images/
+
 == DashT - Race, Engine/Energy, Signal K, Database, Line Graphs
 
 Enhanced replacement of Dashboard and Tactics plug-ins for OpenCPN v5.2
