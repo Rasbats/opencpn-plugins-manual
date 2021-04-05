@@ -21,6 +21,11 @@ content:
       start_path: manual/otcurrent
       edit_url: true
       
+    - url: https://github.com/Rasbats/photolayer_pi.git    
+      branches: master
+      start_path: manual/photolayer
+      edit_url: true
+
     - url: https://github.com/Rasbats/DR_pi.git    
       branches: master
       start_path: manual/dead_reckoning

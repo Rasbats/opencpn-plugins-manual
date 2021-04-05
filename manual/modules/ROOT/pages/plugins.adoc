@@ -50,7 +50,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:route_great_circle:route_great_circle.adoc[Route Great Circle]  
 * xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning #]
 * xref:otcurrent:ROOT:otcurrent.adoc[otidalcurrent #]  
-* xref:photolayer:photolayer.adoc[PhotoLayer #]  
+* xref:photolayer:ROOT:photolayer.adoc[PhotoLayer #]  
 * xref:ge2kap:ge2kap.adoc[GE2KAP Companion Software]  
 * xref:wmm:wmm.adoc[WMM (Included)]  
 
