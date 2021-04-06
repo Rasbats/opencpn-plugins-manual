@@ -1,4 +1,6 @@
-== SAR (Search and Rescue)
+= SAR (Search and Rescue)
+
+:imagesdir: ../images/
 
 image::sar_panel_icon.png[]
 
