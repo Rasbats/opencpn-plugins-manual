@@ -40,6 +40,11 @@ content:
       branches: master
       start_path: manual/odraw
       edit_url: true
+    
+    - url: https://github.com/opencpn-radar-pi/radar_pi.git 
+      branches: master
+      start_path: manual/radar
+      edit_url: true
       
 
 ui:   

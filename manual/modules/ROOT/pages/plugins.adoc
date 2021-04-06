@@ -20,9 +20,7 @@ These plugins are installed with the basic OpenCPN program.
 
 === AIS / Radar  
 * xref:ais_radar_display:ais_radar_display.adoc[AISradar Display]  
-* xref:radar:Home.adoc[Radar Display]
-* xref:garmin_radar:garmin_radar.adoc[Garmin Radar Overlay]  
-* xref:br24_radar:br24_radar.adoc[BR24 Radar Overlay]
+* xref:radar:ROOT:Home.adoc[Radar Display #]
 
 === Charts  
 * xref:nv_charts:nv_charts.adoc[nv_charts]  
