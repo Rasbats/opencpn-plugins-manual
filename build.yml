@@ -32,7 +32,7 @@ content:
       edit_url: true
       
     - url: https://github.com/rgleason/watchdog_pi
-      branches: master
+      branches: mast-reorg
       start_path: manual/watchdog
       edit_url: true
       
@@ -45,7 +45,11 @@ content:
       branches: master
       start_path: manual/radar
       edit_url: true
-      
+    
+    - url: https://github.com/rgleason/dashboard_tactics_pi.git
+      branches: mnt151-frontend2
+      start_path: manual/dash-t
+      edit_url: true
 
 ui:   
   bundle:
