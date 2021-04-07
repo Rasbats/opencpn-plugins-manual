@@ -35,7 +35,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:projections:projections.adoc[projections]
 
 === Logs  
-* xref:dash-t:dash-t.adoc[dash-t]  
+* xref:dash-t:ROOT:dash-t.adoc[dash-t #]  
 * xref:logbook:logbook.adoc[logbook]  
 * xref:find-it:find-it.adoc[find-it]  
 * xref:vdr:vdr.adoc[vdr]  
