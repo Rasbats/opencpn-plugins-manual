@@ -39,7 +39,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:logbook:logbook.adoc[logbook]  
 * xref:find-it:find-it.adoc[find-it]  
 * xref:vdr:vdr.adoc[vdr]  
-* xref:modules:ROOT:nmea-converter.adoc[NMEA Converter #]  
+* xref:ROOT:nmea-converter.adoc[NMEA Converter #]  
 
 === Navigation  
 * xref:squiddio:squiddio.adoc[Squiddio]  
