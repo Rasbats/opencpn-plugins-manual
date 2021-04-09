@@ -32,7 +32,7 @@ content:
       edit_url: true
       
     - url: https://github.com/rgleason/watchdog_pi
-      branches: mast-reorg
+      branches: master
       start_path: manual/watchdog
       edit_url: true
       
