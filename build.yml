@@ -50,6 +50,12 @@ content:
       branches: mnt151-frontend2
       start_path: manual/dash-t
       edit_url: true
+    
+    - url: https://github.com/RooieDirk/NmeaConverter_pi.git
+      branches: master
+      start_path: manual/modules
+      edit_url: true
+
 
 ui:   
   bundle:
