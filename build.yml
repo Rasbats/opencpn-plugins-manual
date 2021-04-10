@@ -51,6 +51,11 @@ content:
       start_path: manual/dash-t
       edit_url: true
     
+    - url: https://github.com/Rasbats/vfkaps_pi.git    
+      branches: master
+      start_path: manual/vfkaps
+      edit_url: true
+    
     - url: https://github.com/Rasbats/sar_pi.git    
       branches: master
       start_path: manual/sar
