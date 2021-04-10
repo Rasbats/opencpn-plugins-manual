@@ -1,0 +1,6 @@
+=== HOME
+
+Start page for the user plugins manual.
+
+xref:plugins.adoc[Complements (par Categoire)]
+
