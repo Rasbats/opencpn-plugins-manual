@@ -3,4 +3,5 @@
 Start page for the user plugins manual.
 
 xref:plugins.adoc[Published Plugins (by Category)]
+
 xref:betaplugins.adoc[Beta Plugins]
