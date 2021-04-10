@@ -28,6 +28,9 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-shipdriver.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-vfkaps.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-watchdog.xml</loc>
 </sitemap>
 </sitemapindex>
