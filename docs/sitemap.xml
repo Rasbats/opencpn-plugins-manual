@@ -22,10 +22,10 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-radar.xml</loc>
 </sitemap>
 <sitemap>
-<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-shipdriver.xml</loc>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-sar.xml</loc>
 </sitemap>
 <sitemap>
-<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-vfkaps.xml</loc>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-shipdriver.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-watchdog.xml</loc>
