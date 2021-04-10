@@ -28,7 +28,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:bsb4_charts:bsb4_charts.adoc[bsb4_charts]  
 * xref:oesenc:oesenc.adoc[oeSENC]  
 * xref:fugawi:fugawi.adoc[Fugawi (deprecated)]  
-* xref:vfkaps:vfkaps.adoc[VfKaps - VentureFarther]  
+* xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther]  
 * xref:rotationctrl:rotationctrl.adoc[RotationCtrl]  
 * xref:chartscale:chartscale.adoc[Chartscale]  
 * xref:objsearch:objsearch.adoc[objsearch]  

@@ -51,12 +51,14 @@ content:
       start_path: manual/dash-t
       edit_url: true
     
+    - url: https://github.com/Rasbats/vfkaps_pi.git    
+      branches: master
+      start_path: manual/vfkaps
+      edit_url: true
+    
 
 ui:   
   bundle:
-      #url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
-      #url: https://github.com/Rasbats/ocpn-manuals/blob/main/ui-bundle.zip?job=bundle-stable
-      #url: https://github.com/decidim/docs.decidim.org-ui/-/TODO/master/raw/build/ui-bundle.zip?job=bundle-stable      
       url: ./ui-bundle.zip
       snapshot: true  
 
