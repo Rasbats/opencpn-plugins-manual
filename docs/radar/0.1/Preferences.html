@@ -1,127 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Untitled :: OpenCPN Plugins Manual</title>
-  <link rel="canonical" href="https://github.com/Rasbats/opencpn-plugins-manual/radar/0.1/Preferences.html">
-  <meta name="generator" content="Antora 2.3.4">
-  <link rel="stylesheet" href="../../_/css/site.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
-
-<body class="article">
-  <header class="header" role="banner">
-  <nav class="navbar" style="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: OpenCPN Plugins Manual</title>
+    <link rel="canonical" href="https://github.com/Rasbats/opencpn-plugins-manual/radar/0.1/Preferences.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://github.com/Rasbats/opencpn-plugins-manual">
-        <img src="../../_/img/docs_logo.png" style="height:40px">
-      </a>
-      <!-- We don't have anything in the menu, but the burger still appears
-           on mobile devices. So let's remove it. -->
-      <!--<button class="navbar-burger" data-target="topbar-nav">
+      <a class="navbar-item" href="https://github.com/Rasbats/opencpn-plugins-manual">OpenCPN Plugins Manual</a>
+      <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
         <span></span>
-      </button>-->
+      </button>
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
       </div>
     </div>
   </nav>
 </header>
-  <div class="main-wrapper">
-
-    <main class="main" role="main">
-
-
-      <article class="doc">
-        <form id="searchForm">
-          Search:<br>
-          <input type="text" name="search">
-          <input type="submit" value="Search">
-        </form>
-
-
-        <!--<div id="total"></div><br>-->
-        <div id="results">
-        </div>
-      </article>
-
-
-
-
-
-
-
-
-
-    </main>
+<div class="body">
+<div class="nav-container" data-component="radar" data-version="0.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-explore is-active" data-panel="explore">
+  <div class="context">
+    <span class="title">Radar Manual</span>
+    <span class="version">0.1</span>
   </div>
-
-  <footer class="footer">
-  <p>All Fedora Documentation content available under <a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CC-BY-SA 3.0</a> or, when specifically noted, under another <a href="https://fedoraproject.org/wiki/Licensing:Main">accepted</a> free and open content license.</p>
-  <p>Last build: </p>
+  <ul class="components">
+    <li class="component">
+      <a class="title" href="../../opencpn-plugins-manual/0.1/index.html">0.1 OpenCPN Plugins Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../opencpn-plugins-manual/0.1/index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../dash-t/0.1/dash-t.html">Dashboard Tactics</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../dash-t/0.1/dash-t.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../dead_reckoning/0.1/dead_reckoning.html">DR</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../dead_reckoning/0.1/dead_reckoning.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../odraw/0.1/odraw.html">odraw</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../odraw/0.1/odraw.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../otcurrent/0.1/otcurrent.html">otcurrent</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../otcurrent/0.1/otcurrent.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../photolayer/0.1/photolayer.html">PhotoLayer</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../photolayer/0.1/photolayer.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component is-current">
+      <a class="title" href="Home.html">Radar Manual</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="Home.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../sar/0.1/sar.html">SAR</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../sar/0.1/sar.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../shipdriver/0.1/shipdriver.html">ShipDriver</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../shipdriver/0.1/shipdriver.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../vfkaps/0.1/vfkaps.html">vfkaps</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../vfkaps/0.1/vfkaps.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../watchdog/2.4.29/watchdog.html">Watchdog</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../watchdog/2.4.29/watchdog.html">2.4.29</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../opencpn-plugins-manual/0.1/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/opencpn-radar-pi/radar_pi/edit/master/manual/radar/modules/ROOT/pages/Preferences.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="sect1">
+<h2 id="_preferences_dialog"><a class="anchor" href="#_preferences_dialog"></a>Preferences dialog</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can change various preferences for the plugin.</p>
+</div>
+<div class="paragraph">
+<p>The preferences dialog can be reached via <em>OpenCPN Options &gt; Plugins &gt;
+Radar &gt; Preferences</em> or via the PPI menu <em>Advanced &gt; Preferences</em>.</p>
+</div>
+<div class="paragraph">
+<p>It looks like this:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/preferences.png" alt="Preferences">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_range_units"><a class="anchor" href="#_range_units"></a>Range units</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can choose Nautical Miles, Mixed or Kilometers. Not all radars
+support all types, in which case this setting will not change the
+reported settings.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gpu_drawing_method"><a class="anchor" href="#_gpu_drawing_method"></a>GPU drawing method</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can choose between two types of drawing the picture; Vertex Array
+and Shader. Depending on the hardware and OS it is possible that one
+performs better than the other. Shader will perform the same regardless
+of how "busy" the radar picture is, whereas Vertex Array will use more
+CPU when there is more to draw. Also, Shader draws a little more
+"soft" image on most devices.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_control_menu_auto_hide"><a class="anchor" href="#_control_menu_auto_hide"></a>Control Menu Auto Hide</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you have a small display, or just prefer it that way, you can make
+the <em>Control Menu</em> dialog disappear automatically if you are not using
+it. You then need to access it by pressing the <em>Menu</em> area on the PPI
+window or via the <em>Context</em> menu (right mouse button.)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_guard_zone_styling"><a class="anchor" href="#_guard_zone_styling"></a>Guard zone styling</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Depending on the colors and transparency it can be hard to see where the
+guard zones are. Change the styling of the guard zones to fix this.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_guard_zone_sound"><a class="anchor" href="#_guard_zone_sound"></a>Guard zone sound</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you don’t like the woman’s voice announcing a guard zone, you can
+change the alert sound, as well as the repetition time of such alarms
+when they are not confirmed.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_colors"><a class="anchor" href="#_colors"></a>Colors</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can change the color palette for Target trails, Targets, and the
+Radar PPI window background and AIS targets.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_options"><a class="anchor" href="#_options"></a>Options</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can choose whether to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Ignore radar heading</em> passed in via RI10/11 (Navico Broadband only)</p>
+</li>
+<li>
+<p><em>Pass RI10/11 radar heading to OpenCPN</em> (Navico Broadband only)</p>
+</li>
+<li>
+<p><em>Enable COG as heading</em>, allows overlay when you do not have a compass heading input.</p>
+</li>
+<li>
+<p><em>Reverse the mouse wheel zoom direction</em></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>You can choose the following display options:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Show ring at extreme range</em>, allows you to see the exact maximum range that the radar is
+producing</p>
+</li>
+<li>
+<p><em>Show guard zones on overlay</em></p>
+</li>
+<li>
+<p><em>Show target trails on overlay</em></p>
+</li>
+<li>
+<p><em>Show data on overlay when radar is standby.</em> (Such as guard zones)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>And lastly, you can re-select your radar types.</p>
+</div>
+<div class="paragraph">
+<p><a href="Home.html" class="page">Back to overview Plugin radar_pi</a></p>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
 </footer>
 <script src="../../_/js/site.js"></script>
-<script src="../../_/js/vendor/highlight.js"></script>
-<script>hljs.initHighlighting()</script>
-
-  <script>
-
-    var form = document.getElementById("searchForm");
-
-    function outputResults(response) {
-      var output = '';
-      for (var i = 0; i < response.hits.hits.length; i++) {
-
-        output += `
-          <div class="search-result">
-            <h3><a href="${response.hits.hits[i]._source.url}">${response.hits.hits[i]._source.title}</a></h3>
-            <p style="color: #666">Docs / ${response.hits.hits[i]._source.component.name}</p>
-            <p>${response.hits.hits[i].highlight["body.search"][0]}</p>
-            <hr>
-          </div>
-        `;
-      }
-      return output;
-    }
-
-    form.onsubmit = function (e) {
-      e.preventDefault();
-
-      var searchHost = 'http://localhost:9200/_search';
-
-      var searchPhrase = form[0].value;
-
-      var query = {
-        query: {
-          multi_match: {
-            query: searchPhrase,
-            fields: ["title.search^2", "body.search"]
-          }
-        },
-        highlight: {
-          fields: {
-            "body.search": {}
-          }
-        }
-      }
-
-
-      var xmlHttp = new XMLHttpRequest();
-      xmlHttp.open('POST', searchHost, false);
-      xmlHttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-      xmlHttp.send(JSON.stringify(query));
-      var response = JSON.parse(xmlHttp.responseText);
-
-      var output = outputResults(response);
-      //document.getElementById('total').innerHTML = 'found ' + response.hits.hits.length + ' results';
-      document.getElementById('results').innerHTML = output;
-    };
-  </script>
-</body>
-
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
 </html>
