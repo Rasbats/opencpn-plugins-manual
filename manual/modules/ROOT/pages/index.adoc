@@ -5,3 +5,7 @@ Start page for the user plugins manual.
 xref:plugins.adoc[Published Plugins (by Category)]
 
 xref:betaplugins.adoc[Beta Plugins]
+
+Test link:
+
+https://leamas.github.io/ocpn-manuals/plugin-installer/0.0.1/Program-design.html#_catalog_and_tarballs
