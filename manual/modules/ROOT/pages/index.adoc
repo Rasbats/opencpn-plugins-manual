@@ -1,16 +1,4 @@
-= manual
-
-== Page Coordinates
-
-page-component-name: {page-component-name}
-
-page-component-version: {page-component-version}
-
-page-module: {page-module}
-
-page-relative: {page-relative} 
-
-== HOME
+== MASTER PLUGINS
 
 xref:plugins.adoc[Published Plugins (by Category)]
 

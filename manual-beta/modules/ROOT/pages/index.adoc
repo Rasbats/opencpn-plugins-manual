@@ -1,18 +1,6 @@
-= manual-beta
+== BETA PLUGINS
 
-== Page Coordinates
-
-page-component-name: {page-component-name}
-
-page-component-version: {page-component-version}
-
-page-module: {page-module}
-
-page-relative: {page-relative} 
-
-== HOME
-
-xref:opencpn-master-plugins::index.adoc[Published Plugins (by Category)]
+xref:opencpn-master-plugins::index.adoc[Master Plugins]
 
 These are stable plugins that have been well tested. They are published on the main OpenCPN website downloads page. Where a managed version is available the plugin will appear in the master catalog of the OpenCPN program.
 
