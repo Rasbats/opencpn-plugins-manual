@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: OpenCPN Plugins Manual</title>
+    <link rel="canonical" href="https://github.com/Rasbats/opencpn-plugins-manual/manual/0.1/statusbar/statusbar.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <div class="navbar">
+    <div class="navbar-brand">
+      <div class="ocpn-logo"> </div>
+      <a class="navbar-title"
+         href="https://github.com/Rasbats/opencpn-plugins-manual"
+      >
+        OpenCPN Plugins Manual
+        </a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+       <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://www.opencpn.org">OpenCPN.org</a>
+            <a class="navbar-item"
+               href="https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual"
+            >
+               User Manual
+               </a>
+            <a class="navbar-item" href="https://github.com/opencpn/OpenCPN">
+               Github Site
+               </a>
+            <a class="navbar-item" href="https://opencpn.org/flyspray/">
+               Bugtracker
+               </a>
+            <a class="navbar-item"
+                href="https://rasbats.github.io/opencpn-plugins-manual/">
+                    Plugin Manual (pre-alpha)
+               </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="manual" data-version="0.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">OpenCPN Master Plugins</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../index.html">Home Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../plugins.html">Plugin Categories</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">OpenCPN Master Plugins</span>
+    <span class="version">0.1</span>
+  </div>
+  <ul class="components">
+    <li class="component">
+      <a class="title" href="../../../dash-t/0.1/dash-t.html">Dashboard Tactics</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../dash-t/0.1/dash-t.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../dead_reckoning/0.1/dead_reckoning.html">DR</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../dead_reckoning/0.1/dead_reckoning.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../odraw/0.1/odraw.html">odraw</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../odraw/0.1/odraw.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../manual-beta/0.1/index.html">OpenCPN Beta Plugins</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../manual-beta/0.1/index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component is-current">
+      <a class="title" href="../index.html">OpenCPN Master Plugins</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../otcurrent/0.1/otcurrent.html">otcurrent</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../otcurrent/0.1/otcurrent.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../photolayer/0.1/photolayer.html">PhotoLayer</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../photolayer/0.1/photolayer.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../radar/0.1/Home.html">Radar Manual</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../radar/0.1/Home.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../sar/0.1/sar.html">SAR</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../sar/0.1/sar.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../shipdriver/0.1/shipdriver.html">ShipDriver</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../shipdriver/0.1/shipdriver.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../vfkaps/0.1/vfkaps.html">vfkaps</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../vfkaps/0.1/vfkaps.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../../watchdog/2.4.29/watchdog.html">Watchdog</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../watchdog/2.4.29/watchdog.html">2.4.29</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/Rasbats/opencpn-plugins-manual/edit/main/manual/modules/statusbar/pages/statusbar.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="sect1">
+<h2 id="_statusbar"><a class="anchor" href="#_statusbar"></a>StatusBar</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Alternative to the Standard Status bar at the bottom.</p>
+</div>
+<div class="sect2">
+<h3 id="_links"><a class="anchor" href="#_links"></a>Links</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Source: <a href="https://github.com/seandepagnier/statusbar_pi" class="bare">https://github.com/seandepagnier/statusbar_pi</a><br></p>
+</li>
+<li>
+<p>Download: <a href="https://opencpn.org/OpenCPN/plugins/statusbar.html" class="bare">https://opencpn.org/OpenCPN/plugins/statusbar.html</a><br></p>
+</li>
+<li>
+<p>Forum:
+<a href="http://www.cruisersforum.com/forums/f134/statusbar-plugin-119047.html">CF
+Statusbar_pi Thread</a><br></p>
+</li>
+<li>
+<p>YouTube: <a href="https://www.youtube.com/watch?v=sT23hDvFwz8">Statusbar</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_1_what_and_why"><a class="anchor" href="#_1_what_and_why"></a>1. What and Why</h3>
+<div class="sect3">
+<h4 id="_what_can_statusbar_do"><a class="anchor" href="#_what_can_statusbar_do"></a>What can StatusBar do?</h4>
+<div class="paragraph">
+<p>Shows Dashboard and Nmea Data at the bottom of the screen in various
+formats.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_why_is_statusbar_useful"><a class="anchor" href="#_why_is_statusbar_useful"></a>Why is StatusBar useful?</h4>
+<div class="paragraph">
+<p>Informs the skipper of conditions that are useful in navigation.
+StatusBar plugin replaces builtin statusbar. The builtin status bar
+(disable from the User Interface tab) can be very difficult to read.</p>
+</div>
+<div class="paragraph">
+<p>The statusbar plugin improves on some of these difficulties. It is best
+used with OpenGL enabled (requires some basic OpenGL extensions).</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_2_installation"><a class="anchor" href="#_2_installation"></a>2. Installation</h3>
+<div class="sect3">
+<h4 id="_a_where_to_get_this_plugin"><a class="anchor" href="#_a_where_to_get_this_plugin"></a>A. Where to get this plugin:</h4>
+<div class="paragraph">
+<p>Github: <a href="https://github.com/seandepagnier/statusbar_pi" class="bare">https://github.com/seandepagnier/statusbar_pi</a></p>
+</div>
+<div class="paragraph">
+<p>Available on the Downloads Page:
+<a href="https://opencpn.org/OpenCPN/info/downloadplugins.html" class="bare">https://opencpn.org/OpenCPN/info/downloadplugins.html</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_b_how_to_install_the_plugin"><a class="anchor" href="#_b_how_to_install_the_plugin"></a>B. How to install the plugin:</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Double-click the downloaded file (with “statusbar_pi” in the name and
+“.exe” as extension) and follow the set-up instructions.</p>
+</li>
+<li>
+<p>Open (or restart) OpenCPN.</p>
+</li>
+<li>
+<p>Click <strong>Tools-Options-Plugins</strong></p>
+</li>
+<li>
+<p>Scroll down until you see the StatusBar-pi.</p>
+</li>
+<li>
+<p>Click “<strong>Enable</strong>” to enable the plugin and then hit “<strong>Apply</strong>”.</p>
+</li>
+<li>
+<p>Use “<strong>Preferences</strong>” to set your preferences (should be
+self-explanatory). Then “<strong>Apply</strong>.</p>
+</li>
+<li>
+<p>Then close <strong>Options</strong> and the data should appear at the bottom of the
+screen.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_c_how_to_disable_the_opencpn_lower_status_bar"><a class="anchor" href="#_c_how_to_disable_the_opencpn_lower_status_bar"></a>C. How to disable the OpenCPN lower Status bar.</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Settings &gt; User Interface.</p>
+</li>
+<li>
+<p>Uncheck “Show Status Bar”.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_d_where_is_the_cruisers_forum_discussion"><a class="anchor" href="#_d_where_is_the_cruisers_forum_discussion"></a>D. Where is the Cruiser&#8217;s Forum Discussion?:</h4>
+<div class="paragraph">
+<p><a href="http://www.cruisersforum.com/forums/f134/statusbar-plugin-119047.html#post1474705">CF
+Statusbar_pi thread</a></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_3_standard_actions"><a class="anchor" href="#_3_standard_actions"></a>3. Standard Actions</h3>
+<div class="imageblock">
+<div class="content">
+<img src="_images/statusbar-prefs-info.jpeg" alt="statusbar prefs info">
+</div>
+</div>
+<div class="sect3">
+<h4 id="_preferences_menu"><a class="anchor" href="#_preferences_menu"></a>Preferences Menu</h4>
+<div class="sect4">
+<h5 id="_display_string"><a class="anchor" href="#_display_string"></a>Display String</h5>
+<div class="paragraph">
+<p>Display of data is controlled in the Preferences menu in the Display
+String area. Below is the default Display String entered under
+Preferences. This area is edited to display the information you would
+like shown on the screen.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-code hljs" data-lang="code">%02A %2.2B%D  %02E %2.2F%H  %.1I %03J\n%02O %2.2P%R %02S %2.2T%V %03W %.2X %03.a</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The formatting and values available to the user are listed below under
+<strong>Info</strong></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_fonts_color_and_transparency"><a class="anchor" href="#_fonts_color_and_transparency"></a>Fonts, Color and Transparency</h5>
+<div class="paragraph">
+<p>Under preferences the user can select font, font color and size as well
+as transparency.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_select_dropdown"><a class="anchor" href="#_select_dropdown"></a>Select Dropdown</h5>
+<div class="paragraph">
+<p>Used to control the Appearance of the data. There are three <strong>Select</strong>
+string types which can be picked from the dropdown: <strong>Default</strong>,
+<strong>Ownship</strong>, <strong>Multiline</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-code hljs" data-lang="code">wxString DefaultString = _T("Ship %02A %2.4B %D   %02E %2.4F %H   SOG %.2I  COG %03J
+%02O %2.4P %R   %02S %2.4T %V   %03W  %.1X    Scale %Z");
+
+wxString OwnshipString = _T("Ship %02A %2.4B %D   %02E %2.4F %H   SOG %.2I  COG %03J");
+
+wxString MultilineString = _T("%02A %2.2B%D  %02E %2.2F%H  %.1I %03J
+\n%02O %2.2P%R %02S %2.2T%V %03W %.2X %03.a");</code></pre>
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/statsbar-prefs-default.jpg" alt="statsbar prefs default">
+</div>
+</div>
+<div class="paragraph">
+<p>Select Dropdown - Default</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/statusbar-prefs-multiline.jpg" alt="statusbar prefs multiline">
+</div>
+</div>
+<div class="paragraph">
+<p>Select Dropdown - Multiline</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/statusbar-prefs-ownship.jpg" alt="statusbar prefs ownship">
+</div>
+</div>
+<div class="paragraph">
+<p>Select Dropdown - Ownship</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_info_button"><a class="anchor" href="#_info_button"></a>Info Button</h5>
+<div class="paragraph">
+<p>The button <strong>Info</strong> displays a popup window with the Code key. The allowed
+Display strings can include the following formats:</p>
+</div>
+<div class="paragraph">
+<p>For example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-code hljs" data-lang="code">"%03.0E\"  Gives ship longitude.
+The format specifier 03.0 gives how many places to round to, and to use leading 0's etc.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The following are the specifier formats:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%A</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship lat degrees</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship lat minutes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%C</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship lat seconds</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%D</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship North/South</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%E</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship lon degrees</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%F</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship lon minutes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship lon seconds</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%H</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship East/West</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%I</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship sog</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%J</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship cog</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%K</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship heading true</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%L</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ship heading magnetic</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%O</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor lat degrees</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%P</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor lat minutes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%Q</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor lat seconds</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%R</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor North/South</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%S</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor lon degrees</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%T</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor lon minutes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%U</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor lon seconds</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%V</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cursor East/West</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%W</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">from ship bearing to cursor</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%X</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">distance to cursor mercator</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%Y</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">distance to cursor great circle</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%Z</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">chart scale</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">viewport orientation angle</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">frames rendered per second</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%t</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Time</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%z</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Time Zone</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">%%</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">print a percent</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Sean D&#8217;Epagnier is the author of this plugin. His website is
+<a href="http://seandepagnier.users.sourceforge.net/" class="bare">http://seandepagnier.users.sourceforge.net/</a> where you will find a
+“Donate” button.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.
+     Sources: https://gitlab.com/leamas/antora-ui-default
+  </p>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
