@@ -1,6 +1,6 @@
 == BETA PLUGINS
 
-* xref:manual-beta::engine-dash:engine-dash.adoc[Engine Dashboard]  
+* xref:engine-dash:engine-dash.adoc[Engine Dashboard]  
 * xref:race-start:race-start.adoc[Race Start]  
 * xref:trackpoint:trackpoint.adoc[Trackpoint]  
 * xref:tidefinder:tidefinder.adoc[TideFinder]
