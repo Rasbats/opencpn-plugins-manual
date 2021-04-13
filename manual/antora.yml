@@ -1,4 +1,4 @@
-name: opencpn-master-plugins
+name: manual
 title: OpenCPN Master Plugins
 version: '0.1'
 start_page: ROOT:index.adoc 
