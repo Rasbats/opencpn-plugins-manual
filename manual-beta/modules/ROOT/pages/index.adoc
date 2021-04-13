@@ -1,3 +1,15 @@
+= manual-beta
+
+== Page Coordinates
+
+page-component-name: {page-component-name}
+
+page-component-version: {page-component-version}
+
+page-module: {page-module}
+
+page-relative: {page-relative} 
+
 == HOME
 
 xref:manual::index.adoc[Published Plugins (by Category)]
