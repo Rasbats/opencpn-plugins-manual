@@ -26,11 +26,11 @@ These plugins are installed with the basic OpenCPN program.
 * xref:nv_charts:nv_charts.adoc[nv_charts]  
 * xref:s63_vector_charts:s63_vector_charts.adoc[s63_vector_charts]  
 * xref:bsb4_charts:bsb4_charts.adoc[bsb4_charts]  
-* xref:oesenc:oesenc.adoc[oeSENC]  
+* xref:oeSENC:oesenc.adoc[oeSENC]  
 * xref:fugawi:fugawi.adoc[Fugawi (deprecated)]  
 * xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther]  
-* xref:rotationctrl:rotationctrl.adoc[RotationCtrl]  
-* xref:chartscale:chartscale.adoc[Chartscale]  
+* xref:RotationCtrl:rotationctrl.adoc[RotationCtrl]  
+* xref:ChartScale:chartscale.adoc[Chartscale]  
 * xref:objsearch:objsearch.adoc[objsearch]  
 * xref:projections:projections.adoc[projections]
 
@@ -61,8 +61,8 @@ These plugins are installed with the basic OpenCPN program.
 === Sailing  
 * xref:tactics:tactics.adoc[tactics]  
 * xref:sweep_plot:sweep_plot.adoc[Sweep Plot]  
-* xref:polar:polar.adoc[polar]  
-* xref:windvane:windvane.adoc[windvane]
+* xref:Polar:polar.adoc[polar]  
+* xref:Windvane:windvane.adoc[windvane]
 
 === Weather  
 
