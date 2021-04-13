@@ -1,6 +1,6 @@
 == MASTER PLUGINS
 
-image::options-plugins-icon.png[]
+image:options-plugins-icon.png[]
 
 While the site is being built the plugin manual where the manual comes from the developer repository
 is indicated by '#'
