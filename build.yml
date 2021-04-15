@@ -64,9 +64,9 @@ content:
       start_path: manual/sar
       edit_url: true
     
-    - url: https://github.com/nohal/ais_radar_display_pi.git   
+    - url: https://github.com/nohal/aisradar_pi.git   
       branches: master
-      start_path: manual/aisradar
+      start_path: manual/ais_radar_display
       edit_url: true
 
     - url: https://github.com/nohal/vdr_pi.git   
