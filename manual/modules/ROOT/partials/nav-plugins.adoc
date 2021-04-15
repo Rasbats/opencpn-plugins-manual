@@ -4,7 +4,7 @@
 ** xref:opencpn-master-plugins:grib_weather:grib_weather.adoc[grib_weather]
 ** xref:opencpn-master-plugins:chart_downloader_tab:chart_downloader_tab.adoc[chart_downloader_tab]
 * AIS / Radar
-** xref:opencpn-master-plugins:ais_radar_display:ais_radar_display.adoc[AISradar Display]
+** xref:ais_radar_display:ROOT:ais_radar_display.adoc[AISradar Display]
 ** xref:radar:ROOT:Home.adoc[Radar Display #]
 * Charts
 ** xref:opencpn-master-plugins:nv_charts:nv_charts.adoc[nv_charts]
