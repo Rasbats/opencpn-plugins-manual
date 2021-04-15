@@ -1,8 +1,2 @@
 * xref:index.adoc[Home Page]
 ** xref:plugins.adoc[Master Plugins]
-** xref:author.adoc[Authoring the Manuals]
-*** xref:intro.adoc[Introduction]
-*** xref:faq.adoc[FAQ]
-*** xref:tools.adoc[Tools]
-*** xref:useful.adoc[Useful Stuff]
-*** xref:local-build.adoc[Local Build]
