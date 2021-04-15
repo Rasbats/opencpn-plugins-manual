@@ -1,2 +1,15 @@
 * xref:index.adoc[Home Page]
 ** xref:plugins.adoc[Master Plugins]
+
+* Plugins
++
+--
+include::partial$nav-plugins.adoc[]
+--
+* Beta Plugins
++
+--
+include::partial$nav-betaplugins.adoc[]
+--
+*
+
