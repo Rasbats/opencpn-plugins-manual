@@ -64,6 +64,40 @@ content:
       start_path: manual/sar
       edit_url: true
     
+    - url: https://github.com/nohal/aisradar_pi.git   
+      branches: master
+      start_path: manual/aisradar
+      edit_url: true
+
+    - url: https://github.com/nohal/vdr_pi.git   
+      branches: master
+      start_path: manual/vdr
+      edit_url: true
+
+    - url: https://github.com/nohal/gecomapi_pi.git   
+      branches: master
+      start_path: manual/googleearth
+      edit_url: true
+
+    - url: https://github.com/nohal/iacfleet_pi.git   
+      branches: master
+      start_path: manual/iacfleet
+      edit_url: true
+
+    - url: https://github.com/nohal/launcher_pi.git   
+      branches: master
+      start_path: manual/launcher
+      edit_url: true
+
+    - url: https://github.com/nohal/ocpndebugger_pi.git   
+      branches: master
+      start_path: manual/debugger
+      edit_url: true
+
+    - url: https://github.com/nohal/objsearch_pi.git   
+      branches: master
+      start_path: manual/objsearch
+      edit_url: true
 
 ui:   
   bundle:
