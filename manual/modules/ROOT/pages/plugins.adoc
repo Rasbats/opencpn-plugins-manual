@@ -31,19 +31,19 @@ These plugins are installed with the basic OpenCPN program.
 * xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther]  
 * xref:RotationCtrl:rotationctrl.adoc[RotationCtrl]  
 * xref:ChartScale:chartscale.adoc[Chartscale]  
-* xref:objsearch:objsearch.adoc[objsearch]  
+* xref:objsearch:ROOT:objsearch.adoc[objsearch]  
 * xref:projections:projections.adoc[projections]
 
 === Logs  
 * xref:dash-t:ROOT:dash-t.adoc[dash-t #]  
 * xref:logbook:logbook.adoc[logbook]  
 * xref:find-it:find-it.adoc[find-it]  
-* xref:vdr:vdr.adoc[vdr]  
+* xref:vdr:ROOT:vdr.adoc[vdr]  
 * xref:nmea_converter:nmea_converter.adoc[NMEA Converter]  
 
 === Navigation  
 * xref:squiddio:squiddio.adoc[Squiddio]  
-* xref:googleearth:googleearth.adoc[googleearth]  
+* xref:googleearth:ROOT:googleearth.adoc[googleearth]  
 * xref:celestial_navigation:celestial_navigation.adoc[celestial_navigation]  
 * xref:route_great_circle:route_great_circle.adoc[Route Great Circle]  
 * xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning #]
@@ -67,15 +67,15 @@ These plugins are installed with the basic OpenCPN program.
 === Weather  
 
 * xref:weatherfax:weatherfax.adoc[weatherfax]  
-* xref:iacfleet:iacfleet.adoc[iacfleet]  
+* xref:iacfleet:ROOT:iacfleet.adoc[iacfleet]  
 * xref:climatology:climatology.adoc[climatology]  
 * xref:weather_routing:weather_routing.adoc[Weather Routing]
 
 === Utility
 * xref:statusbar:statusbar.adoc[Statusbar]  
 * xref:calculator:calculator.adoc[calculator]  
-* xref:launcher:launcher.adoc[launcher]  
-* xref:debugger:debugger.adoc[debugger]  
+* xref:launcher:ROOT:launcher.adoc[launcher]  
+* xref:debugger:ROOT:debugger.adoc[debugger]  
 * xref:pypilot:pypilot.adoc[pypilot]
 * xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver #]
 * xref:twocan:twocan.adoc[twocan]  
