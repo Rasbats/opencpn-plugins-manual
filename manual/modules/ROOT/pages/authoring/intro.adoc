@@ -23,7 +23,7 @@ asciidoc extension.
 Visit the link:tools.adoc[Tools] page for more details.
 
 We hope to move the git under the ``github.com/opencpn/'' umbrella.
-Rasbats is only a temporary test basis.
+Rasbats is only a temporary test platform.
 
 *Reading the adoc files*
 
