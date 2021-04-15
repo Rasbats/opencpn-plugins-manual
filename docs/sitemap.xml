@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-ais_radar_display.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-dash-t.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-dead_reckoning.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-debugger.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-googleearth.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-iacfleet.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-launcher.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-objsearch.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-odraw.xml</loc>
@@ -29,6 +47,9 @@
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-shipdriver.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-vdr.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-vfkaps.xml</loc>
