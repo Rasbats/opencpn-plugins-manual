@@ -15,7 +15,7 @@
 ** xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther]
 ** xref:opencpn-master-plugins:RotationCtrl:rotationctrl.adoc[RotationCtrl]
 ** xref:opencpn-master-plugins:ChartScale:chartscale.adoc[Chartscale]
-** xref:opencpn-master-plugins:objsearch:objsearch.adoc[objsearch]
+** xref:objsearch:ROOT:objsearch.adoc[objsearch]
 ** xref:opencpn-master-plugins:projections:projections.adoc[projections]
 * Logs
 ** xref:dash-t:ROOT:dash-t.adoc[dash-t #]
@@ -25,7 +25,7 @@
 ** xref:opencpn-master-plugins:nmea_converter:nmea_converter.adoc[NMEA Converter]
 * Navigation
 ** xref:opencpn-master-plugins:squiddio:squiddio.adoc[Squiddio]
-** xref:opencpn-master-plugins:googleearth:googleearth.adoc[googleearth]
+** xref:googleearth:ROOT:googleearth.adoc[googleearth]
 ** xref:opencpn-master-plugins:celestial_navigation:celestial_navigation.adoc[celestial_navigation]
 ** xref:opencpn-master-plugins:route_great_circle:route_great_circle.adoc[Route Great Circle]
 ** xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning #]
@@ -44,14 +44,14 @@
 ** xref:opencpn-master-plugins:Windvane:windvane.adoc[windvane]
 * Weather
 ** xref:opencpn-master-plugins:weatherfax:weatherfax.adoc[weatherfax]
-** xref:opencpn-master-plugins:iacfleet:iacfleet.adoc[iacfleet]
+** xref:iacfleet:ROOT:iacfleet.adoc[iacfleet]
 ** xref:opencpn-master-plugins:climatology:climatology.adoc[climatology]
 ** xref:opencpn-master-plugins:weather_routing:weather_routing.adoc[Weather Routing]
 * Utility
 ** xref:opencpn-master-plugins:statusbar:statusbar.adoc[Statusbar]
 ** xref:opencpn-master-plugins:calculator:calculator.adoc[calculator]
-** xref:opencpn-master-plugins:launcher:launcher.adoc[launcher]
-** xref:opencpn-master-plugins:debugger:debugger.adoc[debugger]
+** xref:launcher:ROOT:launcher.adoc[launcher]
+** xref:debugger:ROOT:debugger.adoc[debugger]
 ** xref:opencpn-master-plugins:pypilot:pypilot.adoc[pypilot]
 ** xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
 ** xref:opencpn-master-plugins:twocan:twocan.adoc[twocan]
