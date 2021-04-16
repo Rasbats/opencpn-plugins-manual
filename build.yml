@@ -144,6 +144,11 @@ content:
       start_path: manual/pypilot
       edit_url: true
 
+    - url: https://github.com/rgleason/rotationctrl_pi.git   
+      branches: master
+      start_path: manual/rotationctrl
+      edit_url: true
+
 ui:   
   bundle:
       url: ./ui-bundle.zip
