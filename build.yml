@@ -99,6 +99,51 @@ content:
       start_path: manual/objsearch
       edit_url: true
 
+    - url: https://github.com/rgleason/chartscale_pi.git   
+      branches: master
+      start_path: manual/chartscale
+      edit_url: true
+
+    - url: https://github.com/rgleason/projections_pi.git   
+      branches: master
+      start_path: manual/projections
+      edit_url: true
+
+    - url: https://github.com/rgleason/celestial_navigation_pi.git   
+      branches: master
+      start_path: manual/celestial_navigation
+      edit_url: true
+
+    - url: https://github.com/rgleason/plots_pi.git   
+      branches: master
+      start_path: manual/sweep_plot
+      edit_url: true
+
+    - url: https://github.com/rgleason/weatherfax_pi.git   
+      branches: master
+      start_path: manual/weatherfax
+      edit_url: true
+
+    - url: https://github.com/rgleason/climatology_pi.git   
+      branches: master
+      start_path: manual/climatology
+      edit_url: true
+
+    - url: https://github.com/rgleason/weather_routing_pi.git   
+      branches: master
+      start_path: manual/weather_routing
+      edit_url: true
+
+    - url: https://github.com/rgleason/statusbar_pi.git   
+      branches: master
+      start_path: manual/statusbar
+      edit_url: true
+
+    - url: https://github.com/rgleason/pypilot_pi.git   
+      branches: master
+      start_path: manual/pypilot
+      edit_url: true
+
 ui:   
   bundle:
       url: ./ui-bundle.zip
