@@ -19,7 +19,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:chart_downloader_tab:chart_downloader_tab.adoc[chart_downloader_tab]
 
 === AIS / Radar  
-* xref:ais_radar_display:ais_radar_display.adoc[AISradar Display]  
+* xref:ais_radar_display:ROOT:ais_radar_display.adoc[AISradar Display #]  
 * xref:radar:ROOT:Home.adoc[Radar Display #]
 
 === Charts  
@@ -28,23 +28,23 @@ These plugins are installed with the basic OpenCPN program.
 * xref:bsb4_charts:bsb4_charts.adoc[bsb4_charts]  
 * xref:oeSENC:oesenc.adoc[oeSENC]  
 * xref:fugawi:fugawi.adoc[Fugawi (deprecated)]  
-* xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther]  
-* xref:rotationctrl:ROOT:rotationctrl.adoc[RotationCtrl]  
-* xref:chartscale:ROOT:chartscale.adoc[ChartScale]  
-* xref:objsearch:ROOT:objsearch.adoc[objsearch]  
-* xref:projections:ROOT:projections.adoc[projections]
+* xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther #]  
+* xref:rotationctrl:ROOT:rotationctrl.adoc[RotationCtrl #]  
+* xref:chartscale:ROOT:chartscale.adoc[ChartScale #]  
+* xref:objsearch:ROOT:objsearch.adoc[objsearch #]  
+* xref:projections:ROOT:projections.adoc[projections #]
 
 === Logs  
 * xref:dash-t:ROOT:dash-t.adoc[dash-t #]  
 * xref:logbook:logbook.adoc[logbook]  
 * xref:find-it:find-it.adoc[find-it]  
-* xref:vdr:ROOT:vdr.adoc[vdr]  
+* xref:vdr:ROOT:vdr.adoc[vdr #]  
 * xref:nmea_converter:nmea_converter.adoc[NMEA Converter]  
 
 === Navigation  
 * xref:squiddio:squiddio.adoc[Squiddio]  
-* xref:googleearth:ROOT:googleearth.adoc[googleearth]  
-* xref:celestial_navigation:ROOT:celestial_navigation.adoc[celestial_navigation]  
+* xref:googleearth:ROOT:googleearth.adoc[googleearth #]  
+* xref:celestial_navigation:ROOT:celestial_navigation.adoc[celestial_navigation #]  
 * xref:route_great_circle:route_great_circle.adoc[Route Great Circle]  
 * xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning #]
 * xref:otcurrent:ROOT:otcurrent.adoc[otidalcurrent #]  
@@ -60,23 +60,23 @@ These plugins are installed with the basic OpenCPN program.
 
 === Sailing  
 * xref:tactics:tactics.adoc[tactics]  
-* xref:sweep_plot:ROOT:sweep_plot.adoc[Sweep Plot]  
+* xref:sweep_plot:ROOT:sweep_plot.adoc[Sweep Plot #]  
 * xref:Polar:polar.adoc[polar]  
 * xref:Windvane:windvane.adoc[windvane]
 
 === Weather  
 
-* xref:weatherfax:ROOT:weatherfax.adoc[weatherfax]  
-* xref:iacfleet:ROOT:iacfleet.adoc[iacfleet]  
-* xref:climatology:ROOT:climatology.adoc[climatology]  
-* xref:weather_routing:ROOT:weather_routing.adoc[Weather Routing]
+* xref:weatherfax:ROOT:weatherfax.adoc[weatherfax #]  
+* xref:iacfleet:ROOT:iacfleet.adoc[iacfleet #]  
+* xref:climatology:ROOT:climatology.adoc[climatology #]  
+* xref:weather_routing:ROOT:weather_routing.adoc[Weather Routing #]
 
 === Utility
-* xref:statusbar:ROOT:statusbar.adoc[Statusbar]  
+* xref:statusbar:ROOT:statusbar.adoc[Statusbar #]  
 * xref:calculator:calculator.adoc[calculator]  
-* xref:launcher:ROOT:launcher.adoc[launcher]  
-* xref:debugger:ROOT:debugger.adoc[debugger]  
-* xref:pypilot:ROOT:pypilot.adoc[pypilot]
+* xref:launcher:ROOT:launcher.adoc[launcher #]  
+* xref:debugger:ROOT:debugger.adoc[debugger #]  
+* xref:pypilot:ROOT:pypilot.adoc[pypilot #]
 * xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver #]
 * xref:twocan:twocan.adoc[twocan]  
 * xref:odometer:odometer.adoc[odometer]  

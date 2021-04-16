@@ -58,6 +58,9 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-radar.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-rotationctrl.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-sar.xml</loc>
 </sitemap>
 <sitemap>
