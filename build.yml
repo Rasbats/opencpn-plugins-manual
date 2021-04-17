@@ -149,6 +149,11 @@ content:
       start_path: manual/rotationctrl
       edit_url: true
 
+    - url: https://github.com/rasbats/calculator_pi.git   
+      branches: master
+      start_path: manual/calculator
+      edit_url: true
+
     - url: https://github.com/rasbats/otidalplan_pi.git   
       branches: master
       start_path: manual/otidalplan

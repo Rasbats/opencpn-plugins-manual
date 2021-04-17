@@ -73,7 +73,7 @@ These plugins are installed with the basic OpenCPN program.
 
 === Utility
 * xref:statusbar:ROOT:statusbar.adoc[Statusbar #]  
-* xref:calculator:calculator.adoc[calculator]  
+* xref:calculator:ROOT:calculator.adoc[calculator]  
 * xref:launcher:ROOT:launcher.adoc[launcher #]  
 * xref:debugger:ROOT:debugger.adoc[debugger #]  
 * xref:pypilot:ROOT:pypilot.adoc[pypilot #]
