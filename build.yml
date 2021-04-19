@@ -159,6 +159,31 @@ content:
       start_path: manual/otidalplan
       edit_url: true
 
+    - url: https://github.com/bdbcat/ofc_pi.git
+      branches: master
+      start_path: manual/fugawi
+      edit_url: true
+
+    - url: https://github.com/bdbcat/nvc_pi.git
+      branches: master
+      start_path: manual/nv_charts
+      edit_url: true
+
+    - url: https://github.com/bdbcat/s63_pi.git
+      branches: master
+      start_path: manual/s63_vector_charts
+      edit_url: true
+
+    - url: https://github.com/bdbcat/oesenc_pi.git
+      branches: master
+      start_path: manual/oesenc
+      edit_url: true
+    
+    - url: https://github.com/bdbcat/bsb4_pi.git
+      branches: master
+      start_path: manual/bsb4_charts
+      edit_url: true
+
 ui:   
   bundle:
       url: ./ui-bundle.zip

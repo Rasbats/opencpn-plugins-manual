@@ -23,11 +23,11 @@ These plugins are installed with the basic OpenCPN program.
 * xref:radar:ROOT:Home.adoc[Radar Display #]
 
 === Charts  
-* xref:nv_charts:nv_charts.adoc[nv_charts]  
-* xref:s63_vector_charts:s63_vector_charts.adoc[s63_vector_charts]  
-* xref:bsb4_charts:bsb4_charts.adoc[bsb4_charts]  
-* xref:oeSENC:oesenc.adoc[oeSENC]  
-* xref:fugawi:fugawi.adoc[Fugawi (deprecated)]  
+* xref:nv_charts:ROOT:nv_charts.adoc[nv_charts]  
+* xref:s63_vector_charts:ROOT:s63_vector_charts.adoc[s63_vector_charts]  
+* xref:bsb4_charts:ROOT:bsb4_charts.adoc[bsb4_charts]  
+* xref:oeSENC:ROOT:oesenc.adoc[oeSENC]  
+* xref:fugawi:ROOT:fugawi.adoc[Fugawi (deprecated)]  
 * xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther #]  
 * xref:rotationctrl:ROOT:rotationctrl.adoc[RotationCtrl #]  
 * xref:chartscale:ROOT:chartscale.adoc[ChartScale #]  
