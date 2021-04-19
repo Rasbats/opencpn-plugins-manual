@@ -4,6 +4,9 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-ais_radar_display.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-bsb4_charts.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-calculator.xml</loc>
 </sitemap>
 <sitemap>
@@ -25,6 +28,9 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-debugger.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-fugawi.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-googleearth.xml</loc>
 </sitemap>
 <sitemap>
@@ -34,10 +40,16 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-launcher.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-nv_charts.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-objsearch.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-odraw.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-oesenc.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-opencpn-beta-plugins.xml</loc>
@@ -65,6 +77,9 @@
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-rotationctrl.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-s63_vector_charts.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-sar.xml</loc>

@@ -10,7 +10,7 @@
 ** xref:nv_charts:ROOT:nv_charts.adoc[nv_charts]
 ** xref:s63_vector_charts:ROOT:s63_vector_charts.adoc[s63_vector_charts]
 ** xref:bsb4_charts:ROOT:bsb4_charts.adoc[bsb4_charts]
-** xref:oeSENC:ROOT:oesenc.adoc[oeSENC]
+** xref:oesenc:ROOT:oesenc.adoc[oeSENC]
 ** xref:fugawi:ROOT:fugawi.adoc[Fugawi (deprecated)]
 ** xref:vfkaps:ROOT:vfkaps.adoc[VfKaps - VentureFarther]
 ** xref:rotationctrl:ROOT:rotationctrl.adoc[RotationCtrl]
