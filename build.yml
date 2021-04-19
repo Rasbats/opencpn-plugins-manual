@@ -176,7 +176,7 @@ content:
 
     - url: https://github.com/bdbcat/oesenc_pi.git
       branches: master
-      start_path: manual/oesenc
+      start_path: manual/oeSENC
       edit_url: true
     
     - url: https://github.com/bdbcat/bsb4_pi.git
