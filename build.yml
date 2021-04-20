@@ -191,7 +191,7 @@ content:
 
     - url: https://github.com/rgleason/FindIt_pi.git   
       branches: master
-      start_path: manual/findit
+      start_path: manual/find-it
       edit_url: true
 
     - url: https://github.com/rgleason/route_pi.git   
