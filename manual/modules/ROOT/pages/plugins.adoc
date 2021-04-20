@@ -36,7 +36,7 @@ These plugins are installed with the basic OpenCPN program.
 
 === Logs  
 * xref:dash-t:ROOT:dash-t.adoc[dash-t #]  
-* xref:logbook:ROOT:logbook.adoc[logbook #
+* xref:logbook:ROOT:logbook.adoc[logbook #]
 * xref:nmea_converter:nmea_converter.adoc[NMEA Converter]  
 
 === Navigation  
