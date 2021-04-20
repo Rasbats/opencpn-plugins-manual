@@ -184,6 +184,30 @@ content:
       start_path: manual/bsb4_charts
       edit_url: true
 
+    - url: https://github.com/rgleason/logbook_pi.git   
+      branches: master
+      start_path: manual/logbook
+      edit_url: true
+
+    - url: https://github.com/rgleason/FindIt_pi.git   
+      branches: master
+      start_path: manual/findit
+      edit_url: true
+
+    - url: https://github.com/rgleason/route_pi.git   
+      branches: master
+      start_path: manual/route_great_circle
+      edit_url: true
+
+    - url: https://github.com/rgleason/tactics_pi.git   
+      branches: master
+      start_path: manual/tactics
+      edit_url: true
+
+    - url: https://github.com/rgleason/polar_pi.git   
+      branches: master
+      start_path: manual/polar
+      edit_url: true
 ui:   
   bundle:
       url: ./ui-bundle.zip
