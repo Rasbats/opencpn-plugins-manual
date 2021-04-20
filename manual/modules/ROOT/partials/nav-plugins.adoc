@@ -32,7 +32,7 @@
 ** xref:otcurrent:ROOT:otcurrent.adoc[otidalcurrent]
 ** xref:photolayer:ROOT:photolayer.adoc[PhotoLayer]
 ** xref:opencpn-master-plugins:ge2kap:ge2kap.adoc[GE2KAP Companion Software]
-** xref:opencpn-master-plugins:wmm:wmm.adoc[WMM (Included)]
+** xref:opencpn-master-plugins:wmm:wmm.adoc[WMM (Included in OpenCPN)]
 * Safety
 ** xref:odraw:ROOT:odraw.adoc[odraw]
 ** xref:watchdog:ROOT:watchdog.adoc[Watchdog]
