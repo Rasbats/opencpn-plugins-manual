@@ -36,8 +36,8 @@ These plugins are installed with the basic OpenCPN program.
 
 === Logs  
 * xref:dash-t:ROOT:dash-t.adoc[dash-t #]  
-* xref:logbook:logbook.adoc[logbook]  
-* xref:find-it:find-it.adoc[find-it]  
+* xref:logbook:ROOT:logbook.adoc[logbook]  
+* xref:find-it:ROOT:find-it.adoc[find-it]  
 * xref:vdr:ROOT:vdr.adoc[vdr #]  
 * xref:nmea_converter:nmea_converter.adoc[NMEA Converter]  
 
@@ -45,7 +45,7 @@ These plugins are installed with the basic OpenCPN program.
 * xref:squiddio:squiddio.adoc[Squiddio]  
 * xref:googleearth:ROOT:googleearth.adoc[googleearth #]  
 * xref:celestial_navigation:ROOT:celestial_navigation.adoc[celestial_navigation #]  
-* xref:route_great_circle:route_great_circle.adoc[Route Great Circle]  
+* xref:route_great_circle:ROOT:route_great_circle.adoc[Route Great Circle]  
 * xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning #]
 * xref:otcurrent:ROOT:otcurrent.adoc[otidalcurrent #]  
 * xref:photolayer:ROOT:photolayer.adoc[PhotoLayer #]  
@@ -59,9 +59,9 @@ These plugins are installed with the basic OpenCPN program.
 * xref:sar:ROOT:sar.adoc[SAR #]
 
 === Sailing  
-* xref:tactics:tactics.adoc[tactics]  
+* xref:tactics:ROOT:tactics.adoc[tactics]  
 * xref:sweep_plot:ROOT:sweep_plot.adoc[Sweep Plot #]  
-* xref:Polar:polar.adoc[polar]  
+* xref:Polar:ROOT:polar.adoc[polar]  
 * xref:Windvane:windvane.adoc[windvane]
 
 === Weather  

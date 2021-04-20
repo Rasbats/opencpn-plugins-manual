@@ -19,15 +19,15 @@
 ** xref:projections:ROOT:projections.adoc[projections]
 * Logs
 ** xref:dash-t:ROOT:dash-t.adoc[dash-t #]
-** xref:opencpn-master-plugins:logbook:logbook.adoc[logbook]
-** xref:opencpn-master-plugins:find-it:find-it.adoc[find-it]
+** xref:logbook:ROOT:logbook.adoc[logbook]
+** xref:find-it:ROOT:find-it.adoc[find-it]
 ** xref:vdr:ROOT:vdr.adoc[vdr]
 ** xref:opencpn-master-plugins:nmea_converter:nmea_converter.adoc[NMEA Converter]
 * Navigation
 ** xref:opencpn-master-plugins:squiddio:squiddio.adoc[Squiddio]
 ** xref:googleearth:ROOT:googleearth.adoc[googleearth]
 ** xref:celestial_navigation:ROOT:celestial_navigation.adoc[celestial_navigation]
-** xref:opencpn-master-plugins:route_great_circle:route_great_circle.adoc[Route Great Circle]
+** xref:route_great_circle:ROOT:route_great_circle.adoc[Route Great Circle]
 ** xref:dead_reckoning:ROOT:dead_reckoning.adoc[Dead Reckoning]
 ** xref:otcurrent:ROOT:otcurrent.adoc[otidalcurrent]
 ** xref:photolayer:ROOT:photolayer.adoc[PhotoLayer]
@@ -38,9 +38,9 @@
 ** xref:watchdog:ROOT:watchdog.adoc[Watchdog]
 ** xref:sar:ROOT:sar.adoc[SAR #]
 * Sailing
-** xref:opencpn-master-plugins:tactics:tactics.adoc[tactics]
+** xref:tactics:ROOT:tactics.adoc[tactics]
 ** xref:sweep_plot:ROOT:sweep_plot.adoc[Sweep Plot]
-** xref:opencpn-master-plugins:Polar:polar.adoc[polar]
+** xref:Polar:ROOT:polar.adoc[polar]
 ** xref:opencpn-master-plugins:Windvane:windvane.adoc[windvane]
 * Weather
 ** xref:weatherfax:ROOT:weatherfax.adoc[weatherfax]

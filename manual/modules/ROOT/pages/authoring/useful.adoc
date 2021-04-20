@@ -32,6 +32,10 @@ https://pandoc.org/demos.html
 
 * *Convert all files in a folder using Pandoc*
 
+----
+find ./ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "./output/$(basename ${0%.md}.adoc)"' {} \;
+----
+
 https://stackoverflow.com/questions/26126362/converting-all-files-in-a-folder-to-md-using-pandoc-on-mac
 
 * *Bash*
