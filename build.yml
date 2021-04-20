@@ -184,7 +184,7 @@ content:
       start_path: manual/bsb4_charts
       edit_url: true
 
-    - url: https://github.com/rgleason/logbook_pi.git   
+    - url: https://github.com/rgleason/LogbookKonni_pi.git   
       branches: master
       start_path: manual/logbook
       edit_url: true
