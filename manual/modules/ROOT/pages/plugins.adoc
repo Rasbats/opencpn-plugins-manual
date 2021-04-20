@@ -61,7 +61,7 @@ These plugins are installed with the basic OpenCPN program.
 === Sailing  
 * xref:tactics:ROOT:tactics.adoc[tactics]  
 * xref:sweep_plot:ROOT:sweep_plot.adoc[Sweep Plot #]  
-* xref:Polar:ROOT:polar.adoc[polar]  
+* xref:polar:ROOT:polar.adoc[polar]  
 * xref:Windvane:windvane.adoc[windvane]
 
 === Weather  

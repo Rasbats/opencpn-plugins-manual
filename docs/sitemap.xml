@@ -28,6 +28,9 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-debugger.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-find-it.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-fugawi.xml</loc>
 </sitemap>
 <sitemap>
@@ -38,6 +41,9 @@
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-launcher.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-logbook.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-nv_charts.xml</loc>
@@ -67,6 +73,9 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-photolayer.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-polar.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-projections.xml</loc>
 </sitemap>
 <sitemap>
@@ -77,6 +86,9 @@
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-rotationctrl.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-route_great_circle.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-s63_vector_charts.xml</loc>
@@ -92,6 +104,9 @@
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-sweep_plot.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-tactics.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-vdr.xml</loc>
