@@ -206,7 +206,7 @@ content:
 
     - url: https://github.com/rgleason/polar_pi.git   
       branches: master
-      start_path: manual/polar
+      start_path: manual/Polar
       edit_url: true
 ui:   
   bundle:
