@@ -5,7 +5,7 @@
 ** xref:opencpn-master-plugins:chart_downloader_tab:chart_downloader_tab.adoc[chart_downloader_tab]
 * AIS / Radar
 ** xref:ais_radar_display:ROOT:ais_radar_display.adoc[AISradar Display]
-** xref:radar:ROOT:Home.adoc[Radar Display #]
+** xref:radar:ROOT:Home.adoc[Radar Display]
 * Charts
 ** xref:nv_charts:ROOT:nv_charts.adoc[nv_charts]
 ** xref:s63_vector_charts:ROOT:s63_vector_charts.adoc[s63_vector_charts]
@@ -18,7 +18,7 @@
 ** xref:objsearch:ROOT:objsearch.adoc[objsearch]
 ** xref:projections:ROOT:projections.adoc[projections]
 * Logs
-** xref:dash-t:ROOT:dash-t.adoc[dash-t #]
+** xref:dash-t:ROOT:dash-t.adoc[dash-t]
 ** xref:logbook:ROOT:logbook.adoc[logbook]
 ** xref:find-it:ROOT:find-it.adoc[find-it]
 ** xref:vdr:ROOT:vdr.adoc[vdr]
@@ -36,7 +36,7 @@
 * Safety
 ** xref:odraw:ROOT:odraw.adoc[odraw]
 ** xref:watchdog:ROOT:watchdog.adoc[Watchdog]
-** xref:sar:ROOT:sar.adoc[SAR #]
+** xref:sar:ROOT:sar.adoc[SAR]
 * Sailing
 ** xref:tactics:ROOT:tactics.adoc[tactics]
 ** xref:sweep_plot:ROOT:sweep_plot.adoc[Sweep Plot]
