@@ -46,10 +46,16 @@
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-logbook.xml</loc>
 </sitemap>
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-nmea_converter.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-nv_charts.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-objsearch.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-odometer.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-odraw.xml</loc>
