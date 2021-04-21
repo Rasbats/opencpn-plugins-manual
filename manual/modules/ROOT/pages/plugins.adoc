@@ -37,7 +37,7 @@ These plugins are installed with the basic OpenCPN program.
 === Logs  
 * xref:dash-t:ROOT:dash-t.adoc[dash-t #]  
 * xref:logbook:ROOT:logbook.adoc[logbook #]
-* xref:nmea_converter:nmea_converter.adoc[NMEA Converter]  
+* xref:nmea_converter:ROOT:nmea_converter.adoc[NMEA Converter #]  
 
 === Navigation  
 * xref:squiddio:squiddio.adoc[Squiddio]  
@@ -71,13 +71,13 @@ These plugins are installed with the basic OpenCPN program.
 
 === Utility
 * xref:statusbar:ROOT:statusbar.adoc[Statusbar #]  
-* xref:calculator:ROOT:calculator.adoc[calculator]  
+* xref:calculator:ROOT:calculator.adoc[calculator #]  
 * xref:launcher:ROOT:launcher.adoc[launcher #]  
 * xref:debugger:ROOT:debugger.adoc[debugger #]  
 * xref:pypilot:ROOT:pypilot.adoc[pypilot #]
 * xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver #]
 * xref:twocan:twocan.adoc[twocan]  
-* xref:odometer:odometer.adoc[odometer]  
+* xref:odometer:ROOT:odometer.adoc[odometer #]  
 
 === Click on a link above to see the plugin manual
 

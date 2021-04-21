@@ -22,7 +22,7 @@
 ** xref:logbook:ROOT:logbook.adoc[logbook]
 ** xref:find-it:ROOT:find-it.adoc[find-it]
 ** xref:vdr:ROOT:vdr.adoc[vdr]
-** xref:opencpn-master-plugins:nmea_converter:nmea_converter.adoc[NMEA Converter]
+** xref:nmea_converter:ROOT:nmea_converter.adoc[NMEA Converter]
 * Navigation
 ** xref:opencpn-master-plugins:squiddio:squiddio.adoc[Squiddio]
 ** xref:googleearth:ROOT:googleearth.adoc[googleearth]
@@ -55,4 +55,4 @@
 ** xref:pypilot:ROOT:pypilot.adoc[pypilot]
 ** xref:shipdriver:ROOT:shipdriver.adoc[Shipdriver]
 ** xref:opencpn-master-plugins:twocan:twocan.adoc[twocan]
-** xref:opencpn-master-plugins:odometer:odometer.adoc[odometer]
+** xref:odometer:ROOT:odometer.adoc[odometer]

@@ -208,6 +208,17 @@ content:
       branches: master
       start_path: manual/Polar
       edit_url: true
+
+    - url: https://github.com/RooieDirk/NmeaConverter_pi.git
+      branches: master
+      start_path: manual/nmea_converter
+      edit_url: true
+
+    - url: https://github.com/LennartG-Sve/GPS-Odometer_pi.git
+      branches: master
+      start_path: manual/odometer
+      edit_url: true
+    
 ui:   
   bundle:
       url: ./ui-bundle.zip
