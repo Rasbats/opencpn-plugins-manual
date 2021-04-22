@@ -129,4 +129,7 @@
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-weatherfax.xml</loc>
 </sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-windvane.xml</loc>
+</sitemap>
 </sitemapindex>
