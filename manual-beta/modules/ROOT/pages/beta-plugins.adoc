@@ -3,7 +3,7 @@
 * xref:engine-dash:engine-dash.adoc[Engine Dashboard]  
 * xref:race-start:race-start.adoc[Race Start]  
 * xref:trackpoint:trackpoint.adoc[Trackpoint]  
-* xref:tidefinder:tidefinder.adoc[TideFinder]
+* xref:tidefinder:ROOT:tidefinder.adoc[TideFinder]
 * xref:javascript:javascript.adoc[JavaScript]
 * xref:deviation:deviation.adoc[Deviation]
 * xref:survey:survey.adoc[Survey]
