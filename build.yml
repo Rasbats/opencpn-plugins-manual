@@ -248,6 +248,11 @@ content:
       branches: master
       start_path: manual/otidalroute
       edit_url: true
+
+    - url: https://github.com/Rasbats/SailawayNMEA_pi.git    
+      branches: master
+      start_path: manual/sailawaynmea
+      edit_url: true
     
 ui:   
   bundle:
