@@ -13,6 +13,6 @@
 * xref:admiralty:admiralty.adoc[Admiralty Tides]
 * xref:otidalroute:ROOT:otidalroute.adoc[otidalroute - using GRIB CURRENT]
 * xref:sailawaynmea:ROOT:sailawaynmea.adoc[SailawayNMEA]
-* xref:uktides:uktides.adoc[UKTides]
+* xref:uktides:ROOT:uktides.adoc[UKTides]
 * xref:otidalplan:ROOT:otidalplan.adoc[otidalplan - using HARMONICS]
 * xref:earthexplorer:ROOT:earthexplorer.adoc[EarthExplorer]

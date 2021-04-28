@@ -254,6 +254,11 @@ content:
       start_path: manual/sailawaynmea
       edit_url: true
     
+    - url: https://github.com/Rasbats/UKTides_pi.git    
+      branches: master
+      start_path: manual/uktides
+      edit_url: true
+
 ui:   
   bundle:
       url: ./ui-bundle.zip
