@@ -9,7 +9,6 @@
 * xref:opencpn-beta-plugins:autotrackrm-ev:autotrackraymarine.adoc[AutoTrackRaymarine for Evolution]
 * xref:opencpn-beta-plugins:autopilot_route:autopilot_route.adoc[Autopilot_Route for OpenCPN]
 * xref:opencpn-beta-plugins:admiralty:admiralty.adoc[Admiralty Tides]
-* xref:opencpn-beta-plugins:ncdf:ncdf.adoc[NetCDF tidal currents]
 * xref:otidalroute:ROOT:otidalroute.adoc[otidalroute - using GRIB CURRENT]
 * xref:sailawaynmea:ROOT:sailawaynmea.adoc[SailawayNMEA]
 * xref:opencpn-beta-plugins:uktides:uktides.adoc[UKTides]
