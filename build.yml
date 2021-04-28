@@ -228,6 +228,11 @@ content:
       branches: master
       start_path: manual/rtlsdr
       edit_url: true
+
+    - url: https://github.com/Rasbats/EarthExplorer_pi.git    
+      branches: master
+      start_path: manual/earthexplorer
+      edit_url: true
     
 ui:   
   bundle:

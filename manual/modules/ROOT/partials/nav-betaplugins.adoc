@@ -14,3 +14,4 @@
 * xref:opencpn-beta-plugins:sailawaynmea:sailawaynmea.adoc[SailawayNMEA]
 * xref:opencpn-beta-plugins:uktides:uktides.adoc[UKTides]
 * xref:otidalplan:ROOT:otidalplan.adoc[otidalplan - using HARMONICS]
+* xref:earthexplorer:ROOT:earthexplorer.adoc[EarthExplorer]
