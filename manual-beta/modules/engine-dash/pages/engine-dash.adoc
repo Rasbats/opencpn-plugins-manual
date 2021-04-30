@@ -4,6 +4,8 @@ image:engine32.png[]
 
 by Steven Adler [Stevead]
 
+https://github.com/twoCanPlugin/EngineDashboard[GitHub Repository]
+
 The Engine Dashboard Plugin displays engine parameters, fluid levels and
 battery status in OpenCPN. It accepts NMEA 0183 RPM (Revolutions), RSA
 (Rudder Sensor Angle) and XDR (Transducer Measurement) sentences as its

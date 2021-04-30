@@ -4,6 +4,8 @@ image:racing_icon_32.png[]
 
 by Steven Adler [Stevead]
 
+https://github.com/TwoCanPlugIn/RacingPlugin[GitHub Repository]
+
 A simple plugin to assist sailors with their race start.
 
 Prior to the start, sail to each end of the start line and “ping” each
