@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-admiralty.xml</loc>
+</sitemap>
+<sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-ais_radar_display.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-autopilot_route.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-autopilot-rm.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-autotrackraymarine.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://github.com/Rasbats/opencpn-plugins-manual/sitemap-bsb4_charts.xml</loc>
