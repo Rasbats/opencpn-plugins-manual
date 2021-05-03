@@ -264,6 +264,32 @@ content:
       start_path: manual/twocan
       edit_url: true
 
+    - url: https://gitlab.com/drid/trackpoint_pi.git
+      branches: master
+      start_path: manual/trackpoint
+      edit_url: true
+
+    - url: https://github.com/rgleason/admiralty_tide_tables_pi.git   
+      branches: master
+      start_path: manual/admiralty
+      edit_url: true
+
+    - url: https://github.com/rgleason/Autopilot-Plugin.git   
+      branches: master
+      start_path: manual/autopilot-rm
+      edit_url: true
+
+    - url: https://github.com/rgleason/autopilot_route_pi.git   
+      branches: master
+      start_path: manual/autopilot_route
+      edit_url: true
+
+    - url: https://github.com/douwefokkema/AutoTrackRaymarine_pi.git   
+      branches: master
+      start_path: manual/autotrackrm-ev
+      edit_url: true
+
+
 ui:   
   bundle:
       url: ./ui-bundle.zip
