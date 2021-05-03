@@ -5,7 +5,7 @@
 * xref:opencpn-beta-plugins:javascript:javascript.adoc[JavaScript]
 * xref:opencpn-beta-plugins:deviation:deviation.adoc[Deviation]
 * xref:survey:ROOT:survey.adoc[Survey]
-* xref:autopilot-rm:autopilot-rm.adoc[Autopilot_rm for Raymarine]
+* xref:autopilot-rm:ROOT:autopilot-rm.adoc[Autopilot_rm for Raymarine]
 * xref:autotrackrm-ev:ROOT:autotrackraymarine.adoc[AutoTrackRaymarine for Evolution]
 * xref:autopilot_route:ROOT:autopilot_route.adoc[Autopilot_Route for OpenCPN]
 * xref:admiralty:ROOT:admiralty.adoc[Admiralty Tides]
